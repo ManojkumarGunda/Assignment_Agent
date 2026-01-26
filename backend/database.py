@@ -60,10 +60,16 @@ if "sslmode" not in raw_url:
 else:
     DATABASE_URL = raw_url
 
+from sqlalchemy.pool import NullPool
+
+# ... (rest of imports)
+
+# 4. Create engine with NullPool
+# This is REQUIRED for Supabase Transaction Pooler (pgbouncer)
+# It prevents SQLAlchemy from holding idle connections that confuse the pooler.
 engine = create_engine(
     DATABASE_URL,
-    pool_pre_ping=True,
-    pool_recycle=300,
+    poolclass=NullPool, 
     connect_args={
         "options": "-c plan_cache_mode=force_custom_plan"
     }
