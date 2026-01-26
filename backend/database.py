@@ -7,21 +7,27 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database URL from environment variable
-raw_url = os.getenv(
-    "DATABASE_URL",
-    "postgresql://postgres:CoastalSeven%40B4@db.nfnvsguefvwoxpylibha.supabase.co:5432/postgres"
-)
+# 1. Get the raw URL
+raw_url = os.getenv("DATABASE_URL")
 
-# Force SSL mode for Render/Supabase connection
+# 2. Fallback for local development if env var is missing
+if not raw_url:
+    raw_url = "postgresql://postgres:CoastalSeven%40B4@db.nfnvsguefvwoxpylibha.supabase.co:5432/postgres"
+
+# 3. Bulletproof SSL injection for Supabase/Render
 if "sslmode" not in raw_url:
-    if "?" in raw_url:
-        DATABASE_URL = f"{raw_url}&sslmode=require"
-    else:
-        DATABASE_URL = f"{raw_url}?sslmode=require"
+    delimiter = "&" if "?" in raw_url else "?"
+    DATABASE_URL = f"{raw_url}{delimiter}sslmode=require"
 else:
     DATABASE_URL = raw_url
 
-engine = create_engine(DATABASE_URL)
+# 4. Create engine with production-ready settings
+# pool_pre_ping=True is CRITICAL for cloud databases to handle disconnects gracefully
+engine = create_engine(
+    DATABASE_URL,
+    pool_pre_ping=True,
+    pool_recycle=300
+)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
