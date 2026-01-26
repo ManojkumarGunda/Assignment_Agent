@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: assignment-agent-backend
+    env: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DATABASE_URL
+        value: postgresql://postgres:CoastalSeven%40B4@db.nfnvsguefvwoxpylibha.supabase.co:5432/postgres
+      - key: GEMINI_MODEL
+        value: gemini-2.5-pro
+      - key: OPENROUTER_MODEL
+        value: openai/gpt-4o-mini
+      - key: OPENROUTER_TITLE
+        value: Grading App
+      - key: OPENROUTER_HTTP_REFERER
+        value: https://assignment-agent-backend.onrender.com
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
