@@ -7,10 +7,19 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Database URL from environment variable
-DATABASE_URL = os.getenv(
+raw_url = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:CoastalSeven%40B4@db.nfnvsguefvwoxpylibha.supabase.co:5432/postgres?sslmode=require"
+    "postgresql://postgres:CoastalSeven%40B4@db.nfnvsguefvwoxpylibha.supabase.co:5432/postgres"
 )
+
+# Force SSL mode for Render/Supabase connection
+if "sslmode" not in raw_url:
+    if "?" in raw_url:
+        DATABASE_URL = f"{raw_url}&sslmode=require"
+    else:
+        DATABASE_URL = f"{raw_url}?sslmode=require"
+else:
+    DATABASE_URL = raw_url
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
