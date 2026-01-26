@@ -63,8 +63,10 @@ else:
 engine = create_engine(
     DATABASE_URL,
     pool_pre_ping=True,
-    pool_size=5,
-    max_overflow=0
+    pool_recycle=300,
+    connect_args={
+        "options": "-c plan_cache_mode=force_custom_plan"
+    }
 )
 
 
