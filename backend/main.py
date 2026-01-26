@@ -57,6 +57,31 @@ async def scheduled_cleanup():
 
 @app.on_event("startup")
 async def startup_event():
+    # DIAGNOSTIC: Check network connectivity before DB init
+    import socket
+    from database import DATABASE_URL
+    
+    try:
+        # Extract host and port
+        url_part = DATABASE_URL.split("@")[1].split("/")[0]
+        host = url_part.split(":")[0]
+        port = int(url_part.split(":")[1])
+        
+        logger.info(f"🔍 DIAGNOSTIC: Attempting TCP connect to {host}:{port}...")
+        ip = socket.gethostbyname(host)
+        logger.info(f"🔍 DIAGNOSTIC: Resolved IP -> {ip}")
+        
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(5)
+        result = sock.connect_ex((host, port))
+        if result == 0:
+            logger.info("✅ DIAGNOSTIC: TCP Connection SUCCESS!")
+        else:
+            logger.error(f"❌ DIAGNOSTIC: TCP Connection FAILED with code {result}")
+        sock.close()
+    except Exception as e:
+        logger.error(f"⚠️ DIAGNOSTIC ERROR: {e}")
+
     # Create database tables ensuring app handles initial connection delays
     try:
         Base.metadata.create_all(bind=engine)
