@@ -13,7 +13,8 @@ logging.basicConfig(level=(os.getenv('APP_LOG_LEVEL','INFO')))
 logger = logging.getLogger(__name__)
 
 # Create database tables
-Base.metadata.create_all(bind=engine)
+# Create database tables (Moved to startup event)
+# Base.metadata.create_all(bind=engine)
 
 # Initialize FastAPI app
 app = FastAPI(title="Evaluation API", version="1.0.0")
@@ -56,6 +57,13 @@ async def scheduled_cleanup():
 
 @app.on_event("startup")
 async def startup_event():
+    # Create database tables ensuring app handles initial connection delays
+    try:
+        Base.metadata.create_all(bind=engine)
+        logger.info("Database tables verified/created successfully.")
+    except Exception as e:
+        logger.error(f"Failed to create database tables on startup (Non-fatal for port binding): {e}")
+
     # Start the cleanup task in the background
     asyncio.create_task(scheduled_cleanup())
 
