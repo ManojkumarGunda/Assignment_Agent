@@ -176,11 +176,20 @@ class GenerateServiceComplete:
 
                 file_data = self.file_processor.read_file(str(file_path))
                 if original_filename: file_data['filename'] = original_filename
+                # determine display name (Student Name)
+                extracted_name = FileProcessor.extract_name_from_content(file_data.get('content', ''))
+                fallback_name = Path(original_filename or file_path.name).stem
+                
+                # Use extracted name if found, otherwise use filename
+                final_display_name = extracted_name if extracted_name else fallback_name
+                
+                # IMPORTANT: Save back to file_data so it travels with the obj
+                file_data['display_name'] = final_display_name
                 
                 file_contents.append(file_data)
                 file_paths_to_cleanup.append(file_path)
                 file_ids_by_index.append(file_id)
-                file_basenames.append(FileProcessor.extract_name_from_content(file_data.get('content', '')) or Path(original_filename or file_path.name).stem)
+                file_basenames.append(final_display_name)
             
             # PPT Logic
             all_ppt_files = all(fd.get('file_type') == 'ppt' for fd in file_contents)
