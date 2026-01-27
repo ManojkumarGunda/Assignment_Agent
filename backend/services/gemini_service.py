@@ -303,8 +303,54 @@ class GeminiService:
         # We override self.model temporarily for evaluation to ensure stability
         original_model = self.model
         self.model = model_to_use
+        
         try:
-            return await self._call_gemini_core(prompt, config, EvalDetail, "Question Evaluation")
+            # ------------------------------------------------------------------
+            # Consensus Mechanism: 3 Parallel Calls -> Majority Vote
+            # ------------------------------------------------------------------
+            async def _single_eval_call():
+                return await self._call_gemini_core(prompt, config, EvalDetail, "Question Evaluation Step")
+
+            # Fire 3 requests in parallel
+            results = await asyncio.gather(_single_eval_call(), _single_eval_call(), _single_eval_call())
+
+            # Filter successful responses
+            valid_responses = [r["response"] for r in results if r["success"] and "response" in r]
+
+            if not valid_responses:
+                # If all failed, return the error from the first one
+                return results[0]
+
+            # Voting Logic
+            # Map simplified scores: 1.0 (Correct), 0.5 (Partial), 0.0 (Fail)
+            votes = []
+            for resp in valid_responses:
+                score = 0.0
+                if resp.is_correct:
+                    score = 1.0
+                elif resp.partial_credit is not None:
+                    # Normalize partial credit to nearest bucket if needed, but usually it's 0.5
+                    score = float(resp.partial_credit)
+                votes.append(score)
+
+            from collections import Counter
+            vote_counts = Counter(votes)
+            
+            # Get the most common score
+            # most_common returns e.g. [(1.0, 2), (0.0, 1)] -> we take 1.0
+            winner_score, _ = vote_counts.most_common(1)[0]
+            
+            # Find the FIRST response that matches the winner score to return its feedback
+            for resp in valid_responses:
+                s = 1.0 if resp.is_correct else (float(resp.partial_credit) if resp.partial_credit is not None else 0.0)
+                if s == winner_score:
+                    # Log for debugging
+                    logger.info(f"Consensus Result: {votes} -> Winner: {winner_score}")
+                    return {"success": True, "response": resp}
+            
+            # Fallback (should never happen if logic is correct)
+            return {"success": True, "response": valid_responses[0]}
+
         finally:
             self.model = original_model
 
