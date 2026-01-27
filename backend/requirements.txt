@@ -25,3 +25,5 @@ pytesseract>=0.3.10
 python-pptx>=0.6.21
 google-genai>=0.3.0
 
+
+fpdf>=1.7.2

@@ -19,6 +19,7 @@ import {
     Tooltip
 } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
+import DescriptionIcon from '@mui/icons-material/Description';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HistoryTable from '../components/HistoryTable';
@@ -105,26 +106,26 @@ const History = () => {
         }
     };
 
-    const handleDownloadFile = async (fileId, fileName) => {
-        if (!fileId) return;
+    const handleDownloadReport = async (evaluationId, fileName) => {
+        if (!evaluationId) return;
         try {
             // Use the configured api instance which handles the base URL and auth token
-            const response = await api.get(`/history/download/${fileId}`, {
+            const response = await api.get(`/history/download-report/${evaluationId}`, {
                 responseType: 'blob'
             });
 
             // Create blob link to download
-            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const url = window.URL.createObjectURL(new Blob([response.data], { type: 'application/pdf' }));
             const a = document.createElement('a');
             a.href = url;
-            a.download = fileName || 'download';
+            a.download = fileName || 'report.pdf';
             document.body.appendChild(a);
             a.click();
             window.URL.revokeObjectURL(url);
             a.remove();
         } catch (error) {
             console.error("Download error:", error);
-            setAlert({ open: true, message: 'Failed to download file.', severity: 'error' });
+            setAlert({ open: true, message: 'Failed to download report.', severity: 'error' });
         }
     };
 
@@ -229,14 +230,14 @@ const History = () => {
                                     <Typography variant="h6" color="indigo.700" sx={{ mr: 1 }}>
                                         {result.student_name}
                                     </Typography>
-                                    {result.file_id && (
-                                        <Tooltip title="Download student file">
+                                    {result.id && (
+                                        <Tooltip title="Download Evaluation Report">
                                             <IconButton
                                                 size="small"
                                                 color="primary"
-                                                onClick={() => handleDownloadFile(result.file_id, `${result.student_name}_submission`)}
+                                                onClick={() => handleDownloadReport(result.id, `${result.student_name}_report.pdf`)}
                                             >
-                                                <DownloadIcon fontSize="small" />
+                                                <DescriptionIcon fontSize="small" />
                                             </IconButton>
                                         </Tooltip>
                                     )}

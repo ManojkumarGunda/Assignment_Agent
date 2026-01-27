@@ -145,6 +145,7 @@ def get_assignment_detail(
         file_obj = db.query(AssignmentFile).filter(AssignmentFile.id == r.assignment_file_id).first()
         
         detailed_results.append({
+            "id": r.id,
             "student_name": r.student_name,
             "score_percent": r.score_percent,
             "reasoning": r.reasoning,
@@ -202,3 +203,36 @@ def delete_history(
         db.rollback()
         logger.error(f"Error deleting history: {e}")
         raise HTTPException(status_code=500, detail="Failed to delete history record")
+
+@router.get("/download-report/{evaluation_result_id}")
+def download_evaluation_report(
+    evaluation_result_id: int,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """
+    Download evaluation report as PDF.
+    """
+    from services.report_service import ReportService
+    from models import EvaluationDetail, EvaluationResult, Assignment  # Ensure imports
+    from fastapi.responses import FileResponse
+    
+    result = db.query(EvaluationResult).filter(EvaluationResult.id == evaluation_result_id).first()
+    if not result:
+        raise HTTPException(status_code=404, detail="Evaluation result not found")
+        
+    # Check permissions via assignment
+    assignment = db.query(Assignment).filter(Assignment.id == result.assignment_id).first()
+    if not assignment or assignment.user_id != current_user.id:
+         raise HTTPException(status_code=403, detail="Access denied")
+
+    details = db.query(EvaluationDetail).filter(EvaluationDetail.evaluation_result_id == result.id).order_by(EvaluationDetail.order_index).all()
+    
+    report_service = ReportService()
+    path = report_service.generate_pdf_report(result, details)
+    
+    return FileResponse(
+        path=path,
+        filename=f"Report_{result.student_name}.pdf",
+        media_type="application/pdf"
+    )
