@@ -78,7 +78,22 @@ class ReEvaluator:
     async def re_evaluate_file(self, file_path: str, title: str, description: str, file_id: Optional[str] = None, db: Optional[Session] = None, current_user: Optional["User"] = None) -> Dict:
         try:
             file_type_res = self.file_processor.read_file(file_path)
-            filename = file_type_res.get('filename') or os.path.basename(file_path)
+            
+            # ATTEMPT TO RESTORE ORIGINAL FILENAME via meta file
+            original_filename = None
+            if file_id:
+                try:
+                    meta_path = Path("uploads") / f"{file_id}.meta.json"
+                    if meta_path.exists():
+                        with open(meta_path, "r", encoding="utf-8") as m:
+                            md = json.load(m)
+                            original_filename = md.get("original_filename")
+                except Exception: 
+                    pass
+            
+            # Fallback to current file path name if metadata lookup fails
+            filename = original_filename or file_type_res.get('filename') or os.path.basename(file_path)
+            
             if os.path.splitext(filename)[1].lower() in ['.ppt', '.pptx']:
                 return await self._re_evaluate_ppt(file_path, filename, title, description, file_id, db)
             
