@@ -36,7 +36,12 @@ class ReportService:
         pdf.add_page()
         pdf.set_font('Arial', '', 12)
 
-        # Student Info
+        # Title Area
+        pdf.set_font('Arial', 'B', 16)
+        pdf.cell(0, 10, 'Assignment Evaluation Report', 0, 1, 'C')
+        pdf.ln(10)
+
+        # Student Info Table-like structure
         pdf.set_font('Arial', 'B', 12)
         pdf.cell(40, 10, 'Student Name:', 0)
         pdf.set_font('Arial', '', 12)
@@ -44,52 +49,90 @@ class ReportService:
 
         pdf.set_font('Arial', 'B', 12)
         pdf.cell(40, 10, 'Score:', 0)
-        pdf.set_font('Arial', '', 12)
+        # Color score
+        if result.score_percent >= 80:
+            pdf.set_text_color(0, 100, 0) # Green
+        elif result.score_percent >= 50:
+            pdf.set_text_color(255, 140, 0) # Orange
+        else:
+            pdf.set_text_color(200, 0, 0) # Red
+        pdf.set_font('Arial', 'B', 12)
         pdf.cell(0, 10, f"{result.score_percent}%", 0, 1)
-
+        pdf.set_text_color(0, 0, 0) # Reset
+        
         pdf.ln(5)
 
-        # Summary
+        # Summary Section
         if result.reasoning:
+            pdf.set_fill_color(240, 240, 240)
             pdf.set_font('Arial', 'B', 12)
-            pdf.cell(0, 10, 'Overall Feedback / Reasoning:', 0, 1)
+            pdf.cell(0, 8, 'Overall Feedback / Reasoning:', 0, 1, 'L', 1)
             pdf.set_font('Arial', '', 11)
-            pdf.multi_cell(0, 7, self.clean_text(result.reasoning))
+            pdf.multi_cell(0, 6, self.clean_text(result.reasoning))
             pdf.ln(5)
             
         if result.summary:
+            pdf.set_fill_color(240, 240, 240)
             pdf.set_font('Arial', 'B', 12)
-            pdf.cell(0, 10, 'Summary:', 0, 1)
+            pdf.cell(0, 8, 'Summary:', 0, 1, 'L', 1)
             pdf.set_font('Arial', '', 11)
-            pdf.multi_cell(0, 7, self.clean_text(result.summary))
+            pdf.multi_cell(0, 6, self.clean_text(result.summary))
             pdf.ln(5)
 
-        # Details
+        # Details Section
         if details:
-            pdf.add_page()
+            pdf.ln(5)
             pdf.set_font('Arial', 'B', 14)
-            pdf.cell(0, 10, 'Detailed Evaluation', 0, 1, 'L')
+            pdf.cell(0, 10, 'Detailed Question Analysis', 0, 1, 'L')
+            pdf.line(10, pdf.get_y(), 200, pdf.get_y())
             pdf.ln(5)
 
             for idx, detail in enumerate(details, 1):
-                # Question
+                # Check for page break if close to bottom
+                if pdf.get_y() > 250:
+                    pdf.add_page()
+                
+                # Question Header
                 pdf.set_font('Arial', 'B', 11)
-                pdf.multi_cell(0, 7, self.clean_text(f"Q{idx}: {detail.question}"))
+                pdf.set_fill_color(245, 247, 250)
+                pdf.multi_cell(0, 8, self.clean_text(f"Q{idx}. {detail.question}"), 1, 'L', 1)
                 
-                # Answer
-                pdf.set_font('Arial', 'I', 11)
-                pdf.multi_cell(0, 7, self.clean_text(f"Student Answer: {detail.student_answer}"))
+                # Answers Block
+                pdf.set_font('Arial', 'B', 10)
+                pdf.cell(40, 6, 'Student Answer:', 0)
+                pdf.set_font('Arial', '', 10)
+                pdf.multi_cell(0, 6, self.clean_text(detail.student_answer))
                 
-                # Feedback
-                pdf.set_font('Arial', '', 11)
+                if detail.correct_answer:
+                    pdf.set_font('Arial', 'B', 10)
+                    pdf.cell(40, 6, 'Correct Answer:', 0)
+                    pdf.set_font('Arial', 'I', 10)
+                    pdf.set_text_color(80, 80, 80)
+                    pdf.multi_cell(0, 6, self.clean_text(detail.correct_answer))
+                    pdf.set_text_color(0, 0, 0)
+
+                # Status and Feedback
+                pdf.ln(2)
                 status = "Correct" if detail.is_correct else "Incorrect"
-                pdf.multi_cell(0, 7, f"Status: {status}")
-                pdf.multi_cell(0, 7, self.clean_text(f"Feedback: {detail.feedback}"))
                 
-                pdf.ln(5)
-                # Separator
-                pdf.line(10, pdf.get_y(), 200, pdf.get_y())
-                pdf.ln(5)
+                pdf.set_font('Arial', 'B', 10)
+                pdf.write(5, "Status: ")
+                if detail.is_correct:
+                    pdf.set_text_color(0, 128, 0)
+                else:
+                    pdf.set_text_color(200, 0, 0)
+                pdf.set_font('Arial', 'B', 10)
+                pdf.write(5, status)
+                pdf.set_text_color(0, 0, 0)
+                pdf.ln(6)
+                
+                pdf.set_font('Arial', 'B', 10)
+                pdf.write(5, "Feedback: ")
+                pdf.set_font('Arial', '', 10)
+                pdf.multi_cell(0, 5, self.clean_text(detail.feedback))
+                
+                pdf.ln(8)
+
 
         # Save to temp file
         temp_dir = tempfile.gettempdir()
