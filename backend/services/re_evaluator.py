@@ -90,7 +90,7 @@ class ReEvaluator:
             if not qa_pairs:
                 logger.info(f"No QA pairs extracted during re-evaluation. Falling back to whole-file evaluation.")
                 qa_pairs = [{
-                    "question": title or "Evaluate the submitted assignment/code against the requirements.",
+                    "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
                     "answer": content
                 }]
                 
