@@ -15,6 +15,21 @@ class PDFReport(FPDF):
         self.cell(0, 10, 'Page ' + str(self.page_no()) + '/{nb}', 0, 0, 'C')
 
 class ReportService:
+    def clean_text(self, text: str) -> str:
+        """Sanitize text to be compatible with FPDF (Latin-1)"""
+        if not text:
+            return ""
+        # Replace common incompatible characters
+        replacements = {
+            '\u2018': "'", '\u2019': "'", '\u201c': '"', '\u201d': '"',
+            '\u2013': '-', '\u2014': '--', '\u2022': '*', '\u2026': '...'
+        }
+        for k, v in replacements.items():
+            text = text.replace(k, v)
+            
+        # Fallback for other characters
+        return text.encode('latin-1', 'replace').decode('latin-1')
+
     def generate_pdf_report(self, result: EvaluationResult, details: list[EvaluationDetail]) -> str:
         pdf = PDFReport()
         pdf.alias_nb_pages()
@@ -25,7 +40,7 @@ class ReportService:
         pdf.set_font('Arial', 'B', 12)
         pdf.cell(40, 10, 'Student Name:', 0)
         pdf.set_font('Arial', '', 12)
-        pdf.cell(0, 10, result.student_name, 0, 1)
+        pdf.cell(0, 10, self.clean_text(result.student_name), 0, 1)
 
         pdf.set_font('Arial', 'B', 12)
         pdf.cell(40, 10, 'Score:', 0)
@@ -39,14 +54,14 @@ class ReportService:
             pdf.set_font('Arial', 'B', 12)
             pdf.cell(0, 10, 'Overall Feedback / Reasoning:', 0, 1)
             pdf.set_font('Arial', '', 11)
-            pdf.multi_cell(0, 7, result.reasoning)
+            pdf.multi_cell(0, 7, self.clean_text(result.reasoning))
             pdf.ln(5)
             
         if result.summary:
             pdf.set_font('Arial', 'B', 12)
             pdf.cell(0, 10, 'Summary:', 0, 1)
             pdf.set_font('Arial', '', 11)
-            pdf.multi_cell(0, 7, result.summary)
+            pdf.multi_cell(0, 7, self.clean_text(result.summary))
             pdf.ln(5)
 
         # Details
@@ -59,17 +74,17 @@ class ReportService:
             for idx, detail in enumerate(details, 1):
                 # Question
                 pdf.set_font('Arial', 'B', 11)
-                pdf.multi_cell(0, 7, f"Q{idx}: {detail.question}")
+                pdf.multi_cell(0, 7, self.clean_text(f"Q{idx}: {detail.question}"))
                 
                 # Answer
                 pdf.set_font('Arial', 'I', 11)
-                pdf.multi_cell(0, 7, f"Student Answer: {detail.student_answer}")
+                pdf.multi_cell(0, 7, self.clean_text(f"Student Answer: {detail.student_answer}"))
                 
                 # Feedback
                 pdf.set_font('Arial', '', 11)
                 status = "Correct" if detail.is_correct else "Incorrect"
                 pdf.multi_cell(0, 7, f"Status: {status}")
-                pdf.multi_cell(0, 7, f"Feedback: {detail.feedback}")
+                pdf.multi_cell(0, 7, self.clean_text(f"Feedback: {detail.feedback}"))
                 
                 pdf.ln(5)
                 # Separator
