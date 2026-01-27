@@ -113,16 +113,24 @@ class ReportService:
 
                 # Status and Feedback
                 pdf.ln(2)
-                status = "Correct" if detail.is_correct else "Incorrect"
+                
+                # Determine status label and color
+                if detail.is_correct:
+                    status_label = "Correct"
+                    color = (0, 128, 0) # Green
+                elif detail.partial_credit and detail.partial_credit > 0:
+                    status_label = f"Partially Correct ({int(detail.partial_credit * 100)}%)"
+                    color = (255, 140, 0) # Orange
+                else:
+                    status_label = "Incorrect"
+                    color = (200, 0, 0) # Red
                 
                 pdf.set_font('Arial', 'B', 10)
                 pdf.write(5, "Status: ")
-                if detail.is_correct:
-                    pdf.set_text_color(0, 128, 0)
-                else:
-                    pdf.set_text_color(200, 0, 0)
+                
+                pdf.set_text_color(*color)
                 pdf.set_font('Arial', 'B', 10)
-                pdf.write(5, status)
+                pdf.write(5, status_label)
                 pdf.set_text_color(0, 0, 0)
                 pdf.ln(6)
                 
