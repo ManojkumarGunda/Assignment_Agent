@@ -42,7 +42,16 @@ const Login = () => {
         navigate(destination, { replace: true })
       }
     } catch (err) {
-      setError(err.response?.data?.detail || 'Login failed. Please try again.')
+      const detail = err.response?.data?.detail
+      if (typeof detail === 'string') {
+        setError(detail)
+      } else if (Array.isArray(detail)) {
+        setError(detail.map(e => e.msg).join(', '))
+      } else if (typeof detail === 'object' && detail !== null) {
+        setError(JSON.stringify(detail))
+      } else {
+        setError('Login failed. Please try again.')
+      }
     } finally {
       setLoading(false)
     }
@@ -76,10 +85,10 @@ const Login = () => {
 
             <div className="mt-16 space-y-6">
               <div className="text-white font-black text-5xl tracking-tighter leading-[0.9]">
-                INITIALIZE <br /> <span className="text-[#00A896]">WORKSPACE</span>
+                INITIALIZE <br /> <span className="text-[#00A896]">ASSESSMENT WORKSPACE</span>
               </div>
               <p className="text-gray-400 font-medium text-lg leading-relaxed max-w-sm">
-                Access the global intelligence  . Sub-millisecond audit cycles and high-precision evaluation awaiting authentication.
+                A centralized platform for assignment uploads, repository tracking, and accurate evaluation
               </p>
             </div>
           </div>

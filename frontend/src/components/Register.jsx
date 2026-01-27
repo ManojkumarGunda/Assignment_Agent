@@ -60,7 +60,16 @@ const Register = () => {
         }
       }
     } catch (err) {
-      setError(err.response?.data?.detail || 'Registration failed. Please try again.')
+      const detail = err.response?.data?.detail
+      if (typeof detail === 'string') {
+        setError(detail)
+      } else if (Array.isArray(detail)) {
+        setError(detail.map(e => e.msg).join(', '))
+      } else if (typeof detail === 'object' && detail !== null) {
+        setError(JSON.stringify(detail))
+      } else {
+        setError(err.response?.data?.detail || 'Registration failed. Please try again.')
+      }
     } finally {
       setLoading(false)
     }
@@ -87,14 +96,14 @@ const Register = () => {
                   Assessment Agent
                 </div>
                 <div className="text-cyan-400 font-black text-[10px] uppercase tracking-[4px] mt-2 italic">
-                  Join Protocol
+                  Join Us
                 </div>
               </div>
             </div>
 
             <div className="mt-16 space-y-6">
               <div className="text-white font-black text-5xl tracking-tighter leading-[0.9]">
-                JOIN THE <br /> <span className="text-[#00A896]">FRONTIER</span>
+                JOIN THE <br /> <span className="text-[#00A896]">WORKSPACE</span>
               </div>
               <p className="text-gray-400 font-medium text-lg leading-relaxed max-w-sm">
                 Initialize your personal intelligence  . Gain access to sub-millisecond evaluation cycles and secure history archives.
@@ -185,10 +194,10 @@ const Register = () => {
               {loading ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white/20 border-t-white rounded-full animate-spin"></div>
-                  Initializing...
+                  Registering...
                 </>
               ) : (
-                'Initialize Sync'
+                'Register'
               )}
             </button>
           </form>
