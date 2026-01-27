@@ -133,7 +133,7 @@ const Register = () => {
               Create Account
             </h1>
             <p className="text-[#64748B] text-sm font-bold tracking-tight uppercase tracking-[2px]">
-              Initialize Identity Sync
+              Create Account.
             </p>
           </div>
 
@@ -204,7 +204,7 @@ const Register = () => {
 
           <div className="mt-10 text-center">
             <p className="text-gray-400 text-[10px] font-black uppercase tracking-[3px]">
-              Already synced?{' '}
+              Already have an account?{' '}
               <Link to="/login" className="text-[#00A896] hover:text-[#020617] transition-colors decoration-underline underline-offset-4">
                 Login
               </Link>

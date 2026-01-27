@@ -50,12 +50,12 @@ async def upload_files(
             # Generate unique file ID
             file_id = str(uuid.uuid4())
             
-            # Validate file size (max 10MB per file)
+            # Validate file size (max 30MB per file)
             file_content = await file.read()
-            if len(file_content) > 10 * 1024 * 1024:  # 10MB
+            if len(file_content) > 30 * 1024 * 1024:  # 30MB
                 raise HTTPException(
                     status_code=400,
-                    detail=f"File {file.filename} exceeds 10MB limit"
+                    detail=f"File {file.filename} exceeds 30MB limit"
                 )
             
             # Save file temporarily

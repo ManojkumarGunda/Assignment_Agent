@@ -180,7 +180,7 @@ const Login = () => {
 
           <div className="mt-12 text-center">
             <p className="text-gray-400 text-[10px] font-black uppercase tracking-[3px]">
-              No protocol access?{' '}
+              No account yet?{' '}
               <Link to="/register" className="text-[#00A896] hover:text-[#020617] transition-colors decoration-underline underline-offset-4">
                 Register
               </Link>
