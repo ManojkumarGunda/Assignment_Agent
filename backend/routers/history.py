@@ -116,6 +116,44 @@ def download_assignment_file(
         media_type="application/octet-stream"
     )
 
+@router.get("/download-report/{evaluation_result_id}")
+def download_evaluation_report(
+    evaluation_result_id: int,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """
+    Download evaluation report as PDF.
+    """
+    from services.report_service import ReportService
+    from models import EvaluationDetail, EvaluationResult, Assignment
+    from fastapi.responses import FileResponse
+    
+    result = db.query(EvaluationResult).filter(EvaluationResult.id == evaluation_result_id).first()
+    if not result:
+        raise HTTPException(status_code=404, detail="Evaluation result not found")
+        
+    # Check permissions via assignment
+    assignment = db.query(Assignment).filter(Assignment.id == result.assignment_id).first()
+    if not assignment or assignment.user_id != current_user.id:
+         raise HTTPException(status_code=403, detail="Access denied")
+
+    details = db.query(EvaluationDetail).filter(EvaluationDetail.evaluation_result_id == result.id).order_by(EvaluationDetail.order_index).all()
+    
+    try:
+        report_service = ReportService()
+        path = report_service.generate_pdf_report(result, details)
+        
+        return FileResponse(
+            path=path,
+            filename=f"Report_{result.student_name}.pdf",
+            media_type="application/pdf"
+        )
+    except Exception as e:
+        logger.error(f"Error generating report: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to generate report: {str(e)}")
+
+
 @router.get("/{assignment_id}")
 def get_assignment_detail(
     assignment_id: int,
@@ -204,6 +242,7 @@ def delete_history(
         logger.error(f"Error deleting history: {e}")
         raise HTTPException(status_code=500, detail="Failed to delete history record")
 
+
 @router.get("/download-report/{evaluation_result_id}")
 def download_evaluation_report(
     evaluation_result_id: int,
@@ -236,3 +275,5 @@ def download_evaluation_report(
         filename=f"Report_{result.student_name}.pdf",
         media_type="application/pdf"
     )
+
+
