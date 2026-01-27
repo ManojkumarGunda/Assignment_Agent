@@ -106,6 +106,29 @@ const History = () => {
         }
     };
 
+    const handleDownloadFile = async (fileId, fileName) => {
+        if (!fileId) return;
+        try {
+            // Use the configured api instance which handles the base URL and auth token
+            const response = await api.get(`/history/download/${fileId}`, {
+                responseType: 'blob'
+            });
+
+            // Create blob link to download
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = fileName || 'download';
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            a.remove();
+        } catch (error) {
+            console.error("Download error:", error);
+            setAlert({ open: true, message: 'Failed to download original file.', severity: 'error' });
+        }
+    };
+
     const handleDownloadReport = async (evaluationId, fileName) => {
         if (!evaluationId) return;
         try {
@@ -230,11 +253,23 @@ const History = () => {
                                     <Typography variant="h6" color="indigo.700" sx={{ mr: 1 }}>
                                         {result.student_name}
                                     </Typography>
+                                    {result.file_id && (
+                                        <Tooltip title="Download Original File">
+                                            <IconButton
+                                                size="small"
+                                                color="primary"
+                                                onClick={() => handleDownloadFile(result.file_id, `${result.student_name}_original.pdf`)}
+                                                sx={{ mr: 1 }}
+                                            >
+                                                <DownloadIcon fontSize="small" />
+                                            </IconButton>
+                                        </Tooltip>
+                                    )}
                                     {result.id && (
                                         <Tooltip title="Download Evaluation Report">
                                             <IconButton
                                                 size="small"
-                                                color="primary"
+                                                color="secondary"
                                                 onClick={() => handleDownloadReport(result.id, `${result.student_name}_report.pdf`)}
                                             >
                                                 <DescriptionIcon fontSize="small" />
