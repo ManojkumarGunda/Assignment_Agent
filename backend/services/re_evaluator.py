@@ -14,6 +14,7 @@ from .ppt_processor import PPTProcessor
 from .ppt_evaluator import PPTEvaluator
 from .ppt_design_evaluator import PPTDesignEvaluator
 from models import AssignmentFile, EvaluationResult, EvaluationDetail, EvaluationType
+from pathlib import Path
 
 if TYPE_CHECKING:
     from models import User
