@@ -281,22 +281,22 @@ const Services = () => {
             ? ruleResultsRaw.map((r, i) => `Rule ${i + 1}: ${r.rule_text || '-'}\n   Satisfied: ${r.is_satisfied ? 'Yes' : 'No'}\n   Reasoning: ${r.evidence || r.failure_reason || '-'}`).join('\n\n')
             : 'No automated rule violations detected.'
 
-          const techStack = Array.isArray(gradingData.detected_technology_stack) ? gradingData.detected_technology_stack.join(', ') : 'Multiple Frameworks'
+          const chatResponse = gradingData.conversational_response || gradingData.overall_comment || "Analysis complete."
+          const techStack = Array.isArray(gradingData.detected_technology_stack) ? gradingData.detected_technology_stack.join(', ') : 'Not detected'
 
           const cleanSummary = [
-            `OVERALL ASSESSMENT: ${gradingData.overall_comment || 'Audit Complete'}`,
-            `SCORE: ${typeof gradingData.score_percent === 'number' ? gradingData.score_percent.toFixed(0) : gradingData.score_percent}%`,
-            `DETECTED STACK: ${techStack}`,
-            `RULES SUMMARY:\n${gradingData.rules_summary || 'Standard compliance check finalized.'}`,
-            `DETAILED AUDIT LOG:\n${formattedRules}`
-          ].join('\n\n')
+            `RESPONSE TO YOUR QUERY:\n${chatResponse}`,
+            `\nDETECTED STACK: ${techStack}`,
+            `\n---\nDETAILED ANALYSIS LOG:\n${gradingData.rules_summary || 'No further details.'}`
+          ].join('\n')
 
           setResult(cleanSummary)
           setSummary(cleanSummary)
           setScores([{
-            name: "Repository Audit",
-            score_percent: gradingData.score_percent || 0,
-            reasoning: gradingData.overall_comment || gradingData.rules_summary || "Automated repository audit finalized with precision formatting.",
+            name: "Repository Analysis",
+            // Use -1 or null to signal UI to hide score circle if we want, or just 0
+            score_percent: null,
+            reasoning: chatResponse,
             details: []
           }])
         } else {
@@ -792,9 +792,11 @@ const Services = () => {
                                 <div className="space-y-2">
                                   <h4 className="text-3xl font-black text-[#003B46] tracking-tighter uppercase">{s.name || `  ${idx + 1}`}</h4>
                                 </div>
-                                <div className="text-7xl font-black text-[#003B46] tracking-[-8px] opacity-10 group-hover:opacity-100 group-hover:text-[#00A896] transition-all duration-500">
-                                  {typeof s.score_percent === 'number' ? s.score_percent.toFixed(0) : s.score_percent}
-                                </div>
+                                {s.score_percent !== null && (
+                                  <div className="text-7xl font-black text-[#003B46] tracking-[-8px] opacity-10 group-hover:opacity-100 group-hover:text-[#00A896] transition-all duration-500">
+                                    {typeof s.score_percent === 'number' ? s.score_percent.toFixed(0) : s.score_percent}
+                                  </div>
+                                )}
                               </div>
                               <p className="text-[#003B46]/50 font-bold text-sm mb-12 line-clamp-4 leading-relaxed italic">"{s.reasoning}"</p>
                               <div className="flex flex-col gap-4">

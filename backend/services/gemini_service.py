@@ -77,7 +77,8 @@ class GitTechMismatch(BaseModel):
 class GitGradingResult(BaseModel):
     rules_summary: str
     overall_comment: str
-    score_percent: float
+    conversational_response: str = Field(description="Direct, conversational answer to the user's specific question/description about the code.")
+    score_percent: Optional[float] = Field(0.0, description="Deprecated/Filtered out score")
     detected_technology_stack: List[str]
     rule_results: List[GitRuleResult]
     technology_mismatch: GitTechMismatch

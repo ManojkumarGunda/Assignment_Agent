@@ -54,7 +54,7 @@ class GitEvaluator:
             if current_total + len(content) > total_limit: break
             prepared_files.append({'path': f.get('path', ''), 'content': content})
             current_total += len(content)
-        parts = [f"Analyze GitHub: {github_url}\n", f"Rules:\n{description}\n", "Strict grader persona.\n"]
+        parts = [f"Analyze GitHub: {github_url}\n", f"User Question/Request:\n{description}\n", "Persona: You are a helpful, conversational Senior Engineer evaluator. Answer the user's question directly and thoroughly based on the code provided. Do not give a numerical score.\n"]
         for f in prepared_files:
             parts.append(f"--- File: {f['path']} ---\n{f['content']}\n\n")
         return "".join(parts)
