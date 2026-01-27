@@ -23,6 +23,7 @@ import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HistoryTable from '../components/HistoryTable';
 import historyApi from '../api/historyApi';
+import api from '../api/axios';
 import { useAuth } from '../contexts/AuthContext';
 
 const History = () => {
@@ -107,24 +108,22 @@ const History = () => {
     const handleDownloadFile = async (fileId, fileName) => {
         if (!fileId) return;
         try {
-            const token = localStorage.getItem('token');
-            const response = await fetch(`http://localhost:8000/history/download/${fileId}`, {
-                headers: {
-                    'Authorization': `Bearer ${token}`
-                }
+            // Use the configured api instance which handles the base URL and auth token
+            const response = await api.get(`/history/download/${fileId}`, {
+                responseType: 'blob'
             });
 
-            if (!response.ok) throw new Error('Download failed');
-
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
+            // Create blob link to download
+            const url = window.URL.createObjectURL(new Blob([response.data]));
             const a = document.createElement('a');
             a.href = url;
             a.download = fileName || 'download';
             document.body.appendChild(a);
             a.click();
+            window.URL.revokeObjectURL(url);
             a.remove();
         } catch (error) {
+            console.error("Download error:", error);
             setAlert({ open: true, message: 'Failed to download file.', severity: 'error' });
         }
     };
@@ -250,6 +249,17 @@ const History = () => {
                             <Typography variant="body2" sx={{ mb: 2, fontStyle: 'italic', color: 'text.secondary' }}>
                                 {result.reasoning}
                             </Typography>
+
+                            {result.summary && (
+                                <Box sx={{ mt: 2, mb: 2, p: 2, bgcolor: '#f0f9ff', borderRadius: 1, border: '1px dashed #bae6fd' }}>
+                                    <Typography variant="subtitle2" sx={{ fontWeight: 'bold', color: '#0369a1', mb: 1 }}>
+                                        Evaluation Summary:
+                                    </Typography>
+                                    <Typography variant="body2" sx={{ whiteSpace: 'pre-line', color: '#0c4a6e' }}>
+                                        {result.summary}
+                                    </Typography>
+                                </Box>
+                            )}
 
                             <Box sx={{ spaceY: 2 }}>
                                 {result.details?.map((detail, dIdx) => (
