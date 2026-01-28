@@ -125,8 +125,12 @@ class GeminiService:
 
         while attempt <= self.max_retries:
             try:
+                # DEBUG: Log the model being used
+                print(f"\n🤖 [ACTIVE MODEL] Operation: '{operation_name}' is using Model: '{self.model}'")
+                print("-" * 50)
+
                 # DEBUG: Print exact input being sent to LLM
-                print(f"\n🚀 [LLM INPUT] {operation_name} (Attempt {attempt+1}):")
+                print(f"🚀 [LLM INPUT] {operation_name} (Attempt {attempt+1}):")
                 print("-" * 50)
                 # Handle both string prompts and part-based prompts (vision)
                 if isinstance(contents, str):
