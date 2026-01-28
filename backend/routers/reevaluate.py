@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from models import User
+from models import User, AssignmentFile
 from auth import get_current_user
 from schemas.schemas import ReEvaluateRequest, ReEvaluateResponse
 from database import get_db
@@ -72,6 +72,27 @@ async def reevaluate_single_file(
             file_path = saved_file
             break
         
+        if not file_path or not file_path.exists():
+            # Attempt to restore from database
+            assignment_file = db.query(AssignmentFile).filter(AssignmentFile.file_id == file_id).first()
+            if assignment_file and assignment_file.extracted_text:
+                # Determine extension
+                ext = ".txt" # Default to text for safety since we only have extracted text
+                if assignment_file.original_filename:
+                    orig_ext = Path(assignment_file.original_filename).suffix.lower()
+                    # Only preserve extension if it's code/text, otherwise valid text extracted from PDF/PPT should be .txt
+                    if orig_ext in ['.py', '.js', '.java', '.cpp', '.c', '.h', '.cs', '.php', '.rb', '.go', '.rs', '.swift', '.kt', '.ts', '.html', '.css', '.sql', '.txt', '.md', '.json', '.xml', '.yaml']:
+                        ext = orig_ext
+                
+                restore_path = UPLOAD_DIR / f"{file_id}{ext}"
+                try:
+                    logger.info(f"Restoring missing file {file_id} from DB as {restore_path.name}")
+                    with open(restore_path, "w", encoding="utf-8") as f:
+                        f.write(assignment_file.extracted_text)
+                    file_path = restore_path
+                except Exception as e:
+                    logger.error(f"Failed to restore file from DB: {e}")
+
         if not file_path or not file_path.exists():
             return ReEvaluateResponse(
                 success=False,
