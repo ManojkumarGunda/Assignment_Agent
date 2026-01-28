@@ -4,6 +4,7 @@ Handles re-evaluation of individual student files based on title and description
 """
 import os
 import json
+import re
 import logging
 import asyncio
 from typing import Dict, List, Optional, Any, TYPE_CHECKING
