@@ -1,0 +1,17 @@
+{
+  "content_hash": "5fefe491d95363b8eb2261b0b4e9b6bccad3d0f77b6c2ad4396c18813b901402",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:45:29.168361",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "The provided rubric and question do not ask the student to write a C++ linear search program. The question is a meta-instruction on how to evaluate an assignment, not an assignment itself. Therefore, there is no 'correct answer' in the form of code for this specific question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student submitted a C++ program that performs a linear search. However, the provided assignment description and question do not contain a requirement or prompt to write this specific program. According to the grading rules, if the assignment description is missing the core requirement that matches the student's work, the score must be 0.0."
+    }
+  }
+}

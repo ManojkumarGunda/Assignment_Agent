@@ -1,0 +1,17 @@
+{
+  "content_hash": "0a2e5f6c00c05504c49065e331512f366c515b2579b2f3f3a5ad0842cec0e230",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:21:12.452626",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "mangodb",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question 'What does SQL stand for?' is not found in the assignment description, which specifies the task as 'find the largest number'. As per the grading rules, if the question is not found in the provided materials, a score of 0.0 must be awarded."
+    }
+  }
+}

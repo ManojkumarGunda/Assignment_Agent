@@ -1,0 +1,45 @@
+{
+  "content_hash": "6a3c777f9024e26bf4d99b634ebed5dea9e201e7a650d10d6ba43a450ece335b",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-01-31T10:49:16.798334",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "1) A' = {(x_1, 0.8), (x_2, 0.7), (x_3, 0.6), (x_4, 0.5), (x_5, 0.9)}",
+        "student_answer": "x_1 = 0.8 > 0.7\nx_2 = 0.7 \u2265 0.7\nx_3 = 0.6 < 0.7\nx_4 = 0.3 < 0.7\nx_5 = 0.9 > 0.7\n\n{x_1, x_2, x_5}\n=\n\nAtbias & dpish",
+        "is_answer_present": true
+      },
+      {
+        "question": "2) x=0, \u03bc(x) = 0\nx=2, \u03bc(x) = 0.7\nx=4, \u03bc(x) = 0.7\nx=6, \u03bc(x) = 0",
+        "student_answer": "= \\frac{(2 \\cdot 0.7) + (4 \\cdot 0.7)}{0.7 + 0.7} = \\frac{1.4 + 2.8}{1.4} = \\frac{4.2}{1.4} = 3.76",
+        "is_answer_present": true
+      },
+      {
+        "question": "-> Inputs : [1, 2, 5]\nweights : [4, 5, 6]",
+        "student_answer": "weighted sum = (1 \\cdot 4) + (2 \\cdot 5) + (3 \\cdot 6)\n= 4 + 10 + 8 = 32\noutput = 32x3 = 96.",
+        "is_answer_present": true
+      },
+      {
+        "question": "a)\ni/p size = 28x28, kenal size = 7x7 strid = 1",
+        "student_answer": "o/p size : \\frac{i/p size - kenral size}{stride}\n= 28-7+1 = 22\n22x22_z",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Heigh & width",
+        "student_answer": "~\nMension = \\frac{Input dimension - Filter size + 2xPadd}{Stride} +2\noutput weight = (63-7+2x0)/2+1=29\n29x29x32\n~",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) i/p player = 6neurons\no/p layer = 2neurons",
+        "student_answer": "weight b/w i/p & hidden layer\nRows = no. of neurons - neuron in i/p\n= 5x6\n=[2x5]; [5x6]_z",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Given\nA = { (x_1, 0), (x_2, 0.3), (x_3, 0.4), (x_4, 0.5), (x_5, 0.8), (x_6, 1), (x_7, 1), (x_8, 1), (x_9, 1), (x_10, 0.7), (x_11, 0.5), (x_13, 0) }",
+        "student_answer": "20+50+81 + 8.0 + 2.0 + 1.0 + 5.0 + 0.0\n\nSupport :- {x \u2208 A | \u03bc(x) > 0}\n\u03bc(x_1) = 0 , \u03bc(x_13) = 0\n(x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12)\n\nCore : {x \u2208 A | \u03bc(x) = 1}\n\u03bc(6) = \u03bc(x_7) = \u03bc(x_8) = \u03bc(x_9) = 1\n= (x_6, x_7, x_8, x_9)\n\nCrossover points :- {x \u2208 A | \u03bc(x) = 0.5}\n\u03bc(x_4) = 0.5 & \u03bc(x_11) = 0.5\n(x_4, x_11)\n\nAlpha cut for = 0.3 {x \u2208 A | \u03bc(x) = \u03b1}\n(x_2, x_3, x_4, x_5, x_66, x_7, x_8, x_9, x_10, x_11)\n\nStrong Alphacut for \u03b1 = 0.4 : {x \u2208 A | \u03bc(x) = \u03b1}\n\u03bc(x) > 0.4\n(x_4, x_5, x_6, x_7, x_8, x_9, x_10)\n\nBoundary: {x \u2208 A | 0 < \u03bc(x) < 1}\n0 < \u03bc(x) < 1\n(x_2, x_3, x_4, x_5, x_10, x_11, x_12)\n\nNormality: \u03bc(x) = 1\n\u03bc(x_6) = \u03bc(x_7) = \u03bc(x_8) = \u03bc(x_9) = 1\n[UNCLEAR] mwp) 10\nScalar Cardinality\n(ridx) (80, 2x) (2.0, 2) \\sum_{x \\in A} \\mu(x) {(0, 0.p), (0, 0.n)} = A\n{(0, 0.n) (50, 0.n) (C, 0.p) (C, 0.p)}\n= 0+0.3 + 0.4+0.5+0.8 + 1+1+1+1+0.7+0.8\n0.2+0 {0.5(B)N} A3P} : [UNCLEAR]\n= 7.3 0 = (sx) u \\sigma = (x) u\nRelative Cardinality = \\frac{Scalar Cardinality}{No. of elements}\n= \\frac{7.3}{13} p1 = (N) u} A3P} D.DD\n1 = (0x) u = (08) 13. (00) u = (0) u,\n= 0.5615 [UNCLEAR]\n(20 = (x)N A318} : uniog [UNCLEAR]\n20 . (10) x [UNCLEAR] (08) u\n& (u.x.N8)\n20 = (x)N A[UNCLEAR]3 E.O = D. [UNCLEAR]\n([UNCLEAR])\n2 > - (0)x | A3P3 : No=x [UNCLEAR] provide\nN ocr (10)\n([UNCLEAR])\n21 > (0) [UNCLEAR] A3P5 : [UNCLEAR]\n1 > (0) u > 0\n([UNCLEAR])\n1 = (N) u [UNCLEAR]\n[UNCLEAR] : (10)x = (1) u",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

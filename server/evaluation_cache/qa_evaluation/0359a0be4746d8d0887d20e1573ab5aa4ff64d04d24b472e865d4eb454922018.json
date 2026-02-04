@@ -1,0 +1,17 @@
+{
+  "content_hash": "0359a0be4746d8d0887d20e1573ab5aa4ff64d04d24b472e865d4eb454922018",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:56.792226",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which keyword is used to define a function in Python?",
+      "student_answer": "def",
+      "correct_answer": "The 'def' keyword is used to define a function in Python.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. 'def' is the keyword used to define a function in Python. This evaluation is based on standard Python knowledge as the question was not present in the provided reference material."
+    }
+  }
+}

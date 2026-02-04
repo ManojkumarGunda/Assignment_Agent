@@ -1,0 +1,17 @@
+{
+  "content_hash": "510b906b8ebe46ed460eb335eedd58c0d185412f5960077cc5ac8aa5a1a6eb83",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:22:07.628223",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The correct answer is Structured Query Language. However, this question is not part of the assignment as defined by the rubric.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question 'What does SQL stand for?' is not found in the provided assignment rubric, which is '[CATEGORY: GENERAL] find the largest number'. According to the grading rules, if the question is not present in the assignment description or rubric, a score of 0.0 must be awarded because it is outside the scope of the assignment."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "d0ca09a62e7685a9ade8e9708fda16ab0a49b591270144456b8a87e6684cf5fe",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:54.777937",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "The correct answer should relate to the rubric topic: '[CATEGORY: CODING] find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked ('Which keyword is used to define a function in Python?') does not match the topic specified in the assignment rubric ('[CATEGORY: CODING] find the largest number'). According to the grading rules, credit can only be awarded for questions that fall within the scope of the provided rubric. Therefore, the answer receives a score of 0.0."
+    }
+  }
+}

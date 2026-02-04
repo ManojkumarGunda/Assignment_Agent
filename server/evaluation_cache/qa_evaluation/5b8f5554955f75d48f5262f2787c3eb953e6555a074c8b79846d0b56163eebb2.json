@@ -1,0 +1,17 @@
+{
+  "content_hash": "5b8f5554955f75d48f5262f2787c3eb953e6555a074c8b79846d0b56163eebb2",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:20:42.364317",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student was asked to calculate 15% of 200. The student's answer of 30 is mathematically correct, as 0.15 * 200 = 30."
+    }
+  }
+}

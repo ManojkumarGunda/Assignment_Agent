@@ -1,0 +1,17 @@
+{
+  "content_hash": "a2581b5f17ccf362ae397bcee900c1e58006c025ec9446363bb188683d30d15d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:57:52.245239",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write the program of the linear search",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "The provided rubric does not contain this question. The assessment is on 'Professional Communication & Documentation'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This question was not found in the provided assignment rubric or reference materials. The assignment is on 'Professional Communication & Documentation', not coding. Therefore, the answer cannot be graded."
+    }
+  }
+}

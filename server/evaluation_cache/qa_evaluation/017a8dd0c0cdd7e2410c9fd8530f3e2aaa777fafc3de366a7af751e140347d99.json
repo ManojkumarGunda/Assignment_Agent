@@ -1,0 +1,17 @@
+{
+  "content_hash": "017a8dd0c0cdd7e2410c9fd8530f3e2aaa777fafc3de366a7af751e140347d99",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:20:43.434889",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "101",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student correctly answered the question, as the binary equivalent of the decimal number 5 is 101. Full credit is awarded. The rubric provided ('find the largest number') was inconsistent with the question asked, so the evaluation was based on the correctness of the answer to the specific question."
+    }
+  }
+}

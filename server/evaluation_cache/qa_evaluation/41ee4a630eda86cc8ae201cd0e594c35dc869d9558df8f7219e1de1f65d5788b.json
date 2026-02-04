@@ -1,0 +1,17 @@
+{
+  "content_hash": "41ee4a630eda86cc8ae201cd0e594c35dc869d9558df8f7219e1de1f65d5788b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:36:59.362938",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's code implements a linear search algorithm. However, the provided reference material contains code to find the largest element in an array. According to the grading rules, the student's submission must match the logic of the reference material. Since the submitted code performs a completely different task (searching for an element vs. finding the maximum value), it is considered incorrect."
+    }
+  }
+}

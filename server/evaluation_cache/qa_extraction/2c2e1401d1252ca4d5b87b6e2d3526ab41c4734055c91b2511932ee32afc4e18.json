@@ -1,0 +1,15 @@
+{
+  "content_hash": "2c2e1401d1252ca4d5b87b6e2d3526ab41c4734055c91b2511932ee32afc4e18",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T12:07:16.979237",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "largest number in an array",
+        "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    \n    in n = size of(arr) / size of(arr[0]);\n    \n    int largest = arr[0];\n    \n    for (init (i=1); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    \n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

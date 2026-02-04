@@ -1,0 +1,17 @@
+{
+  "content_hash": "93fc3615b75745d9d7584846a1035f605dab0e1e7e3d0f5d539690433aa2e900",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:44.167483",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "300",
+      "correct_answer": "30",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is mathematically incorrect. The correct calculation for 15% of 200 is 0.15 * 200, which equals 30. The student's answer of 300 is incorrect. Additionally, the question is a math problem and does not align with the assignment rubric, which specifies a coding task to 'find the largest number'."
+    }
+  }
+}

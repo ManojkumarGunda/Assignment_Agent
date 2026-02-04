@@ -1,0 +1,17 @@
+{
+  "content_hash": "d0e5bec6f2dbf55ec4d8ae1134a47eebbe4e57875db1c829f7c42aa5403cd7d9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:48.690306",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: Which data structure follows LIFO?",
+      "student_answer": "Answer: Stack",
+      "correct_answer": "The reference material lists two possible questions for Q6: 'What is 15% of 200?' (Answer: 30) or 'Which protocol is used for secure web browsing?' (Answer: HTTPS). The question answered by the student was not found in the reference material.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's question does not match the question designated as Q6 in the provided reference material. The reference key contains different questions for Q6, making the student's answer invalid in this context."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "b15cacaaf10bfca7aca4fb5ee157ea201451e00015290dee47b8ff7734ff8d4b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:29:49.273233",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "101",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer '101' is correct as it is a verbatim match to the answer provided in the reference material."
+    }
+  }
+}

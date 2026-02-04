@@ -1,0 +1,17 @@
+{
+  "content_hash": "478a3753c7b95722860e37c34c8fa1f3926dcdbf1def23a20e95208af81e7f3a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:05:51.225220",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided ('Q4: What is 15% of 200?') does not match the question for Q4 in the reference material ('What is the time complexity of linear search?'). Therefore, the answer is incorrect in this context. The correct answer for Q4 according to the reference key is 'O(n)'."
+    }
+  }
+}

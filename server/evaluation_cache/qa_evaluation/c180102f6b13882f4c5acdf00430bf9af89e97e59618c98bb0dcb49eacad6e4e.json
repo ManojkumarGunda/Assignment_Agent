@@ -1,0 +1,17 @@
+{
+  "content_hash": "c180102f6b13882f4c5acdf00430bf9af89e97e59618c98bb0dcb49eacad6e4e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T15:41:21.126552",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "Structured Query Language",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. SQL stands for Structured Query Language."
+    }
+  }
+}

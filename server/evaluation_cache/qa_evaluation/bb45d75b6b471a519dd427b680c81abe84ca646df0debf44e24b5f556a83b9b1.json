@@ -1,0 +1,17 @@
+{
+  "content_hash": "bb45d75b6b471a519dd427b680c81abe84ca646df0debf44e24b5f556a83b9b1",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:22.033936",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write the program of the linear search",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "The provided rubric does not contain an answer key for this question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The provided rubric and reference materials do not contain the question being asked. The rubric is for a 'Professional Communication & Documentation Assessment', while the question is about a linear search program. Therefore, the student's answer cannot be evaluated against the provided materials."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "3f33f0eefc771fee389015c2bd810faad8eae21165a8f1f689a2b9c4f3900477",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:08.920719",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] find the largest number",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    \n    in n = size of(arr) / size of(arr[0]);\n    \n    int largest = arr[0];\n    \n    for (init (i=1); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    \n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int largest = arr[0];\n\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.5,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.5/1.0. Graded against Reference Key and Assignment Description. Partial credit is awarded because the core logic for finding the largest number is correct. The student correctly initializes a 'largest' variable and iterates through the array to compare and update it. However, significant points were deducted for multiple syntax errors that would prevent the code from compiling, such as 'in' instead of 'int', 'size of' instead of 'sizeof', and incorrect for-loop initialization 'init (i=1)'. Additionally, the final printf statement is completely incorrect: it attempts to print a label for the 'Smallest number', uses an undeclared variable 'smallest', and uses the wrong format specifier '%.f' for an integer."
+    }
+  }
+}

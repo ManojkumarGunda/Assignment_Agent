@@ -1,0 +1,25 @@
+{
+  "content_hash": "77c4982bb8736a448002dc5a4f8c796de41204c0285a5d6704ea0e9b9b6250b8",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-01-30T12:04:41.554301",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "what is the Capital City of India?",
+        "student_answer": "New Delhi",
+        "is_answer_present": true
+      },
+      {
+        "question": "who is the PM of India?",
+        "student_answer": "Narendra Modi",
+        "is_answer_present": true
+      },
+      {
+        "question": "who is the CM of Andhra Pradesh?",
+        "student_answer": "Nara Chandra Babu Naidu",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

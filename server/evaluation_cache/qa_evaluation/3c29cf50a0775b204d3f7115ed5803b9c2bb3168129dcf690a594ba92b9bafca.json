@@ -1,0 +1,17 @@
+{
+  "content_hash": "3c29cf50a0775b204d3f7115ed5803b9c2bb3168129dcf690a594ba92b9bafca",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T17:42:49.113969",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Please perform a comprehensive THEORY assessment. Focus on conceptual clarity, depth, and keyword accuracy.",
+      "student_answer": "* what is the Capital City of India?\nAns! New Delhi\n\n-> who is the PM of India?\nans: Narendra Modi\n\n-> who is the CM of Andhra Pradesh?\nAns! Nara Chandra Babu Naidu",
+      "correct_answer": "A correct answer would involve selecting a theoretical topic and performing an assessment on it. For example, an assessment of the 'Theory of Relativity' would discuss its core concepts (like spacetime and gravity), its conceptual clarity (how well it is defined), its depth (the range of phenomena it explains), and the accuracy of its keywords (e.g., 'special relativity' vs. 'general relativity'). The student was expected to provide such an analysis, not a list of factual questions.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The provided answer is completely irrelevant to the question. The question asked for a 'comprehensive THEORY assessment,' which requires an analytical evaluation of a concept. The student's answer is a list of general knowledge questions and their answers, which does not fulfill the requirements of the prompt in any way."
+    }
+  }
+}

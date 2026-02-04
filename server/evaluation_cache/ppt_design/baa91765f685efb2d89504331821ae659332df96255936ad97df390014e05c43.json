@@ -1,0 +1,40 @@
+{
+  "content_hash": "baa91765f685efb2d89504331821ae659332df96255936ad97df390014e05c43",
+  "eval_type": "ppt_design",
+  "cached_at": "2026-01-30T11:11:19.003778",
+  "result": {
+    "success": true,
+    "response": {
+      "visual_clarity": {
+        "score": 55,
+        "feedback": "Slides are often cluttered with a high number of text boxes and shapes (e.g., slides 4, 8, and 9), which can make information difficult to process."
+      },
+      "layout_balance": {
+        "score": 50,
+        "feedback": "Many slides appear crowded due to the high density of elements, leaving insufficient white space and creating an unbalanced, unprofessional layout."
+      },
+      "color_consistency": {
+        "score": 68,
+        "feedback": "A core color palette is present, but its application is inconsistent. Some slides use a simple, effective scheme while others introduce multiple bright accents that can be distracting."
+      },
+      "typography": {
+        "score": 45,
+        "feedback": "The excessive number of individual text shapes on several slides suggests a lack of clear typographic hierarchy, making the content difficult to read and follow."
+      },
+      "visual_appeal": {
+        "score": 52,
+        "feedback": "The overall aesthetic is compromised by visual clutter and a lack of clear structure, which significantly reduces its professional appeal and engagement."
+      },
+      "design_strengths": [
+        "A foundational color palette is used across multiple slides, providing a basis for consistency.",
+        "The inclusion of images on most slides helps to break up text-heavy content."
+      ],
+      "design_improvements": [
+        "Drastically reduce the number of shapes and text boxes per slide by consolidating information to improve clarity and reduce clutter.",
+        "Establish a stricter color palette with a clear primary color and one or two accent colors to be used consistently across all slides.",
+        "Implement a clear typographic hierarchy with distinct styles for titles, headings, and body text to improve readability."
+      ],
+      "design_summary": "The presentation has a foundational color scheme but suffers from significant visual clutter due to an excessive number of elements on each slide. A lack of typographic hierarchy and inconsistent layout balance detract from its professional appearance and make the information difficult to digest."
+    }
+  }
+}

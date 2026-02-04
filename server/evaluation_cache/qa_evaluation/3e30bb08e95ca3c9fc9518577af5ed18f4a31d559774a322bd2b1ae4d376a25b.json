@@ -1,0 +1,17 @@
+{
+  "content_hash": "3e30bb08e95ca3c9fc9518577af5ed18f4a31d559774a322bd2b1ae4d376a25b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:47:42.855494",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "Name :Manoj\n\n\n#include <stdio.h>\n\n#include <stdlib.h>\n\nstruct Node {\n\n    int data;\n\n    struct Node* next;\n\n};\n\nint hasCycle(struct Node* head) {\n\n    struct Node *slow = head, *fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n\n        slow = slow->next;\n\n        fast = fast->next->next;\n\n        if (slow == fast)\n\n            return 1; // Cycle detected\n\n    }\n\n    return 0; // No cycle\n\n}",
+      "correct_answer": "30",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is incorrect as it does not address the question asked. The provided answer is a block of C code related to data structures (detecting a cycle in a linked list), which is completely irrelevant to the mathematical question. The correct answer is 30."
+    }
+  }
+}

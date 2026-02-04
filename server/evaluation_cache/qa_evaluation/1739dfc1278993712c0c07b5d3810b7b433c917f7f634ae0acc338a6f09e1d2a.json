@@ -1,0 +1,17 @@
+{
+  "content_hash": "1739dfc1278993712c0c07b5d3810b7b433c917f7f634ae0acc338a6f09e1d2a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:42:29.312038",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The provided rubric is for a Biology assessment and does not contain an answer for this question. The question is outside the scope of the assignment.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "While the student's answer 'New Delhi' is factually correct, the question is entirely outside the scope of the assignment. The rubric specifies a 'THEORY assessment for BIOLOGY'. As the question and answer are unrelated to Biology, no credit can be awarded within the context of this assessment."
+    }
+  }
+}

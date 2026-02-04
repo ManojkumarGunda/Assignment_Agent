@@ -1,0 +1,17 @@
+{
+  "content_hash": "5b030824ec2ef1dc396e00900c4b404f82ec1eb45b5aa0c59dd49bb7917b698a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:01:44.379295",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "write a program to the linear search",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "A correct program for linear search should iterate through a list or array from the beginning, comparing each element with a target value. If the target is found, the program should indicate success (e.g., by printing the index) and can terminate. If the entire list is traversed without finding the target, the program should indicate failure.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer was evaluated against the rubric's requirement to 'write a program to the linear search', as the provided reference material for Q1 on database indexing was not relevant to this coding task. The submitted C code correctly implements the linear search algorithm. It properly iterates through the array, compares each element with the target value, and correctly handles both the case where the element is found (printing its index) and the case where it is not found."
+    }
+  }
+}

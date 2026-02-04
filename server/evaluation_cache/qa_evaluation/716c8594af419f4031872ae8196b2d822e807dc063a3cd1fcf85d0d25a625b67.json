@@ -1,0 +1,17 @@
+{
+  "content_hash": "716c8594af419f4031872ae8196b2d822e807dc063a3cd1fcf85d0d25a625b67",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:32:51.202534",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "Structure your communication for results\n\nImprove effectiveness using tools\n\nPresent yourself as a global professional",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is completely irrelevant to the question. The question asks for the time complexity of linear search, while the student's answer discusses communication and professional skills. The correct answer is O(n)."
+    }
+  }
+}

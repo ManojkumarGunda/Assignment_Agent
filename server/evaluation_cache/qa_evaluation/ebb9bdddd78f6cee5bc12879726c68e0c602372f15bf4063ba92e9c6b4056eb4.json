@@ -1,0 +1,17 @@
+{
+  "content_hash": "ebb9bdddd78f6cee5bc12879726c68e0c602372f15bf4063ba92e9c6b4056eb4",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:48:15.975323",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "write the program of the linear search",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is a verbatim match to the provided reference material. The submitted C++ code for the linear search is identical to the code in the answer key, thus earning full credit."
+    }
+  }
+}

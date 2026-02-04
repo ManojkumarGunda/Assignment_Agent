@@ -1,0 +1,17 @@
+{
+  "content_hash": "4a655727ed0335c9af6f4a388995448775322b0a2e01c0787d05094d2017c440",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:34:28.439337",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The correct answer is O(n). However, the question is not part of the assignment as defined by the rubric.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked is about the time complexity of linear search, but the assignment rubric specifies the category as '[CATEGORY: CODING] find the largest number'. Since the question is not found within the scope of the provided rubric, no credit can be awarded."
+    }
+  }
+}

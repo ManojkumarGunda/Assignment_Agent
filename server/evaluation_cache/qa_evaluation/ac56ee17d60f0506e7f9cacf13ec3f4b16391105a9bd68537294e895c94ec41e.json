@@ -1,0 +1,17 @@
+{
+  "content_hash": "ac56ee17d60f0506e7f9cacf13ec3f4b16391105a9bd68537294e895c94ec41e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:56:17.730130",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "The Reference Key contains a different question for Q3: 'Which keyword is used to define a function in Python?', for which the correct answer is 'def'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The question provided for grading was 'Which language is used for web styling?', but the Reference Key for Q3 is 'Which keyword is used to define a function in Python?'. The correct answer for Q3 in the Reference Key is 'def'."
+    }
+  }
+}

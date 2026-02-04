@@ -1,0 +1,17 @@
+{
+  "content_hash": "cf34bbd0e5cd8cc8b74544beeb59d9882f92b0c5fe96680c38b7d42eca62b0db",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:30:37.277974",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The reference material provides a solution for finding the largest number in an array. The submitted code implements a linear search to find a specific target element in an array. Because the submitted code solves a completely different problem than the one outlined in the reference material, no credit can be awarded."
+    }
+  }
+}

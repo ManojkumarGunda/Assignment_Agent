@@ -1,0 +1,17 @@
+{
+  "content_hash": "a04e75fe04153a99c0654fdaf3528c433e2344756d19a6105c6206c93c52e028",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T16:29:14.419437",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "The binary equivalent of the decimal number 5 is 101.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student correctly identified the binary equivalent of the decimal number 5. The answer is mathematically correct."
+    }
+  }
+}

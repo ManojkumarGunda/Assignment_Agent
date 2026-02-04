@@ -1,0 +1,17 @@
+{
+  "content_hash": "d7bc7bafb2d6e496d97d39228fd068126f92ea17ce8cb278ab6405c6e940e26b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T17:28:45.836986",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Explain the concept of overfitting in machine learning and describe two techniques to prevent it.",
+      "student_answer": "--- [START PAGE 1] ---\nName:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)\n--- [END PAGE 1] ---",
+      "correct_answer": "Overfitting occurs when a machine learning model learns the training data too well, including its noise and random fluctuations, to the point that it negatively impacts the model's performance on new, unseen data. The model has a low bias but high variance. Two common techniques to prevent overfitting are: 1. Regularization (e.g., L1 or L2), which adds a penalty term to the loss function to discourage complex models. 2. Cross-validation, which involves splitting the training data into multiple folds to train and validate the model, providing a more robust estimate of its performance on unseen data. Other valid techniques include early stopping, dropout, or increasing the size of the training dataset.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is completely unrelated to the question. The question asks for a theoretical explanation of overfitting in machine learning and two prevention techniques. The provided answer is a Python code snippet that finds the largest number in a list. No credit can be awarded as the answer does not address any part of the question."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "f7c3828d7bdcb99a2d76d67a3279f917c861e0d067dc892dc9974ed009a24c67",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:49:54.411376",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write the program of the linear search",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "The provided rubric does not contain an answer key for this question. The question is about writing a linear search program, but the rubric is for an assessment on Professional Communication & Documentation.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The provided rubric is for an assessment on 'Professional Communication & Documentation' and does not contain the question about writing a linear search program. Therefore, no credit can be awarded as the question is not part of the provided assignment."
+    }
+  }
+}

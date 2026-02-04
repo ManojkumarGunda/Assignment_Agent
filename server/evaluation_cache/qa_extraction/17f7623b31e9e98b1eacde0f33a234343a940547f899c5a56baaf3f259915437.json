@@ -1,0 +1,60 @@
+{
+  "content_hash": "17f7623b31e9e98b1eacde0f33a234343a940547f899c5a56baaf3f259915437",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-01-31T12:06:13.528213",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "1) A' = {(x_1, 0.8), (x_2, 0.7), (x_3, 0.6), (x_4, 0.5), (x_5, 0.9)}",
+        "student_answer": "x_1 = 0.8 > 0.7\nx_2 = 0.7 > 0.7\nx_3 = 0.6 < 0.7\nx_4 = 0.3 < 0.7\nx_5 = 0.9 > 0.7\n\n{x_1, x_2, x_5}\n=",
+        "is_answer_present": true
+      },
+      {
+        "question": "2) x=0, \u03bc(x) = 0\nx=2, \u03bc(x) = 0.7\nx=4, \u03bc(x) = 0.7\nx=6, \u03bc(x) = 0",
+        "student_answer": "= \\frac{(2.07) + (4.07)}{0.7 + 0.7} = \\frac{1.4 + 2.8}{1.4} = \\frac{4.2}{1.4} = 3.76",
+        "is_answer_present": true
+      },
+      {
+        "question": "-> Inputs : [1, 2, 5]\nweights : [4, 5, 6]",
+        "student_answer": "weighted sum = (1.4) + (2.5) + (3.6)\n= 4 + 10 + 18 = 32\noutput = 32 x 3 = 96.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Jx? =",
+        "student_answer": "-> {Jx?}: [UNCLEAR_TEXT]",
+        "is_answer_present": true
+      },
+      {
+        "question": "a)\ni/p size = 28x28, kenal size = 7x7 strid = 1",
+        "student_answer": "o/p size : \\frac{i/p size - kenral size}{stride}\n= 28-7+1 = 22\n22x22_z",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Heigh & width\n~\nMension = \\frac{Input dimension - Filter size + 2xPadd}{Stride} +2",
+        "student_answer": "output weight = (63-7+2x0)/2+1=29\n29x29x32\n~",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) i/p player = 6neurons\no/p layer = 2neurons",
+        "student_answer": "weight b/w i/p & hidden layer\nRows = no. of neurons - neuron in i/p\n= 5x6\n=[2x5]; [5x6]_z",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) output size = (\\frac{n+2p-f}{3} + 1) x (\\frac{n+2p-f}{3} + 1)\n\nn=5 f=7\nP=1 s=1",
+        "student_answer": "= (\\frac{5+2(1)-7}{1} + 1) x (\\frac{5+2(1)-7}{1} + 1)\n\n= (\\frac{5+2-7}{1} + 1) x (\\frac{5+2(1)-7}{1} + 1)\n\n= 1 x 1\n= [UNCLEAR_SYMBOL]\n=",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q)\nS_1 S_2 S_3 S_4 o/p t_1 t_2\n(0,1,2) (0,1)\n1 0 1/2.5 0.5 0\n1 0 0 Eq. E = bio\n\nr.E = (0.5, 0.54) vi (2, 2.50) 0 x,b(x) = pos\n0 0.544 1 1 rb(0)",
+        "student_answer": "Hebb rule :- W = \\sum_{t=1}^{2} t \\cdot s\n\nfor Patter 1: S1: [1,0,1,0] t=[1,0]\n\nw_1 = t_1 x s_1 = \\begin{bmatrix} 1.00 \\\\ 0.11 \\end{bmatrix} \\begin{matrix} 1.0 & 1.0 \\\\ 0.01 & 0.0 \\end{matrix} = \\begin{bmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\n\nfor Pattern 2: S_2 = [1,0,0,1] t = [1,0]\n\nw_2 = t_2 x s_2 = \\begin{bmatrix} 1.1 \\\\ 0.1 \\end{bmatrix} \\begin{matrix} 1.0 & 1.1 \\\\ 0.0 & 0.11 \\end{matrix} = \\begin{bmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\n\nfor Pattern 3: S_3 = [1,1,0,0] t_3 = [0,1]\n\nw_3 = t_3 x s_3 = \\begin{bmatrix} 0.1 \\\\ 1.1 \\end{bmatrix} \\begin{matrix} 0.1 & 0.0 & 0.0 \\\\ 1.1 & 1.0 & 1.0 \\end{matrix} = \\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\end{bmatrix}",
+        "is_answer_present": true
+      },
+      {
+        "question": "Scalar Cardinality",
+        "student_answer": "(10,x), (80, .28), (2.0, [UNCLEAR]) \\sum_{x \\in A} \\mu(x) = A\n{(0.0), (0.0, [UNCLEAR]), (50, [UNCLEAR]), (1, [UNCLEAR]), (1, [UNCLEAR])}\n= 0+0.3 + 0.4+0.5+0.8 + 1+1+1+0.7+0.5\n0.2+0 {[UNCLEAR] A3P?} [UNCLEAR]\n= 7.3 0 = (sx) u \\sigma = (x) u\nRelative Cardinality = \\frac{Scalar Cardinality}{No. of elements}\nM = (N) u A3P? [UNCLEAR]\nu = (08) 13. (01) u = (s) u, = \\frac{7.3}{13}\n= 0.5615 er, ck, st\n(20 = (x)u A3k) : uniog[UNCLEAR]\n20 * (10) x [UNCLEAR] (05) u\n(u.k.n5)\n20 = (x)u A[UNCLEAR]3 s.o = d. [UNCLEAR]\n(u.x [UNCLEAR] [UNCLEAR] [UNCLEAR])\n2 > - (0)x | A3P3 : uo = x [UNCLEAR] provide\nu ocr (10)\n([UNCLEAR])\n21 > (0) [UNCLEAR] | A3P5 : [UNCLEAR]\n1 > (0) u > 0\n([UNCLEAR])\n1 = (x)u [UNCLEAR]\n[UNCLEAR] : (x)u = (1) u",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

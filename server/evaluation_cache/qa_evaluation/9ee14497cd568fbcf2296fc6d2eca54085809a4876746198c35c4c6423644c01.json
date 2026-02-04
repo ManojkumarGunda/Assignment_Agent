@@ -1,0 +1,17 @@
+{
+  "content_hash": "9ee14497cd568fbcf2296fc6d2eca54085809a4876746198c35c4c6423644c01",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T16:28:19.592204",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The time complexity of linear search is O(n).",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. O(n) is the standard time complexity for a linear search algorithm, representing that in the worst case, the algorithm may need to check every element in an input of size n. The answer is accurate and conceptually sound."
+    }
+  }
+}

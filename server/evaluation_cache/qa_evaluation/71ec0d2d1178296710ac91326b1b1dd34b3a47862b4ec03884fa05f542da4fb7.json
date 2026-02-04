@@ -1,0 +1,17 @@
+{
+  "content_hash": "71ec0d2d1178296710ac91326b1b1dd34b3a47862b4ec03884fa05f542da4fb7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:27.763769",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] find the largest number",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    int largest = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.25,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.25/1.0. Graded against Assignment Description. Partial credit is awarded because the core logic for finding the largest number is present. However, the code has multiple critical syntax errors that would prevent it from compiling. Points were deducted for the following: 1) Incorrect syntax for variable declaration ('in' instead of 'int') and the 'sizeof' operator. 2) The 'for' loop syntax is completely incorrect. 3) A semicolon is missing after 'largest = arr[i]'. 4) The final printf statement is incorrect as it attempts to print the 'Smallest number' using an undeclared variable 'smallest' and an incorrect format specifier '%.f'."
+    }
+  }
+}

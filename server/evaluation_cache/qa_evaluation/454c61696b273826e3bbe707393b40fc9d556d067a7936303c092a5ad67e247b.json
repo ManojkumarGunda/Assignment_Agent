@@ -1,0 +1,17 @@
+{
+  "content_hash": "454c61696b273826e3bbe707393b40fc9d556d067a7936303c092a5ad67e247b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:58:19.008520",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "This question is not part of the provided assignment rubric. The rubric only covers Q1 and Q2.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This question (Q6) was not found in the provided assignment description or rubric. The grading materials only cover Q1 and Q2. Therefore, this question cannot be evaluated in the context of the assignment."
+    }
+  }
+}

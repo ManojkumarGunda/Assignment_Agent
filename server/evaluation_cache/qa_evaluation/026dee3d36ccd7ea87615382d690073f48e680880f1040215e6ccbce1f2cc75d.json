@@ -1,0 +1,17 @@
+{
+  "content_hash": "026dee3d36ccd7ea87615382d690073f48e680880f1040215e6ccbce1f2cc75d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:19:02.969556",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The provided reference key does not contain this question. Question 5 in the reference key is 'What is the capital of India?' with the answer 'New Delhi'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question asked ('What does SQL stand for?') does not match Question 5 in the provided reference material ('What is the capital of India?'). According to the grading rules, a mismatch between the student's question and the reference key question results in a score of 0."
+    }
+  }
+}

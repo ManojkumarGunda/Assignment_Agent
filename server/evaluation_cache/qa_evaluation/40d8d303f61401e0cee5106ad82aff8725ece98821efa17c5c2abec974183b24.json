@@ -1,0 +1,17 @@
+{
+  "content_hash": "40d8d303f61401e0cee5106ad82aff8725ece98821efa17c5c2abec974183b24",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:53:03.626817",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q14. Explain conditional statements.",
+      "student_answer": "Conditional statements execute code based on conditions using if, elif, and else.",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The material covers Intensity Transformation in image processing.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer, while factually correct in a general programming context, cannot be validated against the provided reference material. The reference document pertains to image processing (Intensity Transformation) and does not contain any information about conditional statements. Therefore, according to the grading instructions, the answer is marked as incorrect as it does not match the provided source."
+    }
+  }
+}

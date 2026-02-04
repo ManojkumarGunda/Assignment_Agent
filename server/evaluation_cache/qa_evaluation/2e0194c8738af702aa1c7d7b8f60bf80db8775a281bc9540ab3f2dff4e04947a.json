@@ -1,0 +1,17 @@
+{
+  "content_hash": "2e0194c8738af702aa1c7d7b8f60bf80db8775a281bc9540ab3f2dff4e04947a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:28.024987",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q11. Video 3 Takeaways",
+      "student_answer": "1. Proper meeting preparation leads to better outcomes.\n2. Follow-up actions are critical for meeting effectiveness.\n3. Using digital tools improves documentation and tracking of discussions.",
+      "correct_answer": "The key takeaways from Video 3 ('Sounding Smart Without Content') are: 1) Project Confidence to Create Perceived Insight, 2) Leverage Body Language and Props to Signal Engagement, 3) Introduce Arbitrary Data and Visuals to Imply Analysis, and 4) Fill Space with Anecdotes and Cultural References.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is incorrect as it does not reflect the key takeaways from the specified video ('Sounding Smart Without Content'). The provided answer discusses general meeting effectiveness, which is entirely unrelated to the video's topic. The correct answer outlines tactics for appearing knowledgeable without substance, such as using confident body language, props, and filler content."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "19cca1967ce0040b42dfacfe59787a1b03362b00e1a1d7f6704cd5869b5582c0",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:25:31.408446",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Name :Manoj\n\n\n#include <stdio.h>\n\n#include <stdlib.h>\n\nstruct Node {\n\n    int data;\n\n    struct Node* next;\n\n};\n\nint hasCycle(struct Node* head) {\n\n    struct Node *slow = head, *fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n\n        slow = slow->next;\n\n        fast = fast->next->next;\n\n        if (slow == fast)\n\n            return 1; // Cycle detected\n\n    }\n\n    return 0; // No cycle\n\n}",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The student's answer is a block of C code and does not answer the question asked. The correct answer is 'Structured Query Language'."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "e3d505cdb42984fab196524a253b088378e2fde3fb89865939914bdc513d0b20",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:31:03.082439",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "Structured Query Language",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. The answer 'Structured Query Language' is the accurate and complete expansion of the acronym SQL, demonstrating conceptual clarity and keyword accuracy as required by the rubric."
+    }
+  }
+}

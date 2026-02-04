@@ -1,0 +1,17 @@
+{
+  "content_hash": "f6c4ca01b1a1c2de1cdfdf50d203df494e13f76017bbb57d19fd2acda5e9dea8",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:02.021958",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2. Date & Time:",
+      "student_answer": "Weekly Progress Review Meeting (Assumed: Scheduled during the current week)",
+      "correct_answer": "The question in the reference material for Q2 is 'What is the output of 5 + 2 * 3?', and the correct answer is '11'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The question provided for evaluation ('Q2. Date & Time:') does not match the question listed as Q2 in the reference material ('What is the output of 5 + 2 * 3?'). Due to this fundamental mismatch, the student's answer cannot be graded and receives no credit."
+    }
+  }
+}

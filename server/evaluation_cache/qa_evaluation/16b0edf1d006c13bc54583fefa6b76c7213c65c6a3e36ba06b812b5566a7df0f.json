@@ -1,0 +1,17 @@
+{
+  "content_hash": "16b0edf1d006c13bc54583fefa6b76c7213c65c6a3e36ba06b812b5566a7df0f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:58.058950",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "The provided reference material does not contain this question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question 'Which data structure follows LIFO?' was not found in the provided reference material. The answer key contains different questions, such as 'What does SQL stand for?' and 'Which keyword is used to define a function in Python?'. Therefore, the student's answer cannot be graded."
+    }
+  }
+}

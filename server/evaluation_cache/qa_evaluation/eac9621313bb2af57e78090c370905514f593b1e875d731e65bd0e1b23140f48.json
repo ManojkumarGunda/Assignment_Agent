@@ -1,0 +1,17 @@
+{
+  "content_hash": "eac9621313bb2af57e78090c370905514f593b1e875d731e65bd0e1b23140f48",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T13:11:34.568319",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "Structured Query Language",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key. The student's answer is correct as it is a verbatim match with the provided reference answer. The correct answer is 'Structured Query Language'."
+    }
+  }
+}

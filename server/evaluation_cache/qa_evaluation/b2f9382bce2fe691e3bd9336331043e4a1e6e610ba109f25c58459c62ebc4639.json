@@ -1,0 +1,17 @@
+{
+  "content_hash": "b2f9382bce2fe691e3bd9336331043e4a1e6e610ba109f25c58459c62ebc4639",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:17:57.567531",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "The question in the reference key for Q3 is 'What is the output of 5 + 2 * 3?', and the correct answer is '11'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student answered a different question than what was expected for Q3 in the reference material. The reference key's Q3 is 'What is the output of 5 + 2 * 3?' with the answer '11'. The student's question was 'What does SQL stand for?'."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "content_hash": "26d168303fe7506e5a6d1d18e2ff07d3380d80b459cb9c3dc5b6ea96e2eca7a0",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-01-30T18:07:45.928821",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "1) A' = {(x\u2081, 0.8), (x\u2082, 0.7), (x\u2083, 0.6), (x\u2084, 0.5), (x\u2085, 0.9)}",
+        "student_answer": "x\u2081 = 0.8 > 0.7\nx\u2082 = 0.7 > 0.7\nx\u2083 = 0.6 < 0.7\nx\u2084 = 0.5 < 0.7\nx\u2085 = 0.9 > 0.7\n\n{x\u2081, x\u2082, x\u2085}",
+        "is_answer_present": true
+      },
+      {
+        "question": "2) x=0, \u03bc(x) = 0\nx=2, \u03bc(x) = 0.7\nx=4, \u03bc(x) = 0.7\nx=6, \u03bc(x) = 0",
+        "student_answer": "= \\frac{(2 \\cdot 0.7) + (4 \\cdot 0.7)}{0.7 + 0.7} = \\frac{1.4 + 2.8}{1.4} = \\frac{4.2}{1.4} = 3.76",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q)\ni/p size = 28x28, kernal size = 7x7, strid = 1",
+        "student_answer": "o/p size : $\\frac{\\text{i/p size} - \\text{kernal size}}{\\text{stride}}$\n= 28 - 7 + 1 = 22\n22x22",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Heigh & width",
+        "student_answer": "Mension = $\\frac{\\text{Input dimension} - \\text{Filter size} + 2 \\times \\text{Padding}}{\\text{Stride} + 2}$\noutput weight = (63 - 7 + 2 * 10) / 2 + 1 = 29\n29 x 29 x 32",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) i/p player = 6 neurons\no/p layer = 2 neurons",
+        "student_answer": "weight b/w i/p & hidden layer\nRows = no. of neurons - neuron in i/p\n= 5x6\n= [2x5] ; [5x6]",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) output size",
+        "student_answer": "= \\( \\left( \\frac{n+2p-f}{s} + 1 \\right) \\times \\left( \\frac{n+2p-f}{s} + 1 \\right) \\)\n\nn=5 f=7\nP=1 s=1\n\n= \\( \\left( \\frac{5+2(1)-7}{1} + 1 \\right) \\times \\left( \\frac{5+2(1)-7}{1} + 1 \\right) \\)\n\n= \\( \\left( \\frac{5+2-7}{1} + 1 \\right) \\times \\left( \\frac{5+2(1)-7}{1} + 1 \\right) \\)\n\n= 1 x 1\n\n= 1",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q)",
+        "student_answer": "S\u2081 S\u2082 S\u2083 S\u2084 t\u2081 t\u2082\n1  0  1/2.5 0.5 0  0\n1  0  0\n0  0  1  1\n\nHebb rule :- \\( W = \\sum_{t=1} t \\cdot s \\)\n\nfor Pattern 1: S\u2081: [1,0,1,0] t=[1,0]\n\n\\( w_1 = t_1 \\times s_1 = \\begin{bmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\)\n\nfor Pattern 2: S\u2082 = [1,0,0,1] t = [1,0]\n\n\\( w_2 = t_2 \\times s_2 = \\begin{bmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\)\n\nfor Pattern 3: S\u2083 = [1,1,0,0] t\u2083 = [0,1]\n\n\\( w_3 = t_3 \\times s_3 = \\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\end{bmatrix} \\)\n\nPattern u:S4^T = [0,0,1,1] & t4 = [0.1]\n\nw4 = t4 x S4 = \n$$\n\\begin{bmatrix} 0.0 & 0.0 & 0.1 & 1.0 \\\\ 1.0 & 1.0 & 1.1 & 1.1 \\end{bmatrix}\n=\n\\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 1 & 1 \\end{bmatrix}\n$$\n\nW = w1 + w2 + w3 + w4\n\n> \n$$\n\\begin{bmatrix} 2 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 1 \\end{bmatrix}\n$$\n\nouter Product rule. = \n$$\nW = \\sum_{E_x} t_x \\times s\n$$\n\n$$\nW = \\begin{bmatrix} 2 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 1 \\end{bmatrix}\n$$",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Centre gravity Method\nto a triangle Points Me (1,0) (3,1) (5,10)",
+        "student_answer": "area \u2243 1/2 2.4, 2.5\nCentroid = 3.33\n\n$$\nCOG = \\frac{\\int x \\cdot \\mu(x) dx}{\\int \\mu(x) dx} = \\frac{(A_1 x_{c1}) + (A_2 \\cdot x_{c2})}{A_1 + A_2} = 3.17\n$$\n\n$$\nCOS = \\frac{\\sum(C_i \\cdot A_i) + (C_e \\cdot A_e)}{\\sum A_i + A_2} = \\frac{(3.2) + (3.33+2.55)}{2+2.25} = 3.17\n$$\n\nCentra of target area Method\nC\u2082 (Area = 2.5)\n2\u00b2 = x_{c2} = 3.33\n\n\u2234 COG \u2243 3.17\nCOS \u2243 3.13\nCLA \u2243 3.33",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Given\n\nA = {($x_1$, 0.0), ($x_2$, 0.3), ($x_3$, 0.4), ($x_4$, 0.5), ($x_5$, 0.8), ($x_6$, 1),\n($x_7$, 1), ($x_8$, 1), ($x_9$, 1), ($x_{10}$, 0.7), ($x_{11}$, 0.5), ($x_{12}$, 0.3)}",
+        "student_answer": "Support :- {$x \\in A | \\mu(x) > 0$}\n$\\mu(x_1) = 0$, $\\mu(x_{13}) = 0$\n($x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_{10}, x_{11}, x_{12}$)\n\nCore : {$x \\in A | \\mu(x) = 1$}\n$\\mu(x_6) = \\mu(x_7) = \\mu(x_8) = \\mu(x_9) = 1$\n= ($x_6, x_7, x_8, x_9$)\n\nCrossover points :- {$x \\in A | \\mu(x) = 0.5$}\n$\\mu(x_4) = 0.5$ & $\\mu(x_{11}) = 0.5$\n($x_4, x_{11}$)\n\nAlpha cut for $\\alpha = 0.3$ {$x \\in A | \\mu(x) = \\alpha$}\n($x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_{10}, x_{11}$)\n\nStrong Alphacut for $\\alpha = 0.4$ : {$x \\in A | \\mu(x) = \\alpha$}\n$\\mu(x) > 0.4$\n($x_4, x_5, x_6, x_7, x_8, x_9, x_{10}$)\n\nBoundary: {$x \\in A | 0 < \\mu(x) < 1$}\n$0 < \\mu(x) < 1$\n($x_2, x_3, x_4, x_5, x_{10}, x_{11}, x_{12}$)\n\nNormality : $\\mu(x) = 1$\n$\\mu(x_6) = \\mu(x_7) = \\mu(x_8) = \\mu(x_9) = 1$",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

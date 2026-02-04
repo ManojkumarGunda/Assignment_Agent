@@ -1,0 +1,17 @@
+{
+  "content_hash": "f7b459c35fe6e2366338c8991fd5af854db1de450098823eaa745eb289bf262e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:29:54.943948",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] find the largest number",
+      "student_answer": "--- [START PAGE 1] ---\nSUNSIRI\nPROJECTS PVT. LTD.\n\nDATE: / /\nName: Vamsi. [UNCLEAR_SYMBOL] C\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}\n\nSUN SIRI PROJECTS PVT. LTD.\n--- [END PAGE 1] ---",
+      "correct_answer": "A correct C program to find the largest number in an array. For example: #include <stdio.h> int main() { int arr[] = {10, 45, 3, 99, 23}; int n = sizeof(arr) / sizeof(arr[0]); int largest = arr[0]; for (int i = 1; i < n; i++) { if (arr[i] > largest) { largest = arr[i]; } } printf(\"Largest number: %d\", largest); return 0; }",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student was asked to write a program to find the largest number. While the general algorithm is partially visible, the submitted code is non-functional due to numerous critical syntax and logical errors. The code would fail to compile. Specific errors include: 1. Incorrect syntax for variable declaration and `sizeof` operator: `in n = size of(arr) / size of(arr[0]);` should be `int n = sizeof(arr) / sizeof(arr[0]);`. 2. Invalid `for` loop syntax: `for init (i=); i<n; i++)` is not valid C syntax. 3. Syntax error in the `if` condition: `largest.` contains an invalid period. 4. Missing semicolon after `largest = arr[i]`. 5. Logical error in the output statement: It prints \"Smallest number\" instead of \"Largest number\". 6. Variable error in the output: It attempts to print an undeclared variable `smallest`. 7. Incorrect format specifier in `printf`: `%.f` is for floating-point numbers, not integers. Due to these multiple errors, the submission is incorrect."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "fa49d849ea35a76edaa1cf232c00d1bae51512e1846d13a1a7da67f9132ed3c0",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:04.964402",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3. Participants:",
+      "student_answer": "Project Manager, Development Team, QA Team, and Interns involved in the project.",
+      "correct_answer": "The provided reference material contains a different Q3: 'What does SQL stand for?'. The correct answer for that question is 'Structured Query Language'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question 'Q3. Participants:' does not exist in the provided reference material. The reference material's Q3 is 'What does SQL stand for?', with the correct answer being 'Structured Query Language'. The student's answer is for a question not found in the assessment."
+    }
+  }
+}

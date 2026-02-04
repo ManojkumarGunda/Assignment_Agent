@@ -1,0 +1,17 @@
+{
+  "content_hash": "1bc5e0d78c8c3b941b3de6197e8e66f2c5cf2e7cc403481cbcb550b6aeba1bcb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:15:46.473908",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The provided reference material lists Question 5 as 'What is 15% of 200?' with the correct answer being '30'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is incorrect because it does not correspond to the question listed as Q5 in the provided reference material. The reference material's Q5 is 'What is 15% of 200?', for which the correct answer is '30'. The student answered a different question than the one specified in the official reference material for this question number."
+    }
+  }
+}

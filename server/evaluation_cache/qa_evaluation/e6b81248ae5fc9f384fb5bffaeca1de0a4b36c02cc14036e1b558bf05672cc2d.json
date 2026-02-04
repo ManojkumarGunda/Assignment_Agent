@@ -1,0 +1,17 @@
+{
+  "content_hash": "e6b81248ae5fc9f384fb5bffaeca1de0a4b36c02cc14036e1b558bf05672cc2d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T14:19:21.635834",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "* what is the Capital City of India?\nAns! New Delhi\n\n-> who is the PM of India?\nans: Narendra Modi\n\n-> who is the CM of Andhra Pradesh?\nAns! Nara Chandra Babu Naidu",
+      "correct_answer": "The correct answer would be an evaluation of an assignment or code based on the provided description ('gh'). Since the description is minimal, a correct answer might state that an evaluation is not possible due to the lack of requirements, or it might attempt a basic evaluation based on the placeholder text.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The provided answer is a list of general knowledge questions and answers. This is completely irrelevant to the question, which asked for an evaluation of an assignment against its description. The student did not perform the requested task."
+    }
+  }
+}

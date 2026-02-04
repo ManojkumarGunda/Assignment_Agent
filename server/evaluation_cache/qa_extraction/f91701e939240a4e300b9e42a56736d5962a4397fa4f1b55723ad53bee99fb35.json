@@ -1,0 +1,15 @@
+{
+  "content_hash": "f91701e939240a4e300b9e42a56736d5962a4397fa4f1b55723ad53bee99fb35",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T17:46:27.931851",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: CODING] write a C++ linear search program.",
+        "student_answer": "",
+        "is_answer_present": false
+      }
+    ]
+  }
+}

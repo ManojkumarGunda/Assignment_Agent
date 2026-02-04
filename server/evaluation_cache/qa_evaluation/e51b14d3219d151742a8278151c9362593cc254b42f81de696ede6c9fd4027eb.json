@@ -1,0 +1,17 @@
+{
+  "content_hash": "e51b14d3219d151742a8278151c9362593cc254b42f81de696ede6c9fd4027eb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T15:01:06.738435",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the capital of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "The correct factual answer is New Delhi. However, the assignment was a coding assessment, which requires a code-based solution.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. While your answer is factually correct, the assignment rubric specifies a comprehensive coding assessment to evaluate logic, syntax, and algorithmic efficiency. The answer provided is a string of text, not code, and therefore does not meet the requirements of the assignment."
+    }
+  }
+}

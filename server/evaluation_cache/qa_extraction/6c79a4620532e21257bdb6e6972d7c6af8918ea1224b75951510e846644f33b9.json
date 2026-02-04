@@ -1,0 +1,15 @@
+{
+  "content_hash": "6c79a4620532e21257bdb6e6972d7c6af8918ea1224b75951510e846644f33b9",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-04T16:10:47.585643",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: THEORY] find the largest number",
+        "student_answer": "",
+        "is_answer_present": false
+      }
+    ]
+  }
+}

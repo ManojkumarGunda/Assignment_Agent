@@ -1,0 +1,17 @@
+{
+  "content_hash": "f0f786ab8346b54606219477e5ebb74f00400df70f7c457952439714d9ac755b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:22.740317",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Deceptive Delivery :",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "Deceptive Delivery emphasizes how non-verbal cues, like removing glasses or changing tone, can manipulate an audience into believing a profound message is being conveyed, even when the content is completely empty.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student provided a C++ program for a linear search. This answer is completely irrelevant to the question, which is about 'Deceptive Delivery' from a professional communication assessment. The student's answer does not address the topic of the question at all."
+    }
+  }
+}

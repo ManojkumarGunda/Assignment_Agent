@@ -1,0 +1,17 @@
+{
+  "content_hash": "9e4cca92533e325ed91081b2ecd24ac3be80230d326961e81530f4f935d63905",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:07:13.610325",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the binary equivalent of 5?",
+      "student_answer": "101",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The topics covered are Database Indexing and Communication Skills.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is for a question that is not covered in the provided reference material. The reference material details questions about 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. Since the question about binary numbers is entirely unrelated to the provided context and rubric, the answer cannot be evaluated as correct within this context."
+    }
+  }
+}

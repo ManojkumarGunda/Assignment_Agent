@@ -1,0 +1,17 @@
+{
+  "content_hash": "e3706f0029cf5e94d5ccb50985f65ce5e6dc10e45258b9d7df4479652fd4af27",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:03.083329",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3. Participants:",
+      "student_answer": "Project Manager, Development Team, QA Team, and Interns involved in the project.",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question answered by the student ('Q3. Participants:') does not match the question listed for Q3 in the reference material ('What does SQL stand for?'). Therefore, the student's answer is incorrect as it addresses a completely different question. The expected answer for Q3 according to the reference key is 'Structured Query Language'."
+    }
+  }
+}

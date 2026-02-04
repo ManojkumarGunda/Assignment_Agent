@@ -1,0 +1,17 @@
+{
+  "content_hash": "cc9a0a819782ac6918dc85216a3203ec36fd8551b88b4192a093c64ae8fee484",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:46:40.533093",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write a C++ linear search program.",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "#include <iostream>\n#include <vector>\n\nint linearSearch(const std::vector<int>& arr, int target) {\n    for (int i = 0; i < arr.size(); ++i) {\n        if (arr[i] == target) {\n            return i; // Return the index where the element is found\n        }\n    }\n    return -1; // Return -1 if the element is not found\n}\n\nint main() {\n    std::vector<int> arr = {10, 20, 30, 40, 50};\n    int target = 30;\n    int result = linearSearch(arr, target);\n    if (result != -1) {\n        std::cout << \"Element found at index \" << result << std::endl;\n    } else {\n        std::cout << \"Element not found\" << std::endl;\n    }\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment explicitly required a C++ program. The submitted code is written in C, not C++. This is indicated by the use of the `<stdio.h>` header and the `printf` function, which are standard in C. The C++ equivalent would use the `<iostream>` header and `std::cout`. Because a critical requirement of the assignment (the programming language) was not met, the answer is incorrect."
+    }
+  }
+}

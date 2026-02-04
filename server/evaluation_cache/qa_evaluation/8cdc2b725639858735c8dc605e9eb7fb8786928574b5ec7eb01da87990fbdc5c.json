@@ -1,0 +1,17 @@
+{
+  "content_hash": "8cdc2b725639858735c8dc605e9eb7fb8786928574b5ec7eb01da87990fbdc5c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:56:58.494820",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "This question is not present in the provided rubric or reference material.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This question was not found in the provided assignment description or reference material. The rubric only contains details for 'Q1. Task 1: Audience-Based Communication' and 'Q2. Task 2: Video Learning & Key Takeaways'. As per the instructions to grade ONLY based on the provided materials, this question cannot be evaluated."
+    }
+  }
+}

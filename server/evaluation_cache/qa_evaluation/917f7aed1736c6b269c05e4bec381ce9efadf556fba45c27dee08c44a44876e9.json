@@ -1,0 +1,17 @@
+{
+  "content_hash": "917f7aed1736c6b269c05e4bec381ce9efadf556fba45c27dee08c44a44876e9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:20:52.153472",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "New Delhi",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment rubric required a task related to 'find the largest number'. The student answered a question about the capital of India, which is outside the scope of the assignment's requirements. Although the answer 'New Delhi' is factually correct for the question asked, no credit can be awarded because the work does not align with the assignment's objective."
+    }
+  }
+}

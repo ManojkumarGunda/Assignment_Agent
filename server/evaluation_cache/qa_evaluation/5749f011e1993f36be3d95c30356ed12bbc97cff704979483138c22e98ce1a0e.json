@@ -1,0 +1,17 @@
+{
+  "content_hash": "5749f011e1993f36be3d95c30356ed12bbc97cff704979483138c22e98ce1a0e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:39:44.459608",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The provided reference key does not contain the question 'Q4: What does SQL stand for?'. It contains 'Q1: What does SQL stand for?' (Answer: mangodb) and 'Q4: What is the time complexity of linear search?' (Answer: O(n)).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The question as stated ('Q4: What does SQL stand for?') was not found in the provided reference material. The reference key has a different question for Q4. According to the grading rules, if the question is not in the key, the score is 0."
+    }
+  }
+}

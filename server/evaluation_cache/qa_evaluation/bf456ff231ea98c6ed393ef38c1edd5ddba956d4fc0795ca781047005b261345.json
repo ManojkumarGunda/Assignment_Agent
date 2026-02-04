@@ -1,0 +1,17 @@
+{
+  "content_hash": "bf456ff231ea98c6ed393ef38c1edd5ddba956d4fc0795ca781047005b261345",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:39:25.586055",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the output of 5 + 2 * 3?",
+      "student_answer": "Answer: 11",
+      "correct_answer": "The correct answer cannot be determined as the question was not found in the provided reference material.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Question does not exist in the provided Reference Key. The question 'What is the output of 5 + 2 * 3?' was not found in the official reference material, which is the sole basis for grading."
+    }
+  }
+}

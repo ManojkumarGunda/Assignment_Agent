@@ -1,0 +1,17 @@
+{
+  "content_hash": "e22ac90ce77fb3d8a9aa11664b83f6eb294d59d49561135e44ec32902aae65d3",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:14:46.624759",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "The correct answer should contain logic for adding two numbers, as specified in the rubric.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against the assignment description. The rubric required logic to 'add two numbers'. The submitted code does not perform this operation. Instead, it attempts to find the largest number in an array. This is a completely different task, resulting in a score of 0. Additionally, the provided code contains multiple syntax errors and a logical flaw where it calculates the 'largest' number but attempts to print an undeclared 'smallest' variable."
+    }
+  }
+}

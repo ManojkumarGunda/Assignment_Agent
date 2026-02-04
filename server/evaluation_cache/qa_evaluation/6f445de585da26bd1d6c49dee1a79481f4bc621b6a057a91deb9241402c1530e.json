@@ -1,0 +1,17 @@
+{
+  "content_hash": "6f445de585da26bd1d6c49dee1a79481f4bc621b6a057a91deb9241402c1530e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:52:33.849680",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6. Implement a queue using Python lists.",
+      "student_answer": "class Queue: def __init__(self): self.items = []\ndef enqueue(self, item): self.items.append(item)\ndef dequeue(self): if self.items: return self.items.pop(0) return None\ndef is_empty(self): return len(self.items) == 0\ndef size(self): return len(self.items)\nq = Queue() q.enqueue(1) q.enqueue(2) print(q.dequeue()) print(q.size())",
+      "correct_answer": "A correct implementation of a queue using Python lists would look like this:\n\n```python\nclass Queue:\n    def __init__(self):\n        self.items = []\n\n    def is_empty(self):\n        return not self.items\n\n    def enqueue(self, item):\n        self.items.append(item)\n\n    def dequeue(self):\n        if not self.is_empty():\n            return self.items.pop(0)\n        return None\n\n    def size(self):\n        return len(self.items)\n```",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The provided reference material was not relevant to this question. The student's answer was evaluated based on standard correctness for implementing a queue in Python. The student has correctly implemented a Queue class using a Python list. The `enqueue` method correctly uses `append` to add items to the rear, and the `dequeue` method correctly uses `pop(0)` to remove items from the front, adhering to the First-In, First-Out (FIFO) principle. The helper methods `is_empty` and `size` are also implemented correctly."
+    }
+  }
+}

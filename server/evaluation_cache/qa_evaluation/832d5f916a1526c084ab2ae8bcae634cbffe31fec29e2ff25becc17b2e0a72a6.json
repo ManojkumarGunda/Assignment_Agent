@@ -1,0 +1,17 @@
+{
+  "content_hash": "832d5f916a1526c084ab2ae8bcae634cbffe31fec29e2ff25becc17b2e0a72a6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:23:34.978700",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "New Delhi",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The score is 0.0 because the question 'What is the capital of India?' is not part of the assignment description/rubric, which specifies the task is to 'find the largest number'. According to the grading rules, if the question is not found in the assignment description, a score of 0.0 must be awarded. While the answer 'New Delhi' is factually correct for the question asked, the question itself is outside the scope of the assignment."
+    }
+  }
+}

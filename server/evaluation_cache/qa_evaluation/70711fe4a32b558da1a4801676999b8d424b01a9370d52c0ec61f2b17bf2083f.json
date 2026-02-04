@@ -1,0 +1,17 @@
+{
+  "content_hash": "70711fe4a32b558da1a4801676999b8d424b01a9370d52c0ec61f2b17bf2083f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:11:00.301563",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The question for Q7 in the reference material is 'What is the binary equivalent of 5?', and the correct answer is '101'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The student answered the question 'What is the capital of India?' for Q7. However, the Reference Key specifies that Q7 should be 'What is the binary equivalent of 5?'. The student answered the wrong question."
+    }
+  }
+}

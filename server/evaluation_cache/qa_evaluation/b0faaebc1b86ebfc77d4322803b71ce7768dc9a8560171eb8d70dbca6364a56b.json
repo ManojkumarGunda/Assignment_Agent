@@ -1,0 +1,17 @@
+{
+  "content_hash": "b0faaebc1b86ebfc77d4322803b71ce7768dc9a8560171eb8d70dbca6364a56b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:39.643474",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: Which protocol is used for secure web browsing?",
+      "student_answer": "Answer: HTTPS",
+      "correct_answer": "HTTPS",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. It is a verbatim match to the answer provided in the reference material. Graded against Reference Key."
+    }
+  }
+}

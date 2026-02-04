@@ -1,0 +1,17 @@
+{
+  "content_hash": "6ef91deb1f51ae5fe21cd1093775985a61229766085d5129da712a4d8c80218b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:33:28.269780",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "HTTPS",
+      "correct_answer": "HTTPS (Hypertext Transfer Protocol Secure)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked is not aligned with the assignment rubric, which specifies '[CATEGORY: CODING] find the largest number'. As per the grading instructions, if the question is not found within the assignment description or rubric, a score of 0.0 must be awarded. Therefore, no credit can be given."
+    }
+  }
+}

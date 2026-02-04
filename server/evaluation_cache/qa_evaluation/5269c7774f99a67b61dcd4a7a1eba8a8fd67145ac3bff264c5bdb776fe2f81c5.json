@@ -1,0 +1,17 @@
+{
+  "content_hash": "5269c7774f99a67b61dcd4a7a1eba8a8fd67145ac3bff264c5bdb776fe2f81c5",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T16:44:47.998757",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "check the logic for the largest number in an array",
+      "student_answer": "Name:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "correct_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a verbatim match to the provided correct answer. The logic for initializing the largest variable and iterating through the array to find the maximum value is implemented correctly."
+    }
+  }
+}

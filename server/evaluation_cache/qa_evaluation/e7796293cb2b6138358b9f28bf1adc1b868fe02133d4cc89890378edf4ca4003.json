@@ -1,0 +1,17 @@
+{
+  "content_hash": "e7796293cb2b6138358b9f28bf1adc1b868fe02133d4cc89890378edf4ca4003",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:23:34.629940",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student provided a factually correct answer to the question. However, the question itself does not match the assignment's rubric, which is '[CATEGORY: GENERAL] find the largest number'. No credit can be awarded as the question answered is outside the scope of the assignment."
+    }
+  }
+}

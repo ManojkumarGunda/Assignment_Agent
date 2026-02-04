@@ -1,0 +1,17 @@
+{
+  "content_hash": "86521d2cc3cab06acad4a58a3d9d8b0a76f7ea35ef04ffdae547ca38c2134b84",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:12:20.003644",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "API\u2019s",
+      "correct_answer": "HTTPS",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The student's answer 'API\u2019s' is incorrect. The correct answer for this question, as found in the provided reference material, is 'HTTPS'."
+    }
+  }
+}

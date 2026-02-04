@@ -1,0 +1,17 @@
+{
+  "content_hash": "f83548c1809c99d8d34f6471f772f6888e70e3d6cef443976cd30dbc5d26f02f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:41:09.038806",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The evaluation is based on the mathematical correctness of the answer to the specific question asked. The question asks for 15% of 200, which is calculated as (15/100) * 200 = 30. The student's answer of '30' is mathematically correct. Although the question does not align with the provided Biology rubric or the programming example in the reference material, the answer is evaluated based on its mathematical accuracy as per the grading instructions."
+    }
+  }
+}

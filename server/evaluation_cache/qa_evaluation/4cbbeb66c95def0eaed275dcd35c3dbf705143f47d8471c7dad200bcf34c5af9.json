@@ -1,0 +1,17 @@
+{
+  "content_hash": "4cbbeb66c95def0eaed275dcd35c3dbf705143f47d8471c7dad200bcf34c5af9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:51:44.280944",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "API\u2019s",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question provided was 'Q5: What is 15% of 200?', but the Reference Key for Q5 is 'Which protocol is used for secure web browsing?'. The student answered a different question than the one expected for Q5. The correct answer for the expected Q5 is 'API\u2019s'."
+    }
+  }
+}

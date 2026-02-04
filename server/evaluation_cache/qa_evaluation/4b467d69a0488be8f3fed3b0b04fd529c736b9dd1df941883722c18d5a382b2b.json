@@ -1,0 +1,17 @@
+{
+  "content_hash": "4b467d69a0488be8f3fed3b0b04fd529c736b9dd1df941883722c18d5a382b2b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:02:33.541182",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "The question provided to the student ('Which language is used for web styling?') does not match the question found in the reference material for Q3 ('Which keyword is used to define a function in Python?'). The correct answer for the reference question is 'def'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer was evaluated against Q3 in the provided reference material. There is a mismatch between the question the student answered and the question listed in the reference key. The reference key's Q3 is 'Which keyword is used to define a function in Python?', with the answer 'def'. The student answered a different question about web styling."
+    }
+  }
+}

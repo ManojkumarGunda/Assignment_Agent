@@ -1,0 +1,17 @@
+{
+  "content_hash": "7c022ddf1c2ac582b1cb9537f16bec72f853027b62a8ba6585e8a4b136ad99c8",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:14.371050",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6. Decisions Made",
+      "student_answer": "Priority to be given to completing core modules of the Internship Management Portal\nIdentified issues to be resolved before moving to new feature development",
+      "correct_answer": "The question provided to the student ('Q6. Decisions Made') does not match the question found in the reference material for Q6 ('What is the binary equivalent of 5?'). The correct answer for the question in the reference material is '101'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question asked ('Q6. Decisions Made') does not match the question listed in the official reference material for Q6 ('What is the binary equivalent of 5?'). The student's answer is for a question not found in the provided grading materials, resulting in a score of 0. The correct answer for Q6 as per the reference key is '101'."
+    }
+  }
+}

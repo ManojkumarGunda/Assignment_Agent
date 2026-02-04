@@ -1,0 +1,17 @@
+{
+  "content_hash": "b8565f9623d8b393ae60f516cb4299a4c1d40a476c9f81cba395c2c9b91780c3",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:23.015383",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q11. Video 3 Takeaways",
+      "student_answer": "1. Proper meeting preparation leads to better outcomes.\n2. Follow-up actions are critical for meeting effectiveness.\n3. Using digital tools improves documentation and tracking of discussions.",
+      "correct_answer": "The provided reference material does not contain an answer for Q11.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question (Q11) was not found in the provided reference material, which only contains questions Q1 through Q7. Therefore, the student's answer cannot be evaluated for correctness against the rubric and receives no credit."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "b44baba80178f0b2d478ecf62024ff64e75593be04952764ba8f99ebddf40085",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:05:00.463978",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "Stack",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is factually correct. However, the question being evaluated ('Which data structure follows LIFO?') is not found in the provided reference material. The rubric only contains questions related to 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. As per the strict grading instructions, an answer to a question not present in the reference material must be considered irrelevant and marked incorrect."
+    }
+  }
+}

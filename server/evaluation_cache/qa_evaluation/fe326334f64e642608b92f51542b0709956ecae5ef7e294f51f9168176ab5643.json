@@ -1,0 +1,17 @@
+{
+  "content_hash": "fe326334f64e642608b92f51542b0709956ecae5ef7e294f51f9168176ab5643",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:05:21.068844",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "Name :Manoj\n\n\n#include <stdio.h>\n\n#include <stdlib.h>\n\nstruct Node {\n\n    int data;\n\n    struct Node* next;\n\n};\n\nint hasCycle(struct Node* head) {\n\n    struct Node *slow = head, *fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n\n        slow = slow->next;\n\n        fast = fast->next->next;\n\n        if (slow == fast)\n\n            return 1; // Cycle detected\n\n    }\n\n    return 0; // No cycle\n\n}",
+      "correct_answer": "API\u2019s",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is incorrect because it is completely irrelevant to the question asked. The question is about the protocol for secure web browsing, but the student provided a C code snippet for detecting a cycle in a linked list. The correct answer according to the reference material is 'API\u2019s'."
+    }
+  }
+}

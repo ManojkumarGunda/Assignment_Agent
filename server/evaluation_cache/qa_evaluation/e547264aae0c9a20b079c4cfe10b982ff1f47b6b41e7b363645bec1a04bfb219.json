@@ -1,0 +1,17 @@
+{
+  "content_hash": "e547264aae0c9a20b079c4cfe10b982ff1f47b6b41e7b363645bec1a04bfb219",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:20:37.073592",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "The correct answer is 'Structured Query Language'. However, this question is not aligned with the provided rubric, which specifies the task as 'find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment rubric specified the task as '[CATEGORY: GENERAL] find the largest number'. The question provided ('What does SQL stand for?') does not match the assignment's requirements. Therefore, no credit can be awarded as the work is outside the scope of the assigned task."
+    }
+  }
+}

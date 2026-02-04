@@ -1,0 +1,17 @@
+{
+  "content_hash": "2a6e7f73df94b54e0e99ebb0d39449eb4bc7e84929a04a89548a2b3e5b32e0c7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:05:49.592927",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which protocol is used for secure web browsing?",
+      "student_answer": "Answer: HTTPS",
+      "correct_answer": "The provided reference material is about Database Indexing and does not contain an answer for this question. The correct answer for the question asked is HTTPS (Hypertext Transfer Protocol Secure).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is factually correct. However, the provided question and answer are on the topic of secure web browsing protocols, while the reference material is about Database Indexing. According to the grading instructions, the student's answer must be evaluated exclusively against the provided reference material. Since there is a topic mismatch, the answer is marked as incorrect."
+    }
+  }
+}

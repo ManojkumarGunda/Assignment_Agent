@@ -1,0 +1,17 @@
+{
+  "content_hash": "85f8c4dfdf224321ef0a3972c7bbc4f17c4867b46b82600b1db4cc96815efffe",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:28.359380",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "The correct answer, as per the provided reference material, is a detailed explanation of Database Indexing tailored for an Engineer, Product Manager, Product Salesperson, and CEO.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer addresses a question about the Python keyword 'def'. However, the provided reference material's Question 1 is about explaining the concept of Database Indexing to different audiences. The student's answer is irrelevant to the question in the provided reference key, resulting in a score of 0."
+    }
+  }
+}

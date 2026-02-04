@@ -1,0 +1,17 @@
+{
+  "content_hash": "df21a74081ebcef8efa00c4f5a46d7f2bcb9c4cb965246f062fbcdfed5fb9e2a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:53:03.241422",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q12. Explain tuples in Python.",
+      "student_answer": "Tuples are ordered but immutable collections, useful for fixed data.",
+      "correct_answer": "A tuple in Python is an ordered, immutable collection of elements. This means that once a tuple is created, its elements cannot be changed, added, or removed. They are defined using parentheses `()`.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The provided reference material is for a mathematics question on Intensity Transformation and does not contain an answer for the question about Python tuples. According to the grading instructions, the answer must be validated exclusively against the provided reference material. Since the student's answer cannot be found or verified in the reference key, no credit can be awarded."
+    }
+  }
+}

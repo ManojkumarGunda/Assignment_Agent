@@ -1,0 +1,17 @@
+{
+  "content_hash": "94626b9e361fdb01d3bb14ae8b169eca400136ad3f0fc7475cea4d7b0d01dd45",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:21:02.724514",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "A correct C program that finds and prints the largest number in a given array. For example: #include <stdio.h> int main() { int arr[] = {10, 45, 3, 99, 23}; int n = sizeof(arr) / sizeof(arr[0]); int largest = arr[0]; for (int i = 1; i < n; i++) { if (arr[i] > largest) { largest = arr[i]; } } printf(\"Largest number: %d\", largest); return 0; }",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's code contains the correct core logic for iterating through an array to find the largest number. However, the submission is incorrect for several critical reasons. First, the code has numerous syntax errors (e.g., 'in' instead of 'int', 'size of' instead of 'sizeof', invalid 'for' loop syntax) and would not compile. Second, and most importantly, the final output statement attempts to print the 'Smallest number' using an undeclared variable 'smallest', which directly contradicts the assignment's requirement to find the largest number. Due to the non-functional code and incorrect output, no credit is awarded."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "8c3e8a3cdd0d4740ca5daaa7d390c108a855b3b828490ed18efae00b568239a6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:26:26.000391",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n\n    int arr[] = {5, 2, 9, 1, 6};\n\n    int n = 5;\n\n    int min = arr[0];\n\n    for (int i = 1; i < n; i++) {\n\n        if (arr[i] < min) {\n\n            min = arr[i];\n\n        }\n\n    }\n\n    printf(\"Smallest number: %d\", min);\n\n    return 0;\n\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's submission is incorrect for several reasons. First, the provided reference material implements logic to find the smallest number in an array, whereas the student's code attempts to find the largest number, which contradicts the reference logic. Second, the student's code is not functional and contains numerous syntax errors that would prevent it from compiling, such as 'in n = size of(...)', an invalid 'for' loop declaration, a stray period in 'if (arr[i] > largest.)', and a missing semicolon. Finally, the printf statement incorrectly tries to print an undeclared variable 'smallest' while labeling the output as the 'Smallest number'."
+    }
+  }
+}

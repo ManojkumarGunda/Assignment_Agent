@@ -1,0 +1,17 @@
+{
+  "content_hash": "616e0b6efebd1f0b50ce240e67b3e4c9b191eb8fb8b506a492b19de7dfab2dd2",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:31:49.808937",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The provided reference material does not contain this question. The questions in the reference are: Q1: What is the binary equivalent of 5?, Q2: What is the output of 5 + 2 * 3?, Q3: Which language is used for web styling?, Q4: What does SQL stand for?, Q5: What is 15% of 200?, Q6: What is the capital of India?, Q7: Which keyword is used to define a function in Python?",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question 'What is the time complexity of linear search?' was not found in the provided reference material. According to the grading rules, evaluation must be based exclusively on the reference key. Since the question is not present, no marks can be awarded."
+    }
+  }
+}

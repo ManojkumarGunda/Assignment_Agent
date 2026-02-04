@@ -1,0 +1,17 @@
+{
+  "content_hash": "a35cd91f6c631c9fe0544146a5083c2a87ed2f350d3cb4fa9e560e5eb78ffe01",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T14:38:04.858820",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] check the logic for the largacest number in an array",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is a substantive match to the provided reference material. The logic for iterating through the array and identifying the largest number is identical to the key. Although both the student's answer and the reference key contain syntax errors and a final logical error in the print statement (referencing an undeclared 'smallest' variable), the answer is considered correct as it aligns with the provided key."
+    }
+  }
+}

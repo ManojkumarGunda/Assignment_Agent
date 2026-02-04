@@ -1,0 +1,6 @@
+{
+  "content_hash": "76753ca1efe3808a5dcc0d5c4c6e8fd80c878c45a24f365c7b8332c0f45369a7",
+  "eval_type": "ocr",
+  "cached_at": "2026-02-04T16:06:59.246780",
+  "result": "}\n\n---\n\n**2. Check Palindrome**\n#include <stdio.h>\n#include <string.h>\n\nint main(){\n    char s[100];\n    scanf(\"%s\", s);\n    int i, n = strlen(s);\n    for(i=0; i<n/2; i++){\n        if(s[i] != s[n-i-1]){\n            printf(\"Not Palindrome\");\n            return 0;\n        }\n    }\n    printf(\"Palindrome\");\n}\n\n---\n\n**3. Find Factorial (Recursive)**\n#include <stdio.h>\n\nint fact(int n){\n    if(n==0) return 1;\n    return n * fact(n-1);\n}\n\nint main(){\n    int n;\n    scanf(\"%d\", &n);\n    printf(\"%d\", fact(n));\n}"
+}

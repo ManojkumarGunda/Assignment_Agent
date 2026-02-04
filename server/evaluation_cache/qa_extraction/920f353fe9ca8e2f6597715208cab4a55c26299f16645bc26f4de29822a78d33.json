@@ -1,0 +1,15 @@
+{
+  "content_hash": "920f353fe9ca8e2f6597715208cab4a55c26299f16645bc26f4de29822a78d33",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-04T16:18:04.708992",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: THEORY] check the logic for the largest number",
+        "student_answer": "#include <stdio.h>\n\nint main() {\n\n    int arr[] = {5, 2, 9, 1, 6};\n\n    int n = 5;\n\n    int min = arr[0];\n\n    for (int i = 1; i < n; i++) {\n\n        if (arr[i] < min) {\n\n            min = arr[i];\n\n        }\n\n    }\n\n    printf(\"Smallest number: %d\", min);\n\n    return 0;\n\n}",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

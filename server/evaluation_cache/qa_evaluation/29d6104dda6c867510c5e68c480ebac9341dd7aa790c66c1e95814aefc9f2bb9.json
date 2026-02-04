@@ -1,0 +1,17 @@
+{
+  "content_hash": "29d6104dda6c867510c5e68c480ebac9341dd7aa790c66c1e95814aefc9f2bb9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:20:05.295640",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "API\u2019s",
+      "correct_answer": "HTTPS",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. There is a mismatch between the provided question number (5) and the question text. The provided question text ('Which protocol is used for secure web browsing?') corresponds to Question 6 in the reference material, not Question 5 ('What is the capital of India?'). Due to this mismatch, no credit can be awarded. Furthermore, the student's answer 'API\u2019s' is incorrect for the provided question; the correct answer from the reference key is 'HTTPS'."
+    }
+  }
+}

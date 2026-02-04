@@ -1,0 +1,17 @@
+{
+  "content_hash": "341138df34c50a832ac74284e20de4b09c4b9f2d553116b8fbcd1231064cfc12",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:51:03.617750",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Deceptive Delivery :",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "Deceptive Delivery emphasizes how non-verbal cues, like removing glasses or changing tone, can manipulate an audience into believing a profound message is being conveyed, even when the content is completely empty.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student provided a C program for a linear search. However, the question asked for an explanation of 'Deceptive Delivery' based on the provided reference material. The submitted answer is completely unrelated to the question asked."
+    }
+  }
+}

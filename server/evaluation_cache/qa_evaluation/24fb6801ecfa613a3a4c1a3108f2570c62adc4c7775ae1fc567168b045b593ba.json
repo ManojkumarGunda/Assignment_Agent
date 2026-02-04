@@ -1,0 +1,17 @@
+{
+  "content_hash": "24fb6801ecfa613a3a4c1a3108f2570c62adc4c7775ae1fc567168b045b593ba",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:13:18.964809",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's code correctly implements the linear search algorithm. The logic matches the C++ reference material provided, which uses the correct loop condition `i < n`. The provided C reference material contains an error in its loop condition (`i <= n`), and the student's submission provides the correct implementation."
+    }
+  }
+}

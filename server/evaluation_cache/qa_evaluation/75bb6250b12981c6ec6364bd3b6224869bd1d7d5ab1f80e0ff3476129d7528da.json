@@ -1,0 +1,17 @@
+{
+  "content_hash": "75bb6250b12981c6ec6364bd3b6224869bd1d7d5ab1f80e0ff3476129d7528da",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:11:00.647949",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: THEORY] find the largest number",
+      "student_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "correct_answer": "A correct solution involves an algorithm to iterate through a list of numbers and identify the one with the highest value. A common method is to initialize a variable with the first number in the list and then loop through the remaining numbers, updating the variable whenever a larger number is found.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student provided a correct and functional algorithm to find the largest number in a given list. The logic of initializing a 'largest' variable and then iterating through the list to compare and update it is a standard and correct approach to solving this problem."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "3427a3fe55e109eefab82b42ca095c4eda776f003d577ca9c1ccea606ba9aa21",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T12:07:40.235865",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "largest number in an array",
+      "student_answer": "Name:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "correct_answer": "The provided C code demonstrates one way to solve this. The core logic is to initialize a variable `largest` with the first element of the array. Then, loop through the remaining elements, and if an element is found to be greater than `largest`, update `largest` with that element's value. A correct implementation in C would be:\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int largest = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's answer correctly implements the algorithm to find the largest number in an array. The logic of initializing a variable with the first element and then iterating through the array to find a larger value perfectly matches the logic in the reference material. The use of Python instead of C is acceptable as no specific language was required."
+    }
+  }
+}

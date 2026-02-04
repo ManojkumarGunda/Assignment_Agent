@@ -1,0 +1,17 @@
+{
+  "content_hash": "15ea7229bf0e189be15295a0c7c37047d301c7425d39512d7f3bf9da26398a46",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:19:15.063712",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which language is used for web styling?",
+      "student_answer": "CSS",
+      "correct_answer": "The question provided for grading ('Which language is used for web styling?') does not match the expected Question 6 from the reference key ('Which protocol is used for secure web browsing?'). The correct answer for Question 6 is 'HTTPS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student was evaluated on Question 6, but the provided question text ('Which language is used for web styling?') corresponds to Question 2 in the reference key. According to the reference key, Question 6 is 'Which protocol is used for secure web browsing?', for which the correct answer is 'HTTPS'. This is a question mismatch."
+    }
+  }
+}

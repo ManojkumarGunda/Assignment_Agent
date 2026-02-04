@@ -1,0 +1,17 @@
+{
+  "content_hash": "e7d4f60a00199481fa0e0e47ecafa9f3901c38fcbf95250bf5566a341bffe128",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:59:42.805150",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "Name :Manoj\n\n#include <stdio.h>\n\n#include <stdlib.h>\n\nstruct Node {\n\n    int data;\n\n    struct Node* next;\n\n};\n\nint hasCycle(struct Node* head) {\n\n    struct Node *slow = head, *fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n\n        slow = slow->next;\n\n        fast = fast->next->next;\n\n        if (slow == fast)\n\n            return 1; // Cycle detected\n\n    }\n\n    return 0; // No cycle\n\n}",
+      "correct_answer": "API\u2019s",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a block of C code that appears to be an algorithm for detecting a cycle in a linked list. This is completely irrelevant to the question asked about secure web browsing protocols. The correct answer according to the reference material is 'API\u2019s'."
+    }
+  }
+}

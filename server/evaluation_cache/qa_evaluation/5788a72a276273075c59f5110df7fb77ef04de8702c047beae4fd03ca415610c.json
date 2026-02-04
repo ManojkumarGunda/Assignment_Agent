@@ -1,0 +1,17 @@
+{
+  "content_hash": "5788a72a276273075c59f5110df7fb77ef04de8702c047beae4fd03ca415610c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:56:45.672920",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": null,
+      "max_marks": 1.0,
+      "feedback": "This question was not found in the provided rubric. The evaluation was performed based on standard mathematical knowledge. The student's calculation is correct: 15% of 200 is 30."
+    }
+  }
+}

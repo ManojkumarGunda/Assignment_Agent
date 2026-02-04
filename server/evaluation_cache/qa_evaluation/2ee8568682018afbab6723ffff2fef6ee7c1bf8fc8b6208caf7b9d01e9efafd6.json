@@ -1,0 +1,17 @@
+{
+  "content_hash": "2ee8568682018afbab6723ffff2fef6ee7c1bf8fc8b6208caf7b9d01e9efafd6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T16:01:49.024577",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "To find 15% of 200, you convert the percentage to a decimal (15% = 0.15) and multiply it by the number (0.15 * 200 = 30).",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against general academic standards. The student provided the correct numerical answer. 15% of 200 is calculated as 0.15 * 200, which equals 30."
+    }
+  }
+}

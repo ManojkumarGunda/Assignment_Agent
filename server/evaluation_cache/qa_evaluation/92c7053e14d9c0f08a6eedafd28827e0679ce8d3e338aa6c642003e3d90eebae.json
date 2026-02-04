@@ -1,0 +1,17 @@
+{
+  "content_hash": "92c7053e14d9c0f08a6eedafd28827e0679ce8d3e338aa6c642003e3d90eebae",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:40:26.276594",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\na) For an Engineer:",
+      "student_answer": "Database indexing is a data structure technique used to improve the speed of data retrieval operations on a database table. An index works similarly to a lookup table, allowing the database engine to\nlocate rows efficiently without performing a full table scan. Indexes\nare typically implemented using data structures such as B-trees or\nhash tables. While indexing improves read performance, it\nintroduces overhead during write operations.",
+      "correct_answer": "Database indexing is the process of creating secondary data structures\u2014commonly B-tree or hash-based\u2014that allow the query optimizer to avoid full table scans. By indexing selective columns used in WHERE, JOIN, and ORDER BY clauses, we reduce I/O operations, improve execution plans, and lower query latency. However, indexes introduce write amplification, additional memory usage, and require careful tuning to avoid over-indexing.",
+      "is_correct": false,
+      "partial_credit": 0.75,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer correctly defines database indexing, its purpose of avoiding full table scans, and mentions common data structures like B-trees. The answer also correctly identifies the primary trade-off of write overhead. However, it is not as comprehensive as the reference answer, which also specifies other key trade-offs such as 'additional memory usage' and the need for 'careful tuning to avoid over-indexing'. The explanation of the purpose is also less detailed, missing points like reducing I/O operations and improving execution plans."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "2b70e91d7a86f0e86a7dbe8a99a0b4ade2c672a5f1afdf5423abbd59f77b362d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T18:08:53.398856",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "-> Who is the PM of India?",
+      "student_answer": "Narendra Modi'",
+      "correct_answer": "Narendra Modi",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The correct answer is Narendra Modi. Your answer is factually correct. The trailing apostrophe is a minor typographical error that has been overlooked for this question."
+    }
+  }
+}

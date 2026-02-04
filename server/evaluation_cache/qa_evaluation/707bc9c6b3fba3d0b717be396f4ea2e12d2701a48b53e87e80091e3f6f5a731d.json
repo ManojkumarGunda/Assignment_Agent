@@ -1,0 +1,17 @@
+{
+  "content_hash": "707bc9c6b3fba3d0b717be396f4ea2e12d2701a48b53e87e80091e3f6f5a731d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:05:43.969203",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: Which data structure follows LIFO?",
+      "student_answer": "Answer: Stack",
+      "correct_answer": "The question provided to the student ('Which data structure follows LIFO?') does not match the question for Q6 in the reference material ('What is 15% of 200?'). The correct answer for the question in the reference material is '30'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The question answered by the student ('Q6: Which data structure follows LIFO?') does not match the question listed as Q6 in the provided reference material ('Q6: What is 15% of 200?'). Therefore, no credit can be awarded. The correct answer for Q6 according to the reference key is '30'."
+    }
+  }
+}

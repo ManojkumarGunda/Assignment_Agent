@@ -1,0 +1,17 @@
+{
+  "content_hash": "e7ff5ea46bb91629f1795bb321f3d21de95d16d12b31fda58f6f5edda3cf4ab8",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:05.799219",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The provided reference material does not contain an answer for this question. It covers topics like Database Indexing and Communication Skills.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer addresses a question that is not present in the provided reference material. The reference key covers questions on 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. As per the grading instructions, if the student's answer addresses a different topic than the reference key, it must be marked as incorrect."
+    }
+  }
+}

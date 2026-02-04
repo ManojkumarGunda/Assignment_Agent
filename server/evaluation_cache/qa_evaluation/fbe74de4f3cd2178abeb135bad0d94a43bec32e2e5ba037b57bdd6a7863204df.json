@@ -1,0 +1,17 @@
+{
+  "content_hash": "fbe74de4f3cd2178abeb135bad0d94a43bec32e2e5ba037b57bdd6a7863204df",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:05:00.341042",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the capital of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The reference material is for questions about 'Database Indexing' and 'Communication'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer addresses a question that is not present in the provided reference material. The reference key is for questions about 'Database Indexing' and 'Communication'. As per the grading instructions, the student's answer is considered irrelevant to the provided assignment context and receives no credit."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "889ae9a099878423a2bae7cecdca15d13be7557f68468a4a910b527a705fa10c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T16:05:48.949167",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "New Delhi",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 10.0,
+      "feedback": "Score: 10/10. The student's answer is correct.\n\nCorrect Answer: New Delhi"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "ca0b8a3f61af903e72eac965b23e7b35bd9fc564dcc986152d9be9404dd018ad",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T15:40:39.205147",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "CSS (Cascading Style Sheets)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. CSS (Cascading Style Sheets) is the standard language used for styling web pages."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "704b5b08a62969893cd0aa9ef3d6cd84e701f790470be3e76ddecdf24adce1aa",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:44.058696",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Value and Impact:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "They act as the user's advocate, ensuring content meets audience needs and reducing company costs by creating user-friendly materials that minimize the need for support services.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student provided a C program for a linear search, but the question was 'Value and Impact:'. Based on the provided reference material, this question pertains to the summary of Video 2 on technical communication. The student's answer is completely unrelated to the question asked."
+    }
+  }
+}

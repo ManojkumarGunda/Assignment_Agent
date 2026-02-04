@@ -1,0 +1,17 @@
+{
+  "content_hash": "a93e8c02de56820e354c9832833088c07d418482b077a90a1bf351505c44a5ed",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:30:34.467036",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which keyword is used to define a function in Python?",
+      "student_answer": "Name :Manoj\n\n\n#include <stdio.h>\n\n#include <stdlib.h>\n\nstruct Node {\n\n    int data;\n\n    struct Node* next;\n\n};\n\nint hasCycle(struct Node* head) {\n\n    struct Node *slow = head, *fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n\n        slow = slow->next;\n\n        fast = fast->next->next;\n\n        if (slow == fast)\n\n            return 1; // Cycle detected\n\n    }\n\n    return 0; // No cycle\n\n}",
+      "correct_answer": "def",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The student's answer is completely irrelevant to the question asked. The question asks for the Python keyword to define a function, while the student provided a block of C code for detecting a cycle in a linked list. The correct answer is 'def'."
+    }
+  }
+}

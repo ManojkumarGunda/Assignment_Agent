@@ -1,0 +1,17 @@
+{
+  "content_hash": "754589e4f1e6f84e4e8d81e0227a7dd1e4105abba5ef9ff5037918ec66fb6d94",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:24:06.858067",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "Stack",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked was not found in the provided assignment rubric. The rubric specified a task to 'find the largest number', while the question was about LIFO data structures. According to the grading instructions, if the question is not part of the assignment, a score of 0.0 must be given."
+    }
+  }
+}

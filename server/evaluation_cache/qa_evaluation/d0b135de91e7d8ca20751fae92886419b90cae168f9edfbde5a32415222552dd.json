@@ -1,0 +1,17 @@
+{
+  "content_hash": "d0b135de91e7d8ca20751fae92886419b90cae168f9edfbde5a32415222552dd",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:27.789534",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q9. Video 1 Takeaways",
+      "student_answer": "1. Clear meeting objectives help participants stay focused and productive.\n2. Time management is crucial to ensure meetings remain efficient.\n3. Assigning action items with ownership improves accountability.",
+      "correct_answer": "The key takeaways from the 'Business Communication Fundamentals' video are: 1) Scope and Coverage: An overview of business communication, the OSCAR communication model, and business etiquette (personal grooming, professional conduct, etc.). 2) Results-Oriented Communication: Structuring communication for measurable results using specific tools. 3) Professional Growth and Global Readiness: Shaping participants into well-rounded professionals for global business environments. 4) Communication as a Foundation of Leadership: Citing historical leaders as examples of effective communicators.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is incorrect. It provides generic tips for effective meetings, which do not align with the key takeaways from the specified video, 'Business Communication Fundamentals,' as outlined in the reference material. The correct answer should have summarized the video's content on the OSCAR communication model, business etiquette, results-oriented communication, and the role of communication in leadership."
+    }
+  }
+}

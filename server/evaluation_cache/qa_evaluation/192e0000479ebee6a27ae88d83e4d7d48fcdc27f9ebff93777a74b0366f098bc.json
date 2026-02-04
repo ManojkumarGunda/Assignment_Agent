@@ -1,0 +1,17 @@
+{
+  "content_hash": "192e0000479ebee6a27ae88d83e4d7d48fcdc27f9ebff93777a74b0366f098bc",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:23:29.601623",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "arr = [10, 20, 30, 40, 50]\n\ntarget = 30\n\nfor i in range(len(arr)):\n    if arr[i] == target:\n        print(\"Element found at index\", i)\n        break\nelse:\n    print(\"Element not found\")",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. While the student correctly identified the linear search algorithm shown in the reference material and attempted to implement it in C, the submission contains a critical logic error. The `for` loop condition is `for (int i = 0; i <= n; i++)`. For an array of size `n=5`, the valid indices are 0, 1, 2, 3, and 4. This loop will attempt to access `arr[5]`, which is an out-of-bounds memory access and a severe bug. The correct loop condition should be `i < n`. Due to this fundamental error, the code is incorrect."
+    }
+  }
+}

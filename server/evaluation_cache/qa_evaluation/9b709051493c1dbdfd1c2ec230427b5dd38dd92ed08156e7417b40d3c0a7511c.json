@@ -1,0 +1,17 @@
+{
+  "content_hash": "9b709051493c1dbdfd1c2ec230427b5dd38dd92ed08156e7417b40d3c0a7511c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:01:26.212917",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "The assignment description asks for a program to perform a linear search. A correct implementation in C would be:\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n\n    for (int i = 0; i < n; i++) { // The loop must run from i=0 to i < n (i.e., 0 to 4)\n        if (arr[i] == target) {\n            printf(\"Found at index %d\", i);\n            return 0;\n        }\n    }\n\n    printf(\"Not found\");\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer was evaluated against the assignment description, which required writing a program for a linear search, as the provided reference material for Q1 was on a different topic. The provided code attempts to implement a linear search but contains a critical error. The 'for' loop condition 'i <= n' is incorrect. For an array of size 'n' (5 in this case), the valid indices are 0 to 4 (n-1). The loop will attempt to access arr[5], which is out of the array's bounds, leading to undefined behavior or a program crash. The correct condition should be 'i < n'."
+    }
+  }
+}

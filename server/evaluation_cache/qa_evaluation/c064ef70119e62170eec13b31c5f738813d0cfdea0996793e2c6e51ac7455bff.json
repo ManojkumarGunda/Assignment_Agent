@@ -1,0 +1,17 @@
+{
+  "content_hash": "c064ef70119e62170eec13b31c5f738813d0cfdea0996793e2c6e51ac7455bff",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:19:34.583260",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "mangodb",
+      "correct_answer": "The provided answer key does not contain the answer for this question. The correct answer is 'Structured Query Language'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question asked ('What does SQL stand for?') does not match Question 1 in the reference material ('Which keyword is used to define a function in Python?'). As per the grading rules, a mismatch between the student's question and the reference key question results in a score of 0. Additionally, the student's answer is incorrect; 'mangodb' (MongoDB) is a NoSQL database, whereas SQL stands for 'Structured Query Language'."
+    }
+  }
+}

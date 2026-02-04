@@ -1,0 +1,17 @@
+{
+  "content_hash": "c2f1e3e1ed711082a5dcf43495aac8fdc6077fd70f45629cf299e43fcebf2812",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T12:07:35.137801",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "largest number in an array",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    \n    in n = size of(arr) / size of(arr[0]);\n    \n    int largest = arr[0];\n    \n    for (init (i=1); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    \n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer was compared directly against the provided reference material. The student's code deviates from the reference key in several critical areas: the `for` loop initialization is incomplete (`for init (i=)`) compared to the reference (`for (init (i=1))`), there is a syntax error in the `if` condition (`largest.`), and a semicolon is missing after the assignment `largest = arr[i]`. According to the strict grading rules, any deviation from the reference material results in a score of 0.0."
+    }
+  }
+}

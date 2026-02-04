@@ -1,0 +1,17 @@
+{
+  "content_hash": "b14d6a28a8792501460581b88d0d66e99014b3929262def4f6f8b1cc3b8ed329",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:17:19.097616",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The correct answer for the expected question (Q2: Which language is used for web styling?) is 'CSS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The evaluation was for Question 2, but the provided question text ('What is the time complexity of linear search?') corresponds to Question 4 in the reference material. The expected question was 'Which language is used for web styling?'."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "f1e6bf3e95ba99790c5aceb295bcf880d24b18b6cdd76de0a9dcc1ced4efb1e3",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:15:32.139232",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "CSS",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's answer was evaluated against the provided reference material. The answer 'CSS' is correct and matches the answer key for the question 'Which language is used for web styling?'."
+    }
+  }
+}

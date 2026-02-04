@@ -1,0 +1,17 @@
+{
+  "content_hash": "3c8d9a7fbea52a6ddd2648b5e8883be630dd154347cef5bd5e5d8d1a4d0d8d72",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:24:08.503979",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the output of 5 + 2 * 3?",
+      "student_answer": "11",
+      "correct_answer": "The correct answer is 11. According to the order of operations (PEMDAS/BODMAS), multiplication is performed before addition. First, calculate 2 * 3 = 6. Then, add 5 to the result: 5 + 6 = 11.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. The calculation correctly follows the standard order of mathematical operations (PEMDAS/BODMAS), where multiplication (2 * 3 = 6) is performed before addition (5 + 6 = 11)."
+    }
+  }
+}

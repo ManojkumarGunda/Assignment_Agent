@@ -1,0 +1,17 @@
+{
+  "content_hash": "dedc16276d7a21ff8245b08d8a62cd5a0a1f30661873cbc4a4223b1d76bc6df7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T12:04:46.280788",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "what is the Capital City of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "New Delhi",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The correct answer is New Delhi. Your answer is correct."
+    }
+  }
+}

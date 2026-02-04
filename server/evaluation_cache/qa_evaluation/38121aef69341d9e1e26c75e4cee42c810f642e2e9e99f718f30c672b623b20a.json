@@ -1,0 +1,17 @@
+{
+  "content_hash": "38121aef69341d9e1e26c75e4cee42c810f642e2e9e99f718f30c672b623b20a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:35:06.880001",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The correct answer is O(n). However, the question asked is not part of the assignment description.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question 'What is the time complexity of linear search?' was not found in the assignment description, which specifies '[CATEGORY: CODING] find the largest number'. Therefore, no credit can be awarded as per the grading rules."
+    }
+  }
+}

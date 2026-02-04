@@ -1,0 +1,17 @@
+{
+  "content_hash": "04e63cb4a448193bb119f043217d1d4c286aa536e461dcb68698e055be9e823b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:43.301913",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "New Delhi (This is the answer to Q5 as per the reference material, which is 'What is the capital of India?').",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This response is incorrect. Graded against Reference Key. There is a mismatch between the question asked and the question listed as Q5 in the official reference material. The reference material's Q5 is 'What is the capital of India?', for which the correct answer is 'New Delhi'. The student was evaluated against the provided answer key for question number 5."
+    }
+  }
+}

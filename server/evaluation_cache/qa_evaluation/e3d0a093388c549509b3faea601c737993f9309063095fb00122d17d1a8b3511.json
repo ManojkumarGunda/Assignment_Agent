@@ -1,0 +1,17 @@
+{
+  "content_hash": "e3d0a093388c549509b3faea601c737993f9309063095fb00122d17d1a8b3511",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:05:26.463490",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "The provided rubric's correct answer for Q1 is a detailed explanation of Database Indexing tailored for an Engineer, Product Manager, Product Salesperson, and CEO. It does not address the question about web styling.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer and the question provided for grading are on a different topic than what is described in the reference material. The reference material's Q1 is about 'Database Indexing', while the question asked is about web styling languages. According to the grading rules, this is a topic mismatch, resulting in a score of 0."
+    }
+  }
+}

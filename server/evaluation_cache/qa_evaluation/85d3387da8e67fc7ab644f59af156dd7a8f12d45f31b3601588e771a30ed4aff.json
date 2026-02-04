@@ -1,0 +1,17 @@
+{
+  "content_hash": "85d3387da8e67fc7ab644f59af156dd7a8f12d45f31b3601588e771a30ed4aff",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T16:09:17.035870",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "mangodb",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 5.0,
+      "feedback": "Score: 0/5. The correct answer is 'Structured Query Language'. The provided answer 'mangodb' is incorrect and irrelevant to the question."
+    }
+  }
+}

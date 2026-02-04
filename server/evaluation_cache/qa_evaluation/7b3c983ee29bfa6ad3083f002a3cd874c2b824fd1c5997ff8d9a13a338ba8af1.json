@@ -1,0 +1,17 @@
+{
+  "content_hash": "7b3c983ee29bfa6ad3083f002a3cd874c2b824fd1c5997ff8d9a13a338ba8af1",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T15:01:06.499028",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The time complexity of linear search is O(n). This represents the worst-case and average-case complexity. The best-case complexity is O(1).",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The student correctly identified the standard time complexity for linear search, which is O(n). This represents the upper bound (worst-case) where the algorithm may need to iterate through all 'n' elements."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "1648a5f763bd8014579ae1851fc9ec433e0e8a77dad21dc8197b2b9d3127fcfb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:20.626630",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question provided was 'Q4: Which keyword is used to define a function in Python?'. However, the Reference Key for Question 4 is 'What is the time complexity of linear search?'. The student's answer addresses a different question than the one expected for Q4 in the reference material. The correct answer for the expected Question 4 is 'O(n)'."
+    }
+  }
+}

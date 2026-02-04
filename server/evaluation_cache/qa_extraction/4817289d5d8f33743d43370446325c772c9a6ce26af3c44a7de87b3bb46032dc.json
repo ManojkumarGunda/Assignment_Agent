@@ -1,0 +1,45 @@
+{
+  "content_hash": "4817289d5d8f33743d43370446325c772c9a6ce26af3c44a7de87b3bb46032dc",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T15:07:16.412015",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "What does SQL stand for?",
+        "student_answer": "Structured Query Language",
+        "is_answer_present": true
+      },
+      {
+        "question": "What is the time complexity of linear search?",
+        "student_answer": "O(n)",
+        "is_answer_present": true
+      },
+      {
+        "question": "What is 15% of 200?",
+        "student_answer": "30",
+        "is_answer_present": true
+      },
+      {
+        "question": "What is the output of 5 + 2 * 3?",
+        "student_answer": "11",
+        "is_answer_present": true
+      },
+      {
+        "question": "Which data structure follows LIFO?",
+        "student_answer": "Stack",
+        "is_answer_present": true
+      },
+      {
+        "question": "Which protocol is used for secure web browsing?",
+        "student_answer": "HTTPS",
+        "is_answer_present": true
+      },
+      {
+        "question": "What is the capital of India?",
+        "student_answer": "New Delhi",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

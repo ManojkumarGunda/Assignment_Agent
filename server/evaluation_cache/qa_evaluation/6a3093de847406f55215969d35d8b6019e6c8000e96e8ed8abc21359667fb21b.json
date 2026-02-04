@@ -1,0 +1,17 @@
+{
+  "content_hash": "6a3093de847406f55215969d35d8b6019e6c8000e96e8ed8abc21359667fb21b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:53:03.737946",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q13. Explain dictionaries.",
+      "student_answer": "Dictionaries store data in key-value pairs for fast lookup.",
+      "correct_answer": "The provided reference material does not contain an answer to this question. The question is about 'dictionaries', while the reference material is about 'Intensity Transformation' in image processing.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The provided reference material is about image processing (Intensity Transformation) and does not contain the question 'Explain dictionaries' or its answer. Therefore, the student's answer cannot be verified against the required source material and receives no credit."
+    }
+  }
+}

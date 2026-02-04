@@ -1,0 +1,17 @@
+{
+  "content_hash": "247d1f675b47f87587b4bdf9311eab7449c4bffdfb4c5d5d9fb352fc5b8e4b5f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:22:10.812971",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "HTTPS",
+      "correct_answer": "The correct answer to the question is HTTPS. However, the provided rubric specifies the task is to 'find the largest number', which does not match the question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. While the student correctly answered the question 'Which protocol is used for secure web browsing?' with 'HTTPS', the assignment's rubric specifies the task is to 'find the largest number'. The student's answer does not address the task defined in the rubric. Therefore, no credit can be awarded based on the provided grading criteria."
+    }
+  }
+}

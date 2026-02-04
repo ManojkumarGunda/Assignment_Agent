@@ -1,0 +1,17 @@
+{
+  "content_hash": "ac0779f1d9b2693092de44b5cb489b3481b021e7390e04a4cb781dab08fa7b3a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:19:21.491330",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the output of 5 + 2 * 3?",
+      "student_answer": "11",
+      "correct_answer": "The correct question for the specified question number (7) is 'What is the binary equivalent of 5?', for which the answer is '101'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The evaluation was requested for Question 7, but the provided question text ('What is the output of 5 + 2 * 3?') corresponds to Question 3 in the reference material. As per the grading rules, this mismatch results in a score of 0. The expected question for Q7 is 'What is the binary equivalent of 5?', and the correct answer is '101'."
+    }
+  }
+}

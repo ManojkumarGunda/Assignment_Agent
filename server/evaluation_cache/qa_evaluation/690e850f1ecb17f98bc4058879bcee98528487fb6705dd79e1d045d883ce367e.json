@@ -1,0 +1,17 @@
+{
+  "content_hash": "690e850f1ecb17f98bc4058879bcee98528487fb6705dd79e1d045d883ce367e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:30.228049",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "c) For a Product Salesperson:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "Database indexing enables faster data access, improving response time and customer satisfaction. It allows applications to handle more users efficiently, making the product more competitive.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is a C program for a linear search, which is completely unrelated to the question asked. The question required an explanation of database indexing tailored for a product salesperson, as specified in the rubric. The provided answer does not address the topic of database indexing at all."
+    }
+  }
+}

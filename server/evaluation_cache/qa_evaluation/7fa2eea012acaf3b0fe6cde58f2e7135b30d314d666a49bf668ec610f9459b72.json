@@ -1,0 +1,17 @@
+{
+  "content_hash": "7fa2eea012acaf3b0fe6cde58f2e7135b30d314d666a49bf668ec610f9459b72",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:33:39.109171",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which language is used for web styling?",
+      "student_answer": "CSS",
+      "correct_answer": "CSS (Cascading Style Sheets)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question provided ('Which language is used for web styling?') does not match the assignment rubric, which is '[CATEGORY: CODING] find the largest number'. According to the grading rules, if the question is not found in the provided rubric, a score of 0.0 must be awarded."
+    }
+  }
+}

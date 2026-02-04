@@ -1,0 +1,17 @@
+{
+  "content_hash": "5a21eaa26c8cac78c03f6d7e5cb60aee9a23a8d14ebbc8e41ae4537cac2d73ed",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:47:23.355901",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "API\u2019s",
+      "correct_answer": "The provided reference material does not contain this question. The question listed as Q5 in the reference is 'What is 15% of 200?' with the answer '30'. The correct answer to the asked question is HTTPS.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question 'Which protocol is used for secure web browsing?' was not found in the provided reference material. The reference material lists a different question for Q5 ('What is 15% of 200?'). Therefore, the student's answer could not be evaluated against the provided key and receives no credit."
+    }
+  }
+}

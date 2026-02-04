@@ -1,0 +1,17 @@
+{
+  "content_hash": "f8c056587699e9fda21e3b5b5b3138af04cfc71424627ea65235826c9cc0743e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:57:28.388749",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The correct answer for this question is not available in the provided rubric. Based on general computer science knowledge, the answer is O(n).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This question was not found in the provided rubric or reference material. The rubric only contains questions on 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. According to the instructions, evaluation must be based ONLY on the provided materials. Since there is no basis for evaluation for this question in the context, it cannot be graded."
+    }
+  }
+}

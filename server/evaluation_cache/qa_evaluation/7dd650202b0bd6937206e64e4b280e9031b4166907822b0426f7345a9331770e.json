@@ -1,0 +1,17 @@
+{
+  "content_hash": "7dd650202b0bd6937206e64e4b280e9031b4166907822b0426f7345a9331770e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:33:11.099331",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The assignment rubric specified the task '[CATEGORY: CODING] find the largest number'. The question provided was not related to this task.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The score is 0.0 because the question answered does not align with the assignment description provided in the rubric. The rubric specifies the task is '[CATEGORY: CODING] find the largest number', whereas the question is about the time complexity of linear search. Per the grading rules, no credit can be awarded for answering a question that is not part of the specified assignment."
+    }
+  }
+}

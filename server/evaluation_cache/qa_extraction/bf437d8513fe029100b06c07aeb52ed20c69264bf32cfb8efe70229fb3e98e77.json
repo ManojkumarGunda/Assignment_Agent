@@ -1,0 +1,45 @@
+{
+  "content_hash": "bf437d8513fe029100b06c07aeb52ed20c69264bf32cfb8efe70229fb3e98e77",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T15:31:47.849384",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\na) For an Engineer:",
+        "student_answer": "Database indexing is a data structure technique used to improve the speed of data retrieval operations on a database table. An index works similarly to a lookup table, allowing the database engine to\nlocate rows efficiently without performing a full table scan. Indexes\nare typically implemented using data structures such as B-trees or\nhash tables. While indexing improves read performance, it\nintroduces overhead during write operations.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nb) For a Product Manager:",
+        "student_answer": "Database indexing helps systems fetch data faster, improving\napplication performance and user experience. It supports faster\npage loads, smoother workflows, and better scalability as the user\nbase grows, while balancing cost and maintenance.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nc) For a Product Salesperson:",
+        "student_answer": "Database indexing enables faster data access, improving response\ntime and customer satisfaction. It allows applications to handle\nmore users efficiently, making the product more competitive.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nd) For a CEO:",
+        "student_answer": "Database indexing improves system efficiency and scalability. Faster\ndata access enhances customer experience, reduces operational\nissues, and supports business growth",
+        "is_answer_present": true
+      },
+      {
+        "question": "Video 1:",
+        "student_answer": "Structure your communication for results\n\nImprove effectiveness using tools\n\nPresent yourself as a global professional",
+        "is_answer_present": true
+      },
+      {
+        "question": "Video 2:",
+        "student_answer": "Definition and Purpose: Technical communication is likened to the\n\"math of English,\" focusing on simplifying complex information and\nadapting it for specific audiences\nKey Responsibilities: Technical communicators handle diverse tasks, including editing, designing documents, creating presentations, writing proposals, and managing web content, all with the goal of relaying information effectively to the user\n\nValue and Impact: They act as the user's advocate, ensuring content meets audience needs and reducing company costs by creating user-friendly materials that minimize the need for support services",
+        "is_answer_present": true
+      },
+      {
+        "question": "Video 3:",
+        "student_answer": "The Illusion of Content : Demonstrates how to deliver a presentation that sounds brilliant and insightful, despite having \"nothing\" to say.\n\nTechniques for Appearing Smart : He showcases various methods, including using hand gestures, referencing irrelevant data and graphs.\n\nDeceptive Delivery : He emphasizes how non-verbal cues, like removing glasses or changing tone, can manipulate an audience into believing a profound message is being conveyed, even when the content is completely empty.",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

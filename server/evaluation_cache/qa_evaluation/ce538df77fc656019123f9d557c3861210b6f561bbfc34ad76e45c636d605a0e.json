@@ -1,0 +1,17 @@
+{
+  "content_hash": "ce538df77fc656019123f9d557c3861210b6f561bbfc34ad76e45c636d605a0e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:32:14.432198",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "check the logic for the linear search",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "The correct logic for a linear search involves iterating through an array from the first element to the last. The loop condition should be `i < n` (where n is the size of the array) to avoid an out-of-bounds error. For example: `for (int i = 0; i < n; i++) { ... }`.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asks for the logic of a linear search. The student's answer attempts to provide this but contains a critical logic error. The `for` loop condition is `i <= n`, which will cause the loop to access an index outside the array's bounds when `i` equals `n`. This is a fundamental error that leads to undefined behavior. The correct loop condition for an array of size `n` is `i < n`."
+    }
+  }
+}

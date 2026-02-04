@@ -1,0 +1,17 @@
+{
+  "content_hash": "23241011fdedd91786b566d3654d9ecb96ef5ffadc5ebfa0647b9aaf7df388b9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:30:37.033004",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's submission does not address the problem specified in the reference material. The reference material provides a Python script to find the largest number in an array. The student submitted a C++ program that performs a linear search for a specific element in an array. Although the submitted C++ code is syntactically correct for a linear search, it solves a completely different problem. Therefore, no credit can be awarded as the core logic does not match the assignment's requirement."
+    }
+  }
+}

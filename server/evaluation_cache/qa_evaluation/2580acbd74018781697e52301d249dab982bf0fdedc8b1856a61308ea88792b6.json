@@ -1,0 +1,17 @@
+{
+  "content_hash": "2580acbd74018781697e52301d249dab982bf0fdedc8b1856a61308ea88792b6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:09:40.424464",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the capital of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "New Delhi",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The provided question is 'What is the capital of India?', but Question 7 in the Reference Key is 'What is the binary equivalent of 5?'. According to the grading rules, this mismatch results in a score of 0.0."
+    }
+  }
+}

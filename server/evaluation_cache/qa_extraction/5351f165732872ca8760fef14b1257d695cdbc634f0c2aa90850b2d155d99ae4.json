@@ -1,0 +1,15 @@
+{
+  "content_hash": "5351f165732872ca8760fef14b1257d695cdbc634f0c2aa90850b2d155d99ae4",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T18:29:34.743635",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: CODING] find the largest number",
+        "student_answer": "",
+        "is_answer_present": false
+      }
+    ]
+  }
+}

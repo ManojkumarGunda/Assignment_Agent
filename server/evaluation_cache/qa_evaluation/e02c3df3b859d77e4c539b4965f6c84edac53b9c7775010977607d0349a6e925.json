@@ -1,0 +1,17 @@
+{
+  "content_hash": "e02c3df3b859d77e4c539b4965f6c84edac53b9c7775010977607d0349a6e925",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:34:30.850304",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "The correct answer to the question 'What is the binary equivalent of 5?' is 101. However, the assignment rubric is '[CATEGORY: CODING] find the largest number', which is a different task.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer '101' is the correct binary equivalent for the number 5. However, the assignment rubric specifies the task as '[CATEGORY: CODING] find the largest number'. The question answered is outside the scope of the assignment as defined by the rubric. Therefore, no credit can be awarded."
+    }
+  }
+}

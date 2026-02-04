@@ -1,0 +1,17 @@
+{
+  "content_hash": "fbcfd98c7a8b8392cde50321e1fcb368093b4b8932b839745cf85b20f3b22127",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:28.705851",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the binary equivalent of 5?",
+      "student_answer": "101",
+      "correct_answer": "HTTPS",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided for grading ('What is the binary equivalent of 5?') does not match the official Question 6 in the reference material ('Which protocol is used for secure web browsing?'). The student has answered a different question than the one designated as Q6. The correct answer for Q6 is 'HTTPS'."
+    }
+  }
+}

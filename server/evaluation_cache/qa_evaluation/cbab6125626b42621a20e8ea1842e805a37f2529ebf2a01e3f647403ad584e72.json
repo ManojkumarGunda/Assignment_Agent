@@ -1,0 +1,17 @@
+{
+  "content_hash": "cbab6125626b42621a20e8ea1842e805a37f2529ebf2a01e3f647403ad584e72",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:40:48.708984",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Video 1:",
+      "student_answer": "Structure your communication for results\n\nImprove effectiveness using tools\n\nPresent yourself as a global professional",
+      "correct_answer": "The key learnings for Video 1 are:\n1) Scope and Coverage: A structured overview of business communication, covering core principles, the OSCAR model, and business etiquette.\n2) Results-Oriented Communication and Tools: The ability to structure communication for measurable results and use tools to enhance clarity and effectiveness.\n3) Professional Growth and Global Readiness: Shaping participants into well-rounded professionals ready for global business environments.\n4) Communication as a Foundation of Leadership: Understanding that exceptional leadership is rooted in effective communication.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key. The student's answer correctly identifies several key takeaways from the video as outlined in the reference material. The points about structuring communication for results, using tools for effectiveness, and presenting as a global professional are all accurate and align with the provided answer key."
+    }
+  }
+}

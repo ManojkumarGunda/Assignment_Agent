@@ -1,0 +1,65 @@
+{
+  "content_hash": "ba7320fee260be4cfd40275e017110bb78e170a1291657b2848ef8a425ca3933",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T15:32:00.830754",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1. Purpose:",
+        "student_answer": "To review weekly progress of the Internship Management Portal, discuss challenges faced by\nthe team, and plan next steps for the upcoming week.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2. Date & Time:",
+        "student_answer": "Weekly Progress Review Meeting (Assumed: Scheduled during the current week)",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3. Participants:",
+        "student_answer": "Project Manager, Development Team, QA Team, and Interns involved in the project.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4. Meeting Agenda (Key Topics)",
+        "student_answer": "Review of tasks completed during the week\nStatus of ongoing and pending work\nDiscussion of technical and process-related challenges\nPlanning priorities and assignments for the next week\nOpen discussion and clarifications",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5. Meeting Etiquette Followed",
+        "student_answer": "Meeting started and concluded on time\nParticipants joined with microphones muted unless speaking\nActive listening was maintained without interruptions\nClear and concise updates were provided by team members\nRespectful communication and professional behavior were followed\nAction items and responsibilities were clearly acknowledged",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6. Decisions Made",
+        "student_answer": "Priority to be given to completing core modules of the Internship Management Portal\nIdentified issues to be resolved before moving to new feature development",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7. Note-Taking Approach",
+        "student_answer": "AI-assisted note-taking was used to capture key discussion points, decisions, and action items\nefficiently during the meeting.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q8. One Key Learning",
+        "student_answer": "Regular weekly review meetings improve team alignment, help identify challenges early, and\nensure consistent progress toward project goals.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q9. Video 1 Takeaways",
+        "student_answer": "1. Clear meeting objectives help participants stay focused and productive.\n2. Time management is crucial to ensure meetings remain efficient.\n3. Assigning action items with ownership improves accountability.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q10. Video 2 Takeaways",
+        "student_answer": "1. Effective communication enhances collaboration and reduces misunderstandings.\n2. Active listening is essential for productive discussions.\n3. Structured agendas help meetings stay organized and goal-oriented.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q11. Video 3 Takeaways",
+        "student_answer": "1. Proper meeting preparation leads to better outcomes.\n2. Follow-up actions are critical for meeting effectiveness.\n3. Using digital tools improves documentation and tracking of discussions.",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

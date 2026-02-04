@@ -1,0 +1,15 @@
+{
+  "content_hash": "29e63c2da451e5dd3b3c152b8d226d56856792b856777e88fdce3e7c5ee87fcc",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T16:38:59.834074",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q)",
+        "student_answer": "Name: Ramesh Java\npublic class Main {\npublic static void Main (String[] args) {\nint[] arr = {10,45,3,99,234};\nint largest = arr[0]\nfor (int i=1; i<arr.length; i++) {\nif (arr[i] > largest) {\nlargest = arr[i]\n}\n}\nSystem.out.println(\"largest number:\" + largest)",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

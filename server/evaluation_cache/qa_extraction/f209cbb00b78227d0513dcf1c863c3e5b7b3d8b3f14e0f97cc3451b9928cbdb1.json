@@ -1,0 +1,45 @@
+{
+  "content_hash": "f209cbb00b78227d0513dcf1c863c3e5b7b3d8b3f14e0f97cc3451b9928cbdb1",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T15:07:28.712578",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1: Which language is used for web styling?",
+        "student_answer": "Answer: CSS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2: What is the output of 5 + 2 * 3?",
+        "student_answer": "Answer: 11",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3: What does SQL stand for?",
+        "student_answer": "Answer: Structured Query Language",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4: Which keyword is used to define a function in Python?",
+        "student_answer": "Answer: def",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5: What is the time complexity of linear search?",
+        "student_answer": "Answer: O(n)",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6: What is the binary equivalent of 5?",
+        "student_answer": "Answer: 101",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7: Which protocol is used for secure web browsing?",
+        "student_answer": "Answer: HTTPS",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

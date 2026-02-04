@@ -1,0 +1,17 @@
+{
+  "content_hash": "6ee9a8ac1dfff26ac8bf7c1f393504f8926844020a34348ca48771cf9dc071de",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:09:25.039474",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "The correct answer could not be determined as the question does not match the reference material. The reference material's Question 5 was either 'Which protocol is used for secure web browsing?' or 'What is the capital of India?'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's question does not match Question 5 found in the provided reference material. The reference material's Question 5 was either 'Which protocol is used for secure web browsing?' or 'What is the capital of India?'. Therefore, the answer cannot be graded as correct."
+    }
+  }
+}

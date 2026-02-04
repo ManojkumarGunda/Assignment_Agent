@@ -1,0 +1,17 @@
+{
+  "content_hash": "3e56b9313e7e39c0f7d0617884c8f80ac3f423cffb036d6d4c2b2ac530417172",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:58:00.441362",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write the program of the linear search",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "The provided rubric does not contain this question. The rubric is for a 'Professional Communication & Documentation Assessment' and does not include any coding problems.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question 'write the program of the linear search' was not found in the provided assignment description or reference materials. The rubric is for a 'Professional Communication & Documentation Assessment' and does not contain this coding question. Therefore, no credit can be awarded as the answer does not correspond to the given assignment."
+    }
+  }
+}

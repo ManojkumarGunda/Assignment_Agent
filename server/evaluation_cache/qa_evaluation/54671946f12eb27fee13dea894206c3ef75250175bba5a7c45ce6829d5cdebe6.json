@@ -1,0 +1,17 @@
+{
+  "content_hash": "54671946f12eb27fee13dea894206c3ef75250175bba5a7c45ce6829d5cdebe6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T13:09:44.028374",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the output of 5 + 2 * 3?",
+      "student_answer": "Answer: 11",
+      "correct_answer": "11",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key. The student's answer '11' is a perfect match with the answer provided in the reference material."
+    }
+  }
+}

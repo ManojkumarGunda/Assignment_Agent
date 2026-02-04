@@ -1,0 +1,17 @@
+{
+  "content_hash": "9d45514b66b2f25dab974bc16f2534d7579695dac228b7331d8c1f43dfa11475",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:35.903059",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the binary equivalent of 5?",
+      "student_answer": "101",
+      "correct_answer": "The correct answer for Q6 in the reference material is either '30' (for the question 'What is 15% of 200?') or 'HTTPS' (for the question 'Which protocol is used for secure web browsing?').",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. There is a mismatch between the question number and the question content. The question is labeled as Q6, but the content provided ('What is the binary equivalent of 5?') corresponds to question Q7 in the reference key. The student answered the wrong question."
+    }
+  }
+}

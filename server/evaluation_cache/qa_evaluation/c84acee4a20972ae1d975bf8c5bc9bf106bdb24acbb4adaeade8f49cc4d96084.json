@@ -1,0 +1,17 @@
+{
+  "content_hash": "c84acee4a20972ae1d975bf8c5bc9bf106bdb24acbb4adaeade8f49cc4d96084",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:17:18.088531",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "New Delhi",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student answered a different question than what was expected for Question 5. The reference key's Question 5 is 'What is the capital of India?', for which the correct answer is 'New Delhi'. The student's question was 'Which data structure follows LIFO?'."
+    }
+  }
+}

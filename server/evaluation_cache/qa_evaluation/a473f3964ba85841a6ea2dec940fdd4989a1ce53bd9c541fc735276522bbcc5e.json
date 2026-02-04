@@ -1,0 +1,17 @@
+{
+  "content_hash": "a473f3964ba85841a6ea2dec940fdd4989a1ce53bd9c541fc735276522bbcc5e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:17:55.557787",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The question provided ('What is the capital of India?') is listed as Q5 in the reference material. The expected question for Q4 was 'What is the time complexity of linear search?', and its correct answer is 'O(n)'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The question provided ('What is the capital of India?') is Q5 in the reference material, not Q4. The expected question for Q4 was 'What is the time complexity of linear search?'."
+    }
+  }
+}

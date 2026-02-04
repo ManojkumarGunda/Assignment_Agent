@@ -1,0 +1,17 @@
+{
+  "content_hash": "bfb1c5a6840b943a8a6e08838e15c01bd3a60c09234cadb53fcf3402b33be978",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:31.562152",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "b) For a Product Manager:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "Database indexing helps systems fetch data faster, improving application performance and user experience. It supports faster page loads, smoother workflows, and better scalability as the user base grows, while balancing cost and maintenance.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is incorrect. The question asked for an explanation of database indexing tailored for a Product Manager. The provided answer is a C program for a linear search, which is completely unrelated to the question asked."
+    }
+  }
+}

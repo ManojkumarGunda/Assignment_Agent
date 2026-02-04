@@ -1,0 +1,65 @@
+{
+  "content_hash": "99fe9de8ffcacf7e1c2bcc87afcc944deceb4fd6a4346e9c847fecd41e2e00ea",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T17:49:40.321050",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: CODING] write the program of the linear search",
+        "student_answer": "",
+        "is_answer_present": false
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\na) For an Engineer:",
+        "student_answer": "Database indexing is a data structure technique used to improve the speed of data retrieval operations on a database table. An index works similarly to a lookup table, allowing the database engine to locate rows efficiently without performing a full table scan. Indexes are typically implemented using data structures such as B-trees or hash tables. While indexing improves read performance, it introduces overhead during write operations.",
+        "is_answer_present": true
+      },
+      {
+        "question": "b) For a Product Manager:",
+        "student_answer": "Database indexing helps systems fetch data faster, improving application performance and user experience. It supports faster page loads, smoother workflows, and better scalability as the user base grows, while balancing cost and maintenance.",
+        "is_answer_present": true
+      },
+      {
+        "question": "c) For a Product Salesperson:",
+        "student_answer": "Database indexing enables faster data access, improving response time and customer satisfaction. It allows applications to handle more users efficiently, making the product more competitive.",
+        "is_answer_present": true
+      },
+      {
+        "question": "d) For a CEO:",
+        "student_answer": "Database indexing improves system efficiency and scalability. Faster data access enhances customer experience, reduces operational issues, and supports business growth",
+        "is_answer_present": true
+      },
+      {
+        "question": "Video 2:\n\nDefinition and Purpose:",
+        "student_answer": "Technical communication is likened to the \"math of English,\" focusing on simplifying complex information and adapting it for specific audiences",
+        "is_answer_present": true
+      },
+      {
+        "question": "Key Responsibilities:",
+        "student_answer": "Technical communicators handle diverse tasks, including editing, designing documents, creating presentations, writing proposals, and managing web content, all with the goal of relaying information effectively to the user",
+        "is_answer_present": true
+      },
+      {
+        "question": "Value and Impact:",
+        "student_answer": "They act as the user's advocate, ensuring content meets audience needs and reducing company costs by creating user-friendly materials that minimize the need for support services",
+        "is_answer_present": true
+      },
+      {
+        "question": "Video 3:\n\nThe Illusion of Content :",
+        "student_answer": "Demonstrates how to deliver a presentation that sounds brilliant and insightful, despite having \"nothing\" to say.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Techniques for Appearing Smart :",
+        "student_answer": "He showcases various methods, including using hand gestures, referencing irrelevant data and graphs.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Deceptive Delivery :",
+        "student_answer": "He emphasizes how non-verbal cues, like removing glasses or changing tone, can manipulate an audience into believing a profound message is being conveyed, even when the content is completely empty.",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

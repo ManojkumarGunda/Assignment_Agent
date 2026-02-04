@@ -1,0 +1,17 @@
+{
+  "content_hash": "4b00de364d0d80bcae9e8c08a0e514265ac42fc5070f3f11f1f370a8b7f6d50c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T14:34:48.674082",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "--- [START PAGE 1] ---\nName:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)\n--- [END PAGE 1] ---",
+      "correct_answer": "The correct answer is the Python code provided in the reference material (f5e61846-b3d0-4f8d-b938-b6a30b768a43.pdf), which is:\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key and Assignment Description. The student's submitted Python code is a verbatim match to the official reference material document f5e61846-b3d0-4f8d-b938-b6a30b768a43.pdf. The code correctly finds the largest number in the given list. As per the grading rules, a direct match with the answer key receives full credit."
+    }
+  }
+}

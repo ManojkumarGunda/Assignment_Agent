@@ -1,0 +1,17 @@
+{
+  "content_hash": "ed513c622c11299eea96f633409ecb8eb22aa258ca5fe267c50355dd5dc175a6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:40:54.060738",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1. Purpose:",
+      "student_answer": "To review weekly progress of the Internship Management Portal, discuss challenges faced by the team, and plan next steps for the upcoming week.",
+      "correct_answer": "The provided reference material contains two sets of questions. The first Q1 is 'Which language is used for web styling?' with the answer 'CSS'. The second document's first task is about explaining 'Database Indexing'. The student's question was not found in the reference material.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question 'Q1. Purpose:' does not appear in the provided reference material. The student's answer, while potentially valid for a different context, is incorrect as it does not correspond to any question in the official answer key. For example, the first Q1 in the reference material is 'Which language is used for web styling?', and the correct answer is 'CSS'."
+    }
+  }
+}

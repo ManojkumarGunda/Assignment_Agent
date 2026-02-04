@@ -1,0 +1,35 @@
+{
+  "content_hash": "0a5afc1778fd0f08a3dd396f6659684a475bf3dfc0467061dffb24e49f6fd77f",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T17:57:31.759174",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: CODING] write the program of the linear search",
+        "student_answer": "",
+        "is_answer_present": false
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\na) For an Engineer:",
+        "student_answer": "Database indexing is a data structure technique used to improve the speed of data retrieval operations on a database table. An index works similarly to a lookup table, allowing the database engine to locate rows efficiently without performing a full table scan. Indexes are typically implemented using data structures such as B-trees or hash tables. While indexing improves read performance, it introduces overhead during write operations.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nb) For a Product Manager:",
+        "student_answer": "Database indexing helps systems fetch data faster, improving application performance and user experience. It supports faster page loads, smoother workflows, and better scalability as the user base grows, while balancing cost and maintenance.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nc) For a Product Salesperson:",
+        "student_answer": "Database indexing enables faster data access, improving response time and customer satisfaction. It allows applications to handle more users efficiently, making the product more competitive.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nd) For a CEO:",
+        "student_answer": "Database indexing improves system efficiency and scalability. Faster data access enhances customer experience, reduces operational issues, and supports business growth",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

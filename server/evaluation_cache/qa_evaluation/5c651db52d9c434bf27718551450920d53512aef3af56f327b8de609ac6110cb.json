@@ -1,0 +1,17 @@
+{
+  "content_hash": "5c651db52d9c434bf27718551450920d53512aef3af56f327b8de609ac6110cb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:42:06.977008",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student has correctly answered the mathematical question. 15% of 200 is calculated as (15/100) * 200, which equals 30. The student's answer is correct. It is noted that the question is a math problem, which does not align with the provided rubric for a Biology theory assessment or the reference material containing Python code. However, based on the explicit question asked, the answer is correct."
+    }
+  }
+}

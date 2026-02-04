@@ -1,0 +1,17 @@
+{
+  "content_hash": "157a0d1a20e0ba017cd4769dfea5e7adc668b7ef6131f5744f24b10e99197ef7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:58:18.550708",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "This question is not present in the provided reference material.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The provided rubric and reference material do not contain Question 5 or its corresponding answer key. The evaluation is strictly limited to the content within the provided materials. As this question is outside the scope of the assignment defined by the rubric, it cannot be graded as correct."
+    }
+  }
+}

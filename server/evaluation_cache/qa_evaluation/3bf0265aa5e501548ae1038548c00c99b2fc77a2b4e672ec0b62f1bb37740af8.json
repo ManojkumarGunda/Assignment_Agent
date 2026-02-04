@@ -1,0 +1,17 @@
+{
+  "content_hash": "3bf0265aa5e501548ae1038548c00c99b2fc77a2b4e672ec0b62f1bb37740af8",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:40.173082",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "mangodb",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The score is 0.0 because the question answered is not related to the assignment description, which required a coding solution to 'find the largest number'. Additionally, the provided answer 'mangodb' is factually incorrect. SQL stands for Structured Query Language."
+    }
+  }
+}

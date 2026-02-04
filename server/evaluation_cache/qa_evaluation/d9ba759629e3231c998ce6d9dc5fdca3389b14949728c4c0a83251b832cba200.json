@@ -1,0 +1,17 @@
+{
+  "content_hash": "d9ba759629e3231c998ce6d9dc5fdca3389b14949728c4c0a83251b832cba200",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T15:41:36.896700",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "HTTPS",
+      "correct_answer": "HTTPS (Hypertext Transfer Protocol Secure)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. HTTPS (Hypertext Transfer Protocol Secure) is the primary protocol used for secure web browsing, encrypting data between the user's browser and the website."
+    }
+  }
+}

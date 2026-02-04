@@ -1,0 +1,17 @@
+{
+  "content_hash": "10a3bdf4ed9133168ee543bb0ed105207be8b5ad48f5ec669979b013b8465f92",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:05.529283",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "The Illusion of Content : Demonstrates how to deliver a presentation that sounds brilliant and insightful, despite having \"nothing\" to say.\n\nTechniques for Appearing Smart : He showcases various methods, including using hand gestures, referencing irrelevant data and graphs.\n\nDeceptive Delivery : He emphasizes how non-verbal cues, like removing glasses or changing tone, can manipulate an audience into believing a profound message is being conveyed, even when the content is completely empty.",
+      "correct_answer": "HTTPS",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is incorrect. The question is identified as Question 7. According to the reference material, the correct answer for Question 7 is 'HTTPS'. The student provided a summary for 'Video 3', which is a different task. Therefore, the answer is irrelevant to the question asked."
+    }
+  }
+}

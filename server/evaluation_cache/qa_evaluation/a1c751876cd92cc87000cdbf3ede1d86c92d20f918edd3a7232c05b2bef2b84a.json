@@ -1,0 +1,17 @@
+{
+  "content_hash": "a1c751876cd92cc87000cdbf3ede1d86c92d20f918edd3a7232c05b2bef2b84a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:33:01.752924",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the binary equivalent of 5?",
+      "student_answer": "101",
+      "correct_answer": "101",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer '101' is the correct binary representation of 5. However, the question does not fall under the assignment's rubric, which is '[CATEGORY: CODING] find the largest number'. According to the grading rules, the question must be derived from the assignment description. Since this question is unrelated to the specified topic, no credit can be awarded."
+    }
+  }
+}

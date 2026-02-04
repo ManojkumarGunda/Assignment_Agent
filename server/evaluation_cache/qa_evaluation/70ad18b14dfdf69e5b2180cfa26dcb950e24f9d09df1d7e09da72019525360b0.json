@@ -1,0 +1,17 @@
+{
+  "content_hash": "70ad18b14dfdf69e5b2180cfa26dcb950e24f9d09df1d7e09da72019525360b0",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T14:44:57.015689",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] check the logic for the largacest number in an array",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    int largest = arr[0];\n    for (int i=1; i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.5,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.5/1.0. Graded against Reference Key and Assignment Description. The student's answer is a verbatim match to the provided reference material. However, the reference material itself contains significant syntax and logical errors. The core logic for iterating through the array and comparing values to find the largest number is conceptually present, which warrants partial credit. Points were deducted for multiple critical errors that were replicated from the reference: 1) Numerous syntax errors (e.g., 'in n', 'size of', 'for init', 'largest.'). 2) A major logical error in the final line, which attempts to print a different, undefined variable ('smallest') with the wrong format specifier ('%.f') and an incorrect label ('Smallest number:')."
+    }
+  }
+}

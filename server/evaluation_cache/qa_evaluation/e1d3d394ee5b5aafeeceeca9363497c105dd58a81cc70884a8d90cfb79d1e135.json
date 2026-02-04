@@ -1,0 +1,17 @@
+{
+  "content_hash": "e1d3d394ee5b5aafeeceeca9363497c105dd58a81cc70884a8d90cfb79d1e135",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T16:09:27.365044",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the binary equivalent of 5?",
+      "student_answer": "101",
+      "correct_answer": "101",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 10.0,
+      "feedback": "Score: 10/10\nCorrect Answer: 101\nYour answer is correct. The binary representation of the decimal number 5 is 101."
+    }
+  }
+}

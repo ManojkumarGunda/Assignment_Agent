@@ -1,0 +1,17 @@
+{
+  "content_hash": "02d4a750b94c7ccd8dd2326917702766c963f0feda95d009d2f2c05183139e50",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:40.588170",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Video 2:\n\nDefinition and Purpose:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "Technical communication is likened to the \"math of English,\" focusing on simplifying complex information and adapting it for specific audiences",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is incorrect. The question asked for the 'Definition and Purpose' from Video 2, which pertains to technical communication. The student submitted a C program for a linear search, which is completely unrelated to the question asked. No credit can be awarded as the answer does not address the prompt."
+    }
+  }
+}

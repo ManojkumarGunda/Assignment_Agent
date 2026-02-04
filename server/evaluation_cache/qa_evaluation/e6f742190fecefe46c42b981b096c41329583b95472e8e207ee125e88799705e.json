@@ -1,0 +1,17 @@
+{
+  "content_hash": "e6f742190fecefe46c42b981b096c41329583b95472e8e207ee125e88799705e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:30.736881",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\na) For an Engineer:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "Database indexing is a data structure technique used to improve the speed of data retrieval operations on a database table. An index works similarly to a lookup table, allowing the database engine to locate rows efficiently without performing a full table scan. Indexes are typically implemented using data structures such as B-trees or hash tables. While indexing improves read performance, it introduces overhead during write operations.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student provided a C program for a linear search. The question asked for an explanation of database indexing for an engineer. The answer is completely irrelevant to the question asked."
+    }
+  }
+}

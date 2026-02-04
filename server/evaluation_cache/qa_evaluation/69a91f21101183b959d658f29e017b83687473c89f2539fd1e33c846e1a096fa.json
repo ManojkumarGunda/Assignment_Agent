@@ -1,0 +1,17 @@
+{
+  "content_hash": "69a91f21101183b959d658f29e017b83687473c89f2539fd1e33c846e1a096fa",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:40:14.716438",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "Name :Manoj\n\n#include <stdio.h>\n#include <stdlib.h>\n\nstruct Node {\n    int data;\n    struct Node* next;\n};\n\nint hasCycle(struct Node* head) {\n    struct Node *slow = head, *fast = head;\n    while (fast != NULL && fast->next != NULL) {\n        slow = slow->next;\n        fast = fast->next->next;\n        if (slow == fast)\n            return 1; // Cycle detected\n    }\n    return 0; // No cycle\n}",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The student's answer is incorrect as it does not address the question. The question asks for the time complexity of linear search, but the provided answer is a C code implementation for detecting a cycle in a linked list. The correct answer is O(n)."
+    }
+  }
+}

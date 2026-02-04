@@ -1,0 +1,17 @@
+{
+  "content_hash": "f351f4e5949d25bb753ba703eaddb5d7eec04c47e37d9e2d03e5d6db470b5a52",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:37:12.525467",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "A correct implementation would be:\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    int largest = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The submitted code is incorrect and would fail to compile. There are multiple critical syntax errors, including an incorrect variable declaration ('in n = size of...'), an invalid for-loop structure ('for init (i=);...'), and a missing semicolon. Furthermore, there is a major logical error: the code calculates the 'largest' number but then attempts to print an undeclared variable named 'smallest' using an incorrect format specifier ('%.f' for an integer). Due to these fundamental errors in both syntax and logic, the code is non-functional."
+    }
+  }
+}

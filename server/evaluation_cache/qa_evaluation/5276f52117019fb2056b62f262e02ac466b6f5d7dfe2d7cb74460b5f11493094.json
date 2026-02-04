@@ -1,0 +1,17 @@
+{
+  "content_hash": "5276f52117019fb2056b62f262e02ac466b6f5d7dfe2d7cb74460b5f11493094",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:53:09.235773",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q15. Explain exception handling.",
+      "student_answer": "Exception handling manages runtime errors using try, except, and finally blocks.",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The material discusses image intensity transformations, not exception handling.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The student's answer discusses exception handling, a topic not covered in the provided reference material. The reference material is about image intensity transformations. Therefore, the answer cannot be verified as correct based on the provided context."
+    }
+  }
+}

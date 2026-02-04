@@ -1,0 +1,17 @@
+{
+  "content_hash": "98245ca7fcc46721538d74c4f3436122f6ee5a8891acd46bc6b12c76382b11c7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:19:46.698680",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "The question provided for grading (What is 15% of 200?) does not match the question for Q6 in the reference material (Which protocol is used for secure web browsing?). The correct answer for Q6 in the reference material is 'HTTPS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided for grading does not match Question 6 from the reference material. The reference key's Question 6 is 'Which protocol is used for secure web browsing?', for which the correct answer is 'HTTPS'. The student's answer addresses a different question and is therefore marked as incorrect."
+    }
+  }
+}

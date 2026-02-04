@@ -1,0 +1,17 @@
+{
+  "content_hash": "25ca24c5cd38f84d0754925f2f407f7b48878001c0dc30533dff7e66823b9fd3",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:01:31.818987",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write a program to the linear search",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "A correct program for linear search should iterate through each element of a list or array sequentially and check if the current element matches the target value. If a match is found, the program should return the index of that element. If the entire list is traversed without finding the target, it should indicate that the element was not found. The provided C++ code is a valid implementation.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer correctly implements a linear search algorithm in C++. The code successfully iterates through the array, compares each element to the target value, and prints the correct index when the element is found. It also correctly handles the case where the element is not in the array. The answer directly addresses the assignment description's requirement, even though the provided reference material for Q1 was on a different topic."
+    }
+  }
+}

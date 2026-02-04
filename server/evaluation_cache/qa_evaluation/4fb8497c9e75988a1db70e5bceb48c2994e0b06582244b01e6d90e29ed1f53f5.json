@@ -1,0 +1,17 @@
+{
+  "content_hash": "4fb8497c9e75988a1db70e5bceb48c2994e0b06582244b01e6d90e29ed1f53f5",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T15:58:58.998173",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "CSS (Cascading Style Sheets)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 5.0,
+      "feedback": "Score: 5/5. Assessment: Correct. The student correctly identified CSS as the language used for web styling. Correct Answer: CSS (Cascading Style Sheets)."
+    }
+  }
+}

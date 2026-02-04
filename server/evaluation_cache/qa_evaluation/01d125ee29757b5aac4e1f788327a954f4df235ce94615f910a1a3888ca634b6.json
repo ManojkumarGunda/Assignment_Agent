@@ -1,0 +1,17 @@
+{
+  "content_hash": "01d125ee29757b5aac4e1f788327a954f4df235ce94615f910a1a3888ca634b6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:17:04.821085",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {5, 2, 9, 1, 6};\n    int n = 5;\n    int min = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] < min) {\n            min = arr[i];\n        }\n    }\n    printf(\"Smallest number: %d\", min);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The provided reference material specifies a program to find the smallest number in an array. Your submission provides a program to find the largest number. Although the structure of the algorithm is similar, the core logic (using `>` instead of `<`) is incorrect for the given problem, leading to the wrong result. The assignment was to find the minimum value, not the maximum."
+    }
+  }
+}

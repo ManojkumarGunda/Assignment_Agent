@@ -1,0 +1,17 @@
+{
+  "content_hash": "372e25a4f3415fd458a9e8ddc8efadb3501b722faf302f9d8327feb9286c15d9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-31T12:07:11.634191",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q)\nS_1 S_2 S_3 S_4 o/p t_1 t_2\n(0,1,2) (0,1)\n1 0 1/2.5 0.5 0\n1 0 0 Eq. E = bio\n\nr.E = (0.5, 0.54) vi (2, 2.50) 0 x,b(x) = pos\n0 0.544 1 1 rb(0)",
+      "student_answer": "Hebb rule :- W = \\sum_{t=1}^{2} t \\cdot s\n\nfor Patter 1: S1: [1,0,1,0] t=[1,0]\n\nw_1 = t_1 x s_1 = \\begin{bmatrix} 1.00 \\\\ 0.11 \\end{bmatrix} \\begin{matrix} 1.0 & 1.0 \\\\ 0.01 & 0.0 \\end{matrix} = \\begin{bmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\n\nfor Pattern 2: S_2 = [1,0,0,1] t = [1,0]\n\nw_2 = t_2 x s_2 = \\begin{bmatrix} 1.1 \\\\ 0.1 \\end{bmatrix} \\begin{matrix} 1.0 & 1.1 \\\\ 0.0 & 0.11 \\end{matrix} = \\begin{bmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\n\nfor Pattern 3: S_3 = [1,1,0,0] t_3 = [0,1]\n\nw_3 = t_3 x s_3 = \\begin{bmatrix} 0.1 \\\\ 1.1 \\end{bmatrix} \\begin{matrix} 0.1 & 0.0 & 0.0 \\\\ 1.1 & 1.0 & 1.0 \\end{matrix} = \\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\end{bmatrix}",
+      "correct_answer": "The Hebb rule for multiple patterns requires summing the weight matrices calculated for each individual pattern. The final weight matrix W is the sum of the outer products of the target and input vectors for all patterns: W = \u03a3(t_p^T * s_p).\n\nw1 = [[1, 0, 1, 0], [0, 0, 0, 0]]\nw2 = [[1, 0, 0, 1], [0, 0, 0, 0]]\nw3 = [[0, 0, 0, 0], [1, 1, 0, 0]]\n\nW_total = w1 + w2 + w3 = [[2, 0, 1, 1], [1, 1, 0, 0]]",
+      "is_correct": false,
+      "partial_credit": 0.75,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Partially Correct. You correctly identified the Hebb rule and accurately calculated the individual weight matrices (w1, w2, w3) for each of the three patterns using the outer product method. However, you did not complete the final step of the Hebb rule, which is to sum these individual matrices to find the final, total weight matrix W. Your own formula, W = \u03a3(t * s), indicates this summation step is necessary."
+    }
+  }
+}

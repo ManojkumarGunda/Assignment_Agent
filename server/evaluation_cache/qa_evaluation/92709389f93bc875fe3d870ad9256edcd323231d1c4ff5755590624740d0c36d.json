@@ -1,0 +1,17 @@
+{
+  "content_hash": "92709389f93bc875fe3d870ad9256edcd323231d1c4ff5755590624740d0c36d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:12.576791",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "The provided rubric is for a different set of questions about communication skills. The academically correct answer to the question 'Which data structure follows LIFO?' is 'Stack'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is irrelevant to the provided Reference Key. The reference material covers questions on 'Audience-Based Communication' and 'Video Learning & Key Takeaways', not data structures. As per the grading instructions, a topic mismatch results in a score of 0."
+    }
+  }
+}

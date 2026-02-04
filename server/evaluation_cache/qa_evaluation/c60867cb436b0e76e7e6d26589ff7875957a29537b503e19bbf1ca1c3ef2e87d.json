@@ -1,0 +1,17 @@
+{
+  "content_hash": "c60867cb436b0e76e7e6d26589ff7875957a29537b503e19bbf1ca1c3ef2e87d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T14:26:58.408529",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the output of 5 + 2 * 3?",
+      "student_answer": "11",
+      "correct_answer": "11",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The correct answer is 11. The student correctly followed the order of operations, performing the multiplication (2 * 3 = 6) before the addition (5 + 6 = 11)."
+    }
+  }
+}

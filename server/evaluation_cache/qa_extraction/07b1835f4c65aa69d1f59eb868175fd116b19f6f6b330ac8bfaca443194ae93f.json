@@ -1,0 +1,45 @@
+{
+  "content_hash": "07b1835f4c65aa69d1f59eb868175fd116b19f6f6b330ac8bfaca443194ae93f",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T13:09:35.805718",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1: What is the binary equivalent of 5?",
+        "student_answer": "Answer: 101",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2: What is the output of 5 + 2 * 3?",
+        "student_answer": "Answer: 11",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3: Which language is used for web styling?",
+        "student_answer": "Answer: CSS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4: What does SQL stand for?",
+        "student_answer": "Answer: Structured Query Language",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5: What is 15% of 200?",
+        "student_answer": "Answer: 30",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6: What is the capital of India?",
+        "student_answer": "Answer: New Delhi",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7: Which keyword is used to define a function in Python?",
+        "student_answer": "Answer: def",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

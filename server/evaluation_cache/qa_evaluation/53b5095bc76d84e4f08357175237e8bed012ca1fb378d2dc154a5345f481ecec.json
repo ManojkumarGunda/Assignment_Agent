@@ -1,0 +1,17 @@
+{
+  "content_hash": "53b5095bc76d84e4f08357175237e8bed012ca1fb378d2dc154a5345f481ecec",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:07:32.908294",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The material only covers Q1 (Audience-Based Communication) and Q2 (Video Learning & Key Takeaways).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer addresses a question (Q5) that is not present in the provided reference material. The rubric and answer key only contain information for Q1 and Q2, which are related to communication skills. As per the instructions to grade exclusively against the provided material, this answer is considered irrelevant to the assignment context and receives no credit."
+    }
+  }
+}

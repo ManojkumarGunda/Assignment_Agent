@@ -1,0 +1,85 @@
+{
+  "content_hash": "0f0a3083b15101a2b82fd7586a790c73da08d6d9033d6191ec16740ea0c00b9b",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-01-30T21:58:06.965414",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "1) $A' = \\{(x_1, 0.8), (x_2, 0.7), (x_3, 0.6), (x_4, 0.3), (x_5, 0.9)\\}$",
+        "student_answer": "$x_1 = 0.8 > 0.7$\n$x_2 = 0.7 \\geq 0.7$\n$x_3 = 0.6 < 0.7$\n$x_4 = 0.3 < 0.7$\n$x_5 = 0.9 > 0.7$\n\n$\\{x_1, x_2, x_5\\}$",
+        "is_answer_present": true
+      },
+      {
+        "question": "2) $x=0, \\mu(x) = 0$\n$x=2, \\mu(x) = 0.7$\n$x=4, \\mu(x) = 0.7$\n$x=6, \\mu(x) = 0$",
+        "student_answer": "= $\\frac{(2 \\cdot 0.7) + (4 \\cdot 0.7)}{0.7 + 0.7} = \\frac{1.4 + 2.8}{1.4} = \\frac{4.2}{1.4} = 3.176$\n\n-> Inputs : $[1, 2, 5]$\nweights : $[4, 5, 6]$\nweighted sum = $(1 \\cdot 4) + (2 \\cdot 5) + (3 \\cdot 6)$\n= $4 + 10 + 18 = 32$\noutput = $32 \\times 3 = 96$.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) i/p size = 28x28, kernal size = 7x7, strid = 1",
+        "student_answer": "o/p size : $\\frac{\\text{i/p size} - \\text{kernal size}}{\\text{stride}}$\n= 28 - 7 + 1 = 22\n22x22",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Heigh & width",
+        "student_answer": "Mension = $\\frac{\\text{Input dimension} - \\text{Filter size} + 2 \\times \\text{Padding}}{\\text{Stride} + 2}$\noutput weight = (63 - 7 + 2 * 10) / 2 + 1 = 29\n29 x 29 x 32",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) i/p player = 6 neurons\no/p layer = 2 neurons",
+        "student_answer": "weight b/w i/p & hidden layer\nRows = no. of neurons - neuron in i/p\n= 5x6\n= [2x5] ; [5x6]",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q)",
+        "student_answer": "output size = \\( \\left( \\frac{n+2p-f}{3} + 1 \\right) \\times \\left( \\frac{n+2p-f}{3} + 1 \\right) \\)\n\nn=5 f=7\nP=1 s=1\n\n= \\( \\left( \\frac{5+2(1)-7}{1} + 1 \\right) \\times \\left( \\frac{5+2(1)-7}{1} \\right) \\)\n\n= \\( \\left( \\frac{5+2-7}{1} + 1 \\right) \\times \\left( \\frac{5+2(1)-7}{1} + 1 \\right) \\)\n\n= 1 x 1\n\n= 1",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q)",
+        "student_answer": "| S\u2081 | S\u2082 | S\u2083 | S\u2084 | o/p t\u2081 t\u2082 |\n| :--- | :--- | :--- | :--- | :--- |\n| (0,1,2) | (0,1) | 1/2.5 | 0/1.5 | 0 |\n| 1 | 0 | 0 | 0 | |\n| 1 | 0 | 0 | | |\n| 0 | 1 | 1 | 1 | |\n\nHebb rule :- \\( W = \\sum_{t=1}^{n} t \\cdot s \\)\n\nfor Patter 1: S1: [1,0,1,0] t=[1,0]\n\nw\u2081 = t\u2081 x s\u2081 = \\( \\begin{bmatrix} 1.0 \\\\ 0.1 \\end{bmatrix} \\begin{bmatrix} 1.0 & 0.0 & 1.0 & 0.0 \\end{bmatrix} = \\begin{bmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\)\n\nfor Pattern 2: S\u2082 = [1,0,0,1] t=[1,0]\n\nw\u2082 = t\u2082 x s\u2082 = \\( \\begin{bmatrix} 1.1 \\\\ 0.1 \\end{bmatrix} \\begin{bmatrix} 1.0 & 0.0 & 0.0 & 1.1 \\end{bmatrix} = \\begin{bmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\)\n\nfor Pattern 3: S\u2083 = [1,1,0,0] t\u2083=[0,1]\n\nw\u2083 = t\u2083 x s\u2083 = \\( \\begin{bmatrix} 0.1 \\\\ 1.1 \\end{bmatrix} \\begin{bmatrix} 1.1 & 1.1 & 0.0 & 0.0 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\end{bmatrix} \\)\nPattern u: $S_4^T = [0,0,1,1]$ & $t_4 = [0.1]$\n\n$w_4 = t_4 \\times S_4 = \\begin{bmatrix} 0.0 & 0.0 & 0.1 & 1.0 \\\\ 1.0 & 1.0 & 1.1 & 1.1 \\end{bmatrix} = \\begin{bmatrix} 0 & 0 & 0 \\\\ 0 & 0 & .11 \\end{bmatrix}$\n\n$W = w_1 + w_2 + w_3 + w_4$\n\n$> \\begin{bmatrix} 2 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 1 \\end{bmatrix}$\n\nouter Product rule. = $W = \\sum_{E_x} t \\times s$\n\n$W = \\begin{bmatrix} 2 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 1 \\end{bmatrix}$",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Centre gravity Method",
+        "student_answer": "to a triangle Points Me (1,0) (3,1) (5,10)\n\narea $\\approx 1/2 \\quad 2.4, \\quad 2.5$\n\nCentroid = 3.33\n\n$COG = \\frac{\\int x \\cdot \\mu(x) dx}{\\int \\mu(x) dx} = \\frac{(A_1 x_{c1}) + (A_2 \\cdot x_{c2})}{A_1 + A_2} = 3.17$\n\n$COS = \\frac{\\sum(C_i \\cdot A_i) + (C_e A_e)}{\\sum A_i + A_2} = \\frac{(3.2) + (3.33+2.55)}{2+2.25} = 3.17$\n\n---\n\nCentra of target area Method\n\n$C_2 (\\text{Area} = 2.5)$\n\n$2^2 = x_{c2} = 3.33$\n\n---\n\n$COG \\approx 3.17$\n\n$COS \\approx 3.13$\n\n$CLA \\approx 3.33$",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Given\n\nA = {($x_1$, 0.0), ($x_2$, 0.3), ($x_3$, 0.4), ($x_4$, 0.5), ($x_5$, 0.8), ($x_6$, 1),\n($x_7$, 1), ($x_8$, 1), ($x_9$, 1), ($x_{10}$, 0.7), ($x_{11}$, 0.5), ($x_{12}$, 0.3)}",
+        "student_answer": "Support :- {$x \\in A | \\mu(x) > 0$}\n$\\mu(x_1) = 0$, $\\mu(x_{13}) = 0$\n($x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_{10}, x_{11}, x_{12}$)\n\nCore : {$x \\in A | \\mu(x) = 1$}\n$\\mu(x_6) = \\mu(x_7) = \\mu(x_8) = \\mu(x_9) = 1$\n= ($x_6, x_7, x_8, x_9$)\n\nCrossover points :- {$x \\in A | \\mu(x) = 0.5$}\n$\\mu(x_4) = 0.5$ & $\\mu(x_{11}) = 0.5$\n($x_4, x_{11}$)\n\nAlpha cut for $\\alpha = 0.3$ {$x \\in A | \\mu(x) = \\alpha$}\n($x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_{10}, x_{11}$)\n\nStrong Alphacut for $\\alpha = 0.4$ : {$x \\in A | \\mu(x) = \\alpha$}\n$\\mu(x) > 0.4$\n($x_4, x_5, x_6, x_7, x_8, x_9, x_{10}$)\n\nBoundary: {$x \\in A | 0 < \\mu(x) < 1$}\n$0 < \\mu(x) < 1$\n($x_2, x_3, x_4, x_5, x_{10}, x_{11}, x_{12}$)\n\nNormality : $\\mu(x) = 1$\n$\\mu(x_6) = \\mu(x_7) = \\mu(x_8) = \\mu(x_9) = 1$",
+        "is_answer_present": true
+      },
+      {
+        "question": "Scalar Cardinality",
+        "student_answer": "(idx) (80, 20) (2.0, 0.8) \u2211_{x\u2208A} \u03bc(x) (0.8) . (0.0) = A\n(0.0) (0.0) (50.0) (1.0) (1.0)\n= 0+0.3+0.4+0.5+0.8 + 1+1+1+1+0.7+0.5\n0.2+0 {0.5(B)N} A*B} : exp\n= 7.3 0 = (sx) u \u03c3 = (x) u",
+        "is_answer_present": true
+      },
+      {
+        "question": "Relative Cardinality",
+        "student_answer": "= \\frac{Scalar Cardinality}{No. of elements}\n\n= \\frac{7.3}{13} M = (N) u} A*B} D.00\nT = (0x) u = (0.8) 13 . (0.0) u = (0) u\n= 0.5615 er, ck, st}\n(20 = (x)u| A*B}) : union processors\n20 * (10) x = 20 (0.5) u\n* (u.r.N5)",
+        "is_answer_present": true
+      },
+      {
+        "question": "q_o = (x)u| A*B s.o = d. two of g/a",
+        "student_answer": "(u x complex, st, opt, 2x, un, ex, et)",
+        "is_answer_present": true
+      },
+      {
+        "question": "q_s = (x)u| A*B : No=x of successful project\nNo of (u)",
+        "student_answer": "(complex, st, opt, 2x, un, ex)",
+        "is_answer_present": true
+      },
+      {
+        "question": "q_is (o)u>o| A*B : product\nis (o)u>o",
+        "student_answer": "(st, full, opt, 2x, un, ex, st)",
+        "is_answer_present": true
+      },
+      {
+        "question": "1 = (r)u : utilization",
+        "student_answer": "... (x)u = (j) u",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "fd2ebe812bb2fd78128f27eaf6525caa69cf71894b4a1b6c6e892923047e9a28",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:23:24.901290",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "arr = [10, 20, 30, 40, 50]\n\ntarget = 30\n\nfor i in range(len(arr)):\n    if arr[i] == target:\n        print(\"Element found at index\", i)\n        break\nelse:\n    print(\"Element not found\")",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's submission correctly implements the linear search algorithm as demonstrated in the reference material. Although the programming language used is C, while the reference is in Python, the logic, data structures, and algorithm are identical to the reference key. The code successfully finds the target element in the array and prints the correct index. As per the grading rules, language differences are permissible when the logic matches the reference. Therefore, the answer is considered correct and receives full marks."
+    }
+  }
+}

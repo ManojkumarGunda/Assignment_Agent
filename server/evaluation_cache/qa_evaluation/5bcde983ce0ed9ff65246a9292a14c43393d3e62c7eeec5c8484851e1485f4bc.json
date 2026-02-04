@@ -1,0 +1,17 @@
+{
+  "content_hash": "5bcde983ce0ed9ff65246a9292a14c43393d3e62c7eeec5c8484851e1485f4bc",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:12.233755",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7. Note-Taking Approach",
+      "student_answer": "AI-assisted note-taking was used to capture key discussion points, decisions, and action items efficiently during the meeting.",
+      "correct_answer": "The question in the reference material for Q7 is 'Which protocol is used for secure web browsing?'. The correct answer is 'HTTPS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided ('Q7. Note-Taking Approach') is a mismatch with the question listed for Q7 in the reference material ('Which protocol is used for secure web browsing?'). The student's answer is for a different question and therefore receives no credit."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "26fe10d0384915f4d773f9f2eeede72d117ac54b4a8bb4364a13879df66969de",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:15:42.836766",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "correct_answer": "arr = [10, 20, 30, 40, 50]\n\ntarget = 30\n\nfor i in range(len(arr)):\n    if arr[i] == target:\n        print(\"Element found at index\", i)\n        break\nelse:\n    print(\"Element not found\")",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's submission implements an algorithm to find the largest number in an array. However, the provided reference material, which defines the scope of the assignment, demonstrates a linear search algorithm to find a specific target element. The submitted code addresses a completely different problem than the one required. This is a topic mismatch, resulting in a score of 0."
+    }
+  }
+}

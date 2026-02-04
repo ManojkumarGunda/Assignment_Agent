@@ -1,0 +1,15 @@
+{
+  "content_hash": "df47a23b525d35f5083c388d55b1cb9e26c8cee934be4e937f62aac706c7460d",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T12:11:34.174968",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "check the logic for the largest number in an array",
+        "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    \n    in n = size of(arr) / size of(arr[0]);\n    \n    int largest = arr[0];\n    \n    for (init (i=1); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    \n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

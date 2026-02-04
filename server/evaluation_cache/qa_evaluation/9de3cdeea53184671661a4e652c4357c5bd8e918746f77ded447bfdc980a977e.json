@@ -1,0 +1,17 @@
+{
+  "content_hash": "9de3cdeea53184671661a4e652c4357c5bd8e918746f77ded447bfdc980a977e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:32:27.718485",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "30. The calculation is (15/100) * 200 = 30. A theoretical explanation would describe what a percentage is and how to calculate it, such as by converting the percentage to a decimal (0.15) and multiplying it by the total number (200).",
+      "is_correct": false,
+      "partial_credit": 0.5,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.5/1.0. Graded against the Assignment Description. The student provided the correct numerical answer to the calculation. However, points were deducted because the rubric explicitly required a 'THEORY assessment' with 'conceptual clarity' and 'depth'. The answer '30' does not include any explanation of the process or the theory behind calculating a percentage, thus failing to meet the full requirements of the assignment."
+    }
+  }
+}

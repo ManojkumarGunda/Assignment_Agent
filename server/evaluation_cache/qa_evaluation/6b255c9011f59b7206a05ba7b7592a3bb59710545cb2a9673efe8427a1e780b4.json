@@ -1,0 +1,17 @@
+{
+  "content_hash": "6b255c9011f59b7206a05ba7b7592a3bb59710545cb2a9673efe8427a1e780b4",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:06.173585",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Video 2:\n\nDefinition and Purpose:",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "Technical communication is likened to the \"math of English,\" focusing on simplifying complex information and adapting it for specific audiences.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student was asked to provide the definition and purpose of technical communication as described in Video 2. The student's answer is a C++ program for a linear search, which is completely unrelated to the question. The correct answer, based on the provided material, is about technical communication being the 'math of English'. No credit is awarded as the answer does not address the question."
+    }
+  }
+}

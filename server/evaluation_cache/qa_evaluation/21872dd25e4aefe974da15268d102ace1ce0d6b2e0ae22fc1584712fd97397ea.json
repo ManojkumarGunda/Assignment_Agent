@@ -1,0 +1,17 @@
+{
+  "content_hash": "21872dd25e4aefe974da15268d102ace1ce0d6b2e0ae22fc1584712fd97397ea",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:17:42.176661",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The question provided does not match the reference key for Q2. The correct answer for Q2 in the reference key is 'CSS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided ('What is the time complexity of linear search?') does not match Question 2 in the Reference Key ('Which language is used for web styling?'). Therefore, the answer is incorrect for the expected question. The correct answer for Question 2 in the Reference Key is 'CSS'."
+    }
+  }
+}

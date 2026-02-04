@@ -1,0 +1,17 @@
+{
+  "content_hash": "277a1dd0a8795c9529b74465ce230e396f98986d29a0f151678ba3551ec0bf33",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:12:12.461558",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The reference material lists 'What is the time complexity of linear search?' as Question 4, with the answer 'O(n)'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. There is a mismatch between the question asked to the student and the question listed as Q4 in the reference material. The reference material's Q4 is 'What is the time complexity of linear search?', while the student was asked 'What does SQL stand for?'. Based on the provided documents, the answer is incorrect as it does not correspond to the expected question."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "344f13d4f9ebb8fac00adc8f70b04f9c1abaf364d5108d0724e97949eada7321",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T12:58:07.818926",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "* what is the Capital City of India?\nAns! New Delhi\n\n-> who is the PM of India?\nans: Narendra Modi\n\n-> who is the CM of Andhra Pradesh?\nAns! Nara Chandra Babu Naidu",
+      "correct_answer": "The question is an instruction asking for an evaluation of an assignment against a set of requirements. A correct response would be to perform that evaluation, not to provide a list of unrelated questions and answers.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The student's answer is completely irrelevant to the question asked. The question is an instruction to perform an evaluation, but the student provided a list of general knowledge questions and answers. The response must directly address the prompt."
+    }
+  }
+}

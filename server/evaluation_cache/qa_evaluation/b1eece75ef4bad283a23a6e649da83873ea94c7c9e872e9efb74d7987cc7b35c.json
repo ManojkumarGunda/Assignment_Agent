@@ -1,0 +1,17 @@
+{
+  "content_hash": "b1eece75ef4bad283a23a6e649da83873ea94c7c9e872e9efb74d7987cc7b35c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T21:59:37.943857",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Who is the CM of Andhra Pradesh?",
+      "student_answer": "Nara Chandra Babu Naidu",
+      "correct_answer": "Nara Chandrababu Naidu",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct\n\nThe correct answer is Nara Chandrababu Naidu.\n\nThe student has correctly identified the current Chief Minister of Andhra Pradesh."
+    }
+  }
+}

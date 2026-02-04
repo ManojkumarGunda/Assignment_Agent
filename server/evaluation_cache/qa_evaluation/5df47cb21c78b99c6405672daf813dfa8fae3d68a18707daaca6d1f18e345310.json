@@ -1,0 +1,17 @@
+{
+  "content_hash": "5df47cb21c78b99c6405672daf813dfa8fae3d68a18707daaca6d1f18e345310",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T16:00:26.695969",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the binary equivalent of 5?",
+      "student_answer": "101",
+      "correct_answer": "The binary equivalent of the decimal number 5 is 101.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. The binary representation of the decimal number 5 is indeed 101, as (1 * 2^2) + (0 * 2^1) + (1 * 2^0) = 4 + 0 + 1 = 5."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "content_hash": "32d5eedbaffe4236544532edcb5ae33a93c790065e6a571a25295c9ad07d854b",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T16:52:50.306585",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "check the logic for the largest number in an array",
+        "student_answer": "Name:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\n\nlargest = arr[0]\n\nfor num in arr:\n    if num > largest:\n        largest = num\n\nprint (\"Largest number:\", largest)",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

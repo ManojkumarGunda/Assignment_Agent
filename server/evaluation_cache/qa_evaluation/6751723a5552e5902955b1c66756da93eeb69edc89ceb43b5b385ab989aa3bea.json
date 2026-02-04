@@ -1,0 +1,17 @@
+{
+  "content_hash": "6751723a5552e5902955b1c66756da93eeb69edc89ceb43b5b385ab989aa3bea",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T15:41:16.212051",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: Which protocol is used for secure web browsing?",
+      "student_answer": "Answer: HTTPS",
+      "correct_answer": "HTTPS (Hypertext Transfer Protocol Secure)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student correctly identified HTTPS as the protocol used for secure web browsing. The answer is accurate and complete."
+    }
+  }
+}

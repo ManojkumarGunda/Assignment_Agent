@@ -1,0 +1,17 @@
+{
+  "content_hash": "4b838b1b7b520fef13a4762b35ede775084be579e8e123b1daea943a63349216",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:52:18.988958",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1. Explain different types of Software Architecture patterns.",
+      "student_answer": "Software architecture patterns provide reusable solutions to common problems in software system design. One widely used pattern is the layered architecture, where the system is divided into presentation, business, and data layers. This separation improves maintainability and scalability.\nAnother important pattern is the client-server architecture, where clients request services and servers respond. This model is commonly used in web applications and distributed systems. Microservices architecture is a modern approach where applications are broken into small, independent services.\nEvent-driven architecture is based on producing and consuming events. It is useful in real-time systems and asynchronous processing. Service-oriented architecture focuses on reusable services that communicate over networks.\nEach architecture pattern has advantages and trade-offs. Choosing the correct architecture improves performance, security, and system longevity.",
+      "correct_answer": "The provided answer key is for a different question about Intensity Transformation in image processing. The correct answer according to the reference material involves performing a) a log transformation and b) a power-law transformation on a given matrix of pixel intensity values.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer correctly addresses the question about software architecture patterns. However, the provided reference material, which must be used for grading, contains the answer key for a completely different question about image processing (Intensity Transformation). Because the student's answer does not match the provided reference answer key, it must be marked as incorrect based on the strict grading rules."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "87739a209b8b9756b09ec222f7c6ec155833b6f12d19eb8a93710b28f38fd932",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:32:44.753123",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\nd) For a CEO:",
+      "student_answer": "Database indexing improves system efficiency and scalability. Faster data access enhances customer experience, reduces operational issues, and supports business growth",
+      "correct_answer": "def",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student answered a question about 'Database Indexing', but the reference key for Question 4 is 'Which keyword is used to define a function in Python?'. The student answered the wrong question. The correct answer for Question 4, according to the reference key, is 'def'."
+    }
+  }
+}

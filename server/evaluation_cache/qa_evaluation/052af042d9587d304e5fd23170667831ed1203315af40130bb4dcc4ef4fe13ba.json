@@ -1,0 +1,17 @@
+{
+  "content_hash": "052af042d9587d304e5fd23170667831ed1203315af40130bb4dcc4ef4fe13ba",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:32:54.176143",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1. Purpose:",
+      "student_answer": "To review weekly progress of the Internship Management Portal, discuss challenges faced by the team, and plan next steps for the upcoming week.",
+      "correct_answer": "The provided reference material's Question 1 is 'Which language is used for web styling?', and the corresponding answer is 'CSS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question asked to the student ('Q1. Purpose:') does not match the Question 1 found in the reference material ('Q1: Which language is used for web styling?'). Due to this critical mismatch, the student's answer cannot be evaluated for credit. The correct answer for Question 1 in the reference key is 'CSS'."
+    }
+  }
+}

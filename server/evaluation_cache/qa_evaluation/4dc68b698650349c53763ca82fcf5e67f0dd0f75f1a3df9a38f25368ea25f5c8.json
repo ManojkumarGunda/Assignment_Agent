@@ -1,0 +1,17 @@
+{
+  "content_hash": "4dc68b698650349c53763ca82fcf5e67f0dd0f75f1a3df9a38f25368ea25f5c8",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:15.421699",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which language is used for web styling?",
+      "student_answer": "CSS",
+      "correct_answer": "The reference material lists two possible questions for Q1: 'What does SQL stand for?' (Answer: mangodb) or 'Which keyword is used to define a function in Python?' (Answer: def).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Student Question mismatch. Graded against Reference Key. The question being answered ('Which language is used for web styling?') does not match the question(s) listed as Q1 in the provided reference material. The reference material lists 'What does SQL stand for?' and 'Which keyword is used to define a function in Python?' as Q1."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "bf9adae191041c452be4e2be8897c64795b8ee41b797da872d9ea7e0c0860998",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T14:27:14.510952",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the output of 5 + 2 * 3?",
+      "student_answer": "11",
+      "correct_answer": "11",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The correct answer is 11. The calculation correctly follows the order of operations (multiplication before addition)."
+    }
+  }
+}

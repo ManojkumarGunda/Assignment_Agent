@@ -1,0 +1,17 @@
+{
+  "content_hash": "abef81a71683c94083318a1ea2dd140fac1b831b8c3145cc046456b7b619908b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:44.061245",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: Which data structure follows LIFO?",
+      "student_answer": "Answer: Stack",
+      "correct_answer": "The question in the reference material for Q6 is 'Which protocol is used for secure web browsing?', and the correct answer is 'HTTPS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question the student answered ('Which data structure follows LIFO?') is different from the question listed for Q6 in the reference material ('Which protocol is used for secure web browsing?'). Therefore, the answer is incorrect based on the provided answer key."
+    }
+  }
+}

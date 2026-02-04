@@ -1,0 +1,17 @@
+{
+  "content_hash": "6b2f9e4ad32002b856efe556bedb84466a19aa4f4b2566fff80f643fc1d3afe0",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:11:09.647441",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "The question provided (labeled Q5) does not match the content of Question 5 in the reference material. The reference material's Q5 is either 'Which protocol is used for secure web browsing?' (Answer: API\u2019s) or 'What is the capital of India?' (Answer: New Delhi).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's question is labeled as Q5, but its content ('Which keyword is used to define a function in Python?') does not match the content of Q5 in the reference material ('Which protocol is used for secure web browsing?' or 'What is the capital of India?'). According to the grading rules, this is a question mismatch, resulting in a score of 0. The student's answer 'def' is correct for the question they answered, but it was not the correct question to answer for Q5."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "0f6f9f27a31176d424b6d9ef346b266298b6bcd041dcd8df0dc6b868fc25af16",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:56:06.659498",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "This question is not part of the assignment described in the provided rubric. The rubric covers questions on 'Audience-Based Communication' and 'Video Learning & Key Takeaways'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This question is not found in the provided rubric or reference material. The evaluation is strictly based on the content of the rubric, which only includes questions Q1 and Q2 related to communication. Therefore, this question cannot be graded as part of the specified assignment."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "d880ee40a522620778abcef973e7a8706886d33f3247305825c4bdf7b914a471",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T17:42:01.712294",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "who is the PM of India?",
+      "student_answer": "Narendra Modi",
+      "correct_answer": "Narendra Modi",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The student has correctly identified the Prime Minister of India.\n\nCorrect Answer: Narendra Modi"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "bcf0e8967f396dcac72f61957ade06c0be0a247efcdb4b02c95ef93f75872899",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T15:00:58.313564",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The assignment requires a coding solution. A correct answer would be a program that outputs the capital of India, for example, in Python: `print('New Delhi')`.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The assignment rubric specifies a 'comprehensive CODING assessment'. While your answer is factually correct, it does not meet the assignment's requirement to provide a solution in a code format. No code was provided for evaluation of logic, syntax, or efficiency."
+    }
+  }
+}

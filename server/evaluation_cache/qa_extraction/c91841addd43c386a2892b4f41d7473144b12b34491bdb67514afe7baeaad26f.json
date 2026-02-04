@@ -1,0 +1,15 @@
+{
+  "content_hash": "c91841addd43c386a2892b4f41d7473144b12b34491bdb67514afe7baeaad26f",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T14:44:38.687371",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "[CATEGORY: CODING] check the logic for the largacest number in an array",
+        "student_answer": "SUNSIRI\nPROJECTS PVT. LTD.\n\nDATE: / /\nName: Vamsi. [UNCLEAR_SYMBOL] C\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}\n\nSUN SIRI PROJECTS PVT. LTD.",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "d19e1a8b00430a58077e7e7dfeb045dfc8afd40e4a13a33f8d668d0ac6654473",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:57:30.334406",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The provided reference material does not contain this question or its corresponding answer key.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This question was not found in the provided rubric or reference material. The evaluation must be based solely on the provided context. Since the question is absent from the assignment description and the reference key, the student's answer cannot be verified as correct."
+    }
+  }
+}

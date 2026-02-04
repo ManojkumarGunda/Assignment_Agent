@@ -1,0 +1,17 @@
+{
+  "content_hash": "b660a8288e7d17e524cce59791ab25ff97dbcaeb9412a11ffef199d4d01e2fb8",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:48:56.402069",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "check the logic for the linear search",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "A correct linear search algorithm iterates through each element of a list sequentially until the target element is found or the end of the list is reached. If the element is found, its index is returned. If the entire list is traversed without finding the element, a 'not found' indication is given.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student was asked to provide the logic for a linear search, and their C code correctly and completely implements this algorithm. The provided reference material showed code for finding the largest element in an array, which is a different algorithm. According to grading rules, this unrelated reference material was ignored, and the student's answer was evaluated based on its correctness in fulfilling the question's prompt. The student's logic is sound, and they have earned full marks."
+    }
+  }
+}

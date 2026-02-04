@@ -1,0 +1,17 @@
+{
+  "content_hash": "48205169199e68f0d95f60c83d27f5b5528289ed86a540059711eef3a7badcdd",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:03:57.650619",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's submitted code is a verbatim match to the C language example provided in the reference material (REFERENCE DOC: d873eae0-3ab2-4009-bf05-2b55e50b3c86.docx). Full credit is awarded because the answer exactly matches one of the provided correct solutions in the answer key."
+    }
+  }
+}

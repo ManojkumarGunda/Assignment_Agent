@@ -1,0 +1,17 @@
+{
+  "content_hash": "7f632cfc467f13e8889f0777391046da5a0980dde013be7a666e0690e81a9210",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:54.147489",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Techniques for Appearing Smart :",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "He showcases various methods, including using hand gestures, referencing irrelevant data and graphs.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is a C program for a linear search, which is completely unrelated to the question asked. The question was 'Techniques for Appearing Smart :', and the correct answer, based on the provided reference material, involves communication techniques such as 'using hand gestures, referencing irrelevant data and graphs.' No credit is awarded as the answer does not address the question."
+    }
+  }
+}

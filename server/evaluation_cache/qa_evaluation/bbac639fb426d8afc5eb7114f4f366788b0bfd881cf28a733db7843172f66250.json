@@ -1,0 +1,17 @@
+{
+  "content_hash": "bbac639fb426d8afc5eb7114f4f366788b0bfd881cf28a733db7843172f66250",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T18:08:49.134230",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Given the following input-target pairs, calculate the final weight matrix using the Hebbian learning (outer product) rule.\nPattern 1: S\u2081=[1,0,1,0], t\u2081=[1,0]\nPattern 2: S\u2082=[1,0,0,1], t\u2082=[1,0]\nPattern 3: S\u2083=[1,1,0,0], t\u2083=[0,1]\nPattern 4: S\u2084=[0,0,1,1], t\u2084=[0,1]",
+      "student_answer": "S\u2081 S\u2082 S\u2083 S\u2084 t\u2081 t\u2082\n1  0  1/2.5 0.5 0  0\n1  0  0\n0  0  1  1\n\nHebb rule :- \\( W = \\sum_{t=1} t \\cdot s \\)\n\nfor Pattern 1: S\u2081: [1,0,1,0] t=[1,0]\n\n\\( w_1 = t_1 \\times s_1 = \\begin{bmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\)\n\nfor Pattern 2: S\u2082 = [1,0,0,1] t = [1,0]\n\n\\( w_2 = t_2 \\times s_2 = \\begin{bmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix} \\)\n\nfor Pattern 3: S\u2083 = [1,1,0,0] t\u2083 = [0,1]\n\n\\( w_3 = t_3 \\times s_3 = \\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\end{bmatrix} \\)\n\nPattern u:S4^T = [0,0,1,1] & t4 = [0.1]\n\nw4 = t4 x S4 = \n$$\n\\begin{bmatrix} 0.0 & 0.0 & 0.1 & 1.0 \\\\ 1.0 & 1.0 & 1.1 & 1.1 \\end{bmatrix}\n=\n\\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 0 & 0 & 1 & 1 \\end{bmatrix}\n$$\n\nW = w1 + w2 + w3 + w4\n\n> \n$$\n\\begin{bmatrix} 2 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 1 \\end{bmatrix}\n$$\n\nouter Product rule. = \n$$\nW = \\sum_{E_x} t_x \\times s\n$$\n\n$$\nW = \\begin{bmatrix} 2 & 0 & 1 & 1 \\\\ 1 & 1 & 1 & 1 \\end{bmatrix}\n$$",
+      "correct_answer": "The Hebbian learning rule (or outer product rule) for calculating the weight matrix is W = \u03a3(t * s^T), where t is the target vector and s is the input vector for each pattern.\n\nw\u2081 = [1; 0] * [1 0 1 0] = [[1, 0, 1, 0], [0, 0, 0, 0]]\nw\u2082 = [1; 0] * [1 0 0 1] = [[1, 0, 0, 1], [0, 0, 0, 0]]\nw\u2083 = [0; 1] * [1 1 0 0] = [[0, 0, 0, 0], [1, 1, 0, 0]]\nw\u2084 = [0; 1] * [0 0 1 1] = [[0, 0, 0, 0], [0, 0, 1, 1]]\n\nW = w\u2081 + w\u2082 + w\u2083 + w\u2084 = [[2, 0, 1, 1], [1, 1, 1, 1]]",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. Your final calculated weight matrix is correct. You correctly applied the Hebbian outer product rule for each pattern and summed the results to get the final matrix. While your final answer is correct, note that your intermediate calculation for w4 contained some errors, but you arrived at the correct matrix for that step anyway. The notation for the outer product is also more clearly written as W = \u03a3(t^T * s)."
+    }
+  }
+}

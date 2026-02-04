@@ -1,0 +1,17 @@
+{
+  "content_hash": "6a27e9c9277422f8aa4ad035a4dbf8639f89afa01310905d3206ea15a379724a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:23:56.084720",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked ('What is the time complexity of linear search?') is not derived from the assignment description/rubric, which specifies the topic as '[CATEGORY: GENERAL] find the largest number'. According to the grading protocol, if the question is not found within the assignment's scope, no credit can be awarded, regardless of the answer's correctness for the question itself."
+    }
+  }
+}

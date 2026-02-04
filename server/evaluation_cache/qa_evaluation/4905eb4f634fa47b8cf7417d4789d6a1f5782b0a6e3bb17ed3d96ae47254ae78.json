@@ -1,0 +1,17 @@
+{
+  "content_hash": "4905eb4f634fa47b8cf7417d4789d6a1f5782b0a6e3bb17ed3d96ae47254ae78",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:01:34.541244",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "Based on the provided sources, the answer should summarize the key points on business communication, technical communication, and non-verbal cues. \n1. Effective business communication involves understanding communication models (e.g., Oscar model), structuring communication for results, and practicing professional etiquette (grooming, meeting practices).\n2. Technical communication is audience-focused, aiming for clarity and simplicity. It involves audience analysis, strategic inquiry, and creating various content types to make information user-friendly and reduce company costs.\n3. Non-verbal and visual cues, such as hand gestures, pacing, props like glasses, and visual aids like graphs, can be used to create an illusion of expertise, even without substantive content.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student provided a C++ program for a linear search. However, the question asked was Q2, which, according to the reference material, requires a summary of concepts from three sources related to business communication, technical communication, and non-verbal cues. The student's answer does not address the question asked."
+    }
+  }
+}

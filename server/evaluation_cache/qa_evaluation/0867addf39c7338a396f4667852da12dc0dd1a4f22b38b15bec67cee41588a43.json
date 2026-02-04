@@ -1,0 +1,17 @@
+{
+  "content_hash": "0867addf39c7338a396f4667852da12dc0dd1a4f22b38b15bec67cee41588a43",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T13:02:10.974915",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "Name :Manoj #include <stdio.h> #include <stdlib.h> struct Node { int data; struct Node* next; }; int hasCycle(struct Node* head) { struct Node *slow = head, *fast = head; while (fast != NULL && fast->next != NULL) { slow = slow->next; fast = fast->next->next; if (slow == fast) return 1; // Cycle detected } return 0; // No cycle }",
+      "correct_answer": "30",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a block of C code that is completely irrelevant to the mathematical question asked. The correct answer is '30'."
+    }
+  }
+}

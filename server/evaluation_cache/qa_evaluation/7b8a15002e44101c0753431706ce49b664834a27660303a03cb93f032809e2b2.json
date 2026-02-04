@@ -1,0 +1,17 @@
+{
+  "content_hash": "7b8a15002e44101c0753431706ce49b664834a27660303a03cb93f032809e2b2",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:13.832801",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q8. One Key Learning",
+      "student_answer": "Regular weekly review meetings improve team alignment, help identify challenges early, and ensure consistent progress toward project goals.",
+      "correct_answer": "The provided reference material does not contain an answer for Question 8.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer was evaluated against the provided reference material. Question 8 was not found in the reference key, which only contains questions 1 through 7. Therefore, no marks can be awarded."
+    }
+  }
+}

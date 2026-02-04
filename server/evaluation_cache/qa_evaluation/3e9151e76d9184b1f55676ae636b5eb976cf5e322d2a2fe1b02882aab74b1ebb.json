@@ -1,0 +1,17 @@
+{
+  "content_hash": "3e9151e76d9184b1f55676ae636b5eb976cf5e322d2a2fe1b02882aab74b1ebb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:41:52.061093",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the capital of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "The provided rubric is for a BIOLOGY assessment and does not contain an answer for this question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asks for the capital of India, but the provided rubric is for a BIOLOGY assessment and the reference material contains a Python script. There is a complete mismatch between the question and the provided evaluation materials. Therefore, the student's answer cannot be validated against the rubric, and no credit can be awarded."
+    }
+  }
+}

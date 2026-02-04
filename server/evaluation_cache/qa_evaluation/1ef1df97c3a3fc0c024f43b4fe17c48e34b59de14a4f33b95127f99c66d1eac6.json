@@ -1,0 +1,17 @@
+{
+  "content_hash": "1ef1df97c3a3fc0c024f43b4fe17c48e34b59de14a4f33b95127f99c66d1eac6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:48:20.317157",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "write the program of the linear search",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's answer correctly implements the linear search algorithm. The logic in the student's C program is identical to the logic in the C++ reference material. Both programs correctly iterate through the array, compare each element to the target, and print the correct output. The use of a different programming language (C vs. C++) is acceptable as the core logic is the same and no specific language was mandated."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "2c0d2fae1a71e47c87d9da2933b120c30e07045df3cd678d4e1b496836f6f1ce",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:12:33.972658",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The Reference Key lists two different questions for Q6. For 'What is 15% of 200?', the answer is '30'. For 'Which protocol is used for secure web browsing?', the answer is 'HTTPS'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The question provided was 'Q6: What is the capital of India?'. However, the Reference Key for Question 6 is either 'What is 15% of 200?' or 'Which protocol is used for secure web browsing?'. The student answered a different question than the one expected for Q6."
+    }
+  }
+}

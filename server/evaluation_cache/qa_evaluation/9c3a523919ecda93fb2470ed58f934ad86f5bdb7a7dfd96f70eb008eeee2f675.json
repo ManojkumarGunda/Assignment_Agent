@@ -1,0 +1,17 @@
+{
+  "content_hash": "9c3a523919ecda93fb2470ed58f934ad86f5bdb7a7dfd96f70eb008eeee2f675",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T15:59:13.128386",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The time complexity of linear search is O(n).",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 5.0,
+      "feedback": "Score: 5/5. Assessment: Correct. The student has correctly identified the time complexity of linear search. The correct answer is O(n), which signifies that the time taken grows linearly with the number of items in the list."
+    }
+  }
+}

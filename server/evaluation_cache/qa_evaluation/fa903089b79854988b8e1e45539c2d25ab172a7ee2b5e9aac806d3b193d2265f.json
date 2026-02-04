@@ -1,0 +1,17 @@
+{
+  "content_hash": "fa903089b79854988b8e1e45539c2d25ab172a7ee2b5e9aac806d3b193d2265f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:05:31.504783",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: What is the output of 5 + 2 * 3?",
+      "student_answer": "Answer: 11",
+      "correct_answer": "The question in the reference material for Q3 is 'Which keyword is used to define a function in Python?', and the correct answer is 'def'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question asked ('What is the output of 5 + 2 * 3?') does not match the question designated as Q3 in the official reference material ('Which keyword is used to define a function in Python?'). Therefore, no credit can be awarded. The correct answer for Q3 according to the reference key is 'def'."
+    }
+  }
+}

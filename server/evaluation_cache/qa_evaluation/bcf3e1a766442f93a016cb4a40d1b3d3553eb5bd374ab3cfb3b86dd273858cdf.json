@@ -1,0 +1,17 @@
+{
+  "content_hash": "bcf3e1a766442f93a016cb4a40d1b3d3553eb5bd374ab3cfb3b86dd273858cdf",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:18.305927",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q9. Video 1 Takeaways",
+      "student_answer": "1. Clear meeting objectives help participants stay focused and productive.\n2. Time management is crucial to ensure meetings remain efficient.\n3. Assigning action items with ownership improves accountability.",
+      "correct_answer": "The provided reference material does not contain an answer for Question 9.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question (Q9) was not found in the provided reference material, which only contains questions and answers for Q1 through Q7. Therefore, no marks can be awarded."
+    }
+  }
+}

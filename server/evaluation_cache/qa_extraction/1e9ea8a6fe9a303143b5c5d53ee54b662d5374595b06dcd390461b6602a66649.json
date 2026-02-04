@@ -1,0 +1,15 @@
+{
+  "content_hash": "1e9ea8a6fe9a303143b5c5d53ee54b662d5374595b06dcd390461b6602a66649",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T22:48:39.283019",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "check the logic for the linear search",
+        "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

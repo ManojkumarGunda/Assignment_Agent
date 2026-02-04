@@ -1,0 +1,17 @@
+{
+  "content_hash": "f6a2b17716b11dc6c61cd679e8fdfcb76e33f086172a1c036b84955e55b17dfc",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T16:00:11.751436",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The time complexity of linear search is O(n).",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. The time complexity of a linear search algorithm is O(n), as in the worst-case scenario, every element in the list needs to be checked."
+    }
+  }
+}

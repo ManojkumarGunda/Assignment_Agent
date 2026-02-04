@@ -1,0 +1,17 @@
+{
+  "content_hash": "50952c61115758534e7e5180bcf192e0064cf7f22909365a03d53012cf9c187a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:36:54.670102",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "The provided reference code is for finding the largest element in an array, not a linear search. A correct linear search implementation would iterate from index 0 up to (but not including) the size of the array (e.g., `for (int i = 0; i < n; i++)`). The student's code attempts a linear search but contains a critical error in the loop condition (`i <= n`), which leads to an out-of-bounds memory access.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment rubric requires checking the logic for a linear search. While you have attempted to implement a linear search, your code contains a critical logical error. The loop condition `for (int i = 0; i <= n; i++)` will cause the program to access memory outside the bounds of the array, as the valid indices for an array of size 'n' are from 0 to n-1. The correct condition should be `i < n`. This out-of-bounds error makes the implementation fundamentally incorrect."
+    }
+  }
+}

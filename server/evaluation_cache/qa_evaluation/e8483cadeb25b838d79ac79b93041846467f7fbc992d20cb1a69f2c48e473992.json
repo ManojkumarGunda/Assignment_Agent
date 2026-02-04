@@ -1,0 +1,17 @@
+{
+  "content_hash": "e8483cadeb25b838d79ac79b93041846467f7fbc992d20cb1a69f2c48e473992",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-31T10:49:30.203374",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "-> Inputs : [1, 2, 5]\nweights : [4, 5, 6]",
+      "student_answer": "weighted sum = (1 \\cdot 4) + (2 \\cdot 5) + (3 \\cdot 6)\n= 4 + 10 + 8 = 32\noutput = 32x3 = 96.",
+      "correct_answer": "The weighted sum is calculated as: (1 * 4) + (2 * 5) + (5 * 6) = 4 + 10 + 30 = 44.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The calculation is wrong due to multiple errors. First, the third input value is 5, but you used 3. Second, there is a multiplication error: (3 * 6) is 18, not 8. Finally, the step of multiplying the result by 3 is not part of the question and is an incorrect, hallucinated step."
+    }
+  }
+}

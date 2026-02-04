@@ -1,0 +1,17 @@
+{
+  "content_hash": "0fb201cb1e4ab9c30789790f000f6f6f9fbfc23cbaf80d60d95aed7238f8bfcd",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:35:08.320401",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "A correct implementation of linear search would use a loop condition that does not go out of the array's bounds. The loop should be `for (int i = 0; i < n; i++)`. The student's code uses `i <= n`, which will attempt to access `arr[5]`, an index that is out of bounds for an array of size 5 (valid indices are 0 to 4).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The logic for the linear search is incorrect. The for loop condition `for (int i = 0; i <= n; i++)` causes an error. For an array of size `n=5`, the valid indices are 0, 1, 2, 3, and 4. Your loop attempts to access `arr[5]`, which is out of the array's bounds and results in undefined behavior. The correct loop condition should be `i < n`."
+    }
+  }
+}

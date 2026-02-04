@@ -1,0 +1,17 @@
+{
+  "content_hash": "33b5a181d7d427b97e1f69373d21e86f9f536243b33ab3971ff322e83567ceb1",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:34:49.084192",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The assignment required a solution to the coding problem 'find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment description requires a solution for the coding problem 'find the largest number'. The question asked ('What is the capital of India?') is unrelated to the assignment's topic. While the student's answer is factually correct for the question asked, it does not address the assignment's requirements. Therefore, no credit can be awarded."
+    }
+  }
+}

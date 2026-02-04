@@ -1,0 +1,17 @@
+{
+  "content_hash": "2215370f05ef577b545baf9a328be93b75db5b2920014f1845b496c8c1fcdf87",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T15:41:31.575427",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which data structure follows LIFO?",
+      "student_answer": "Stack",
+      "correct_answer": "Stack",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student correctly identified that a Stack is the data structure that follows the Last-In, First-Out (LIFO) principle. The answer is correct and complete."
+    }
+  }
+}

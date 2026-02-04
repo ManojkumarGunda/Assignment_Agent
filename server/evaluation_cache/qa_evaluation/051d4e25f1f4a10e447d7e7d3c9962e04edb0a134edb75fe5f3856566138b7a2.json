@@ -1,0 +1,17 @@
+{
+  "content_hash": "051d4e25f1f4a10e447d7e7d3c9962e04edb0a134edb75fe5f3856566138b7a2",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:01:41.623354",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: CODING] write a program to the linear search",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "A correct implementation of a linear search algorithm. The program should iterate through an array from the first element to the last. In each iteration, it compares the current element with the target value. If a match is found, it should return the index of the element. If the entire array is traversed without finding the element, it should indicate that the element was not found.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer was evaluated against the assignment description, which required writing a program for a linear search. The provided reference material for Q2 was deemed irrelevant to this coding task. The student correctly implemented the linear search algorithm in C. The code successfully iterates through the array, finds the target element, and prints its index. It also correctly handles the case where the element is not present in the array. The implementation is complete and correct."
+    }
+  }
+}

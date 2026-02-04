@@ -1,0 +1,17 @@
+{
+  "content_hash": "8dcc81f700545cfc788f0a4c1f9e88121400abb394c28291cdcd0d78b2c1d703",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:02.324393",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2. Date & Time:",
+      "student_answer": "Weekly Progress Review Meeting (Assumed: Scheduled during the current week)",
+      "correct_answer": "15/12/2025",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is incorrect. The question asks for the date and time from the document. The correct date, found in the header of the reference document, is '15/12/2025'. The student's answer provides an unrelated description of a meeting."
+    }
+  }
+}

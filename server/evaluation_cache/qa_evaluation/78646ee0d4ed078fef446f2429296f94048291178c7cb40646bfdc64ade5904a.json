@@ -1,0 +1,17 @@
+{
+  "content_hash": "78646ee0d4ed078fef446f2429296f94048291178c7cb40646bfdc64ade5904a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:39:48.580542",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the capital of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "The provided rubric is for a BIOLOGY assessment and contains Python code. The question is about geography. Therefore, a correct answer cannot be determined from the provided materials.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is factually correct. However, the question is about geography, while the assignment rubric specifies a BIOLOGY assessment and the reference material contains Python code. There is a complete mismatch between the question and the subject being tested. Therefore, the answer is considered incorrect in the context of this specific assignment."
+    }
+  }
+}

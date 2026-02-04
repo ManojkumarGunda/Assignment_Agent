@@ -1,0 +1,17 @@
+{
+  "content_hash": "e22728f3c22fb5007449032d7141968249a91a05713048fbd2e384ab2fb45df2",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:05:49.752415",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: Which keyword is used to define a function in Python?",
+      "student_answer": "def",
+      "correct_answer": "API\u2019s",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided for grading ('Which keyword is used to define a function in Python?') is labeled as Q5, but it does not match the content of Q5 in the reference material ('Which protocol is used for secure web browsing?'). Due to this mismatch, the answer cannot be accepted. The correct answer for Q5, according to the reference key, is 'API\u2019s'."
+    }
+  }
+}

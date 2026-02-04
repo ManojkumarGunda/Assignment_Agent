@@ -1,0 +1,6 @@
+{
+  "content_hash": "6900116344450e7dfc1aa1a7cd2447797054cf238ed54f867aa34015009bc204",
+  "eval_type": "ocr",
+  "cached_at": "2026-02-03T22:23:03.005747",
+  "result": "arr = [10, 20, 30, 40, 50]\n\ntarget = 30\n\nfor i in range(len(arr)):\n    if arr[i] == target:\n        print(\"Element found at index\", i)\n        break\nelse:\n    print(\"Element not found\")"
+}

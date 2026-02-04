@@ -1,0 +1,17 @@
+{
+  "content_hash": "5f33dbef7e516cd55141664d8b8c63eb6387c5d99150486445ffeda37f70f7c4",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T14:49:07.056420",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "--- [START PAGE 1] ---\nName:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)\n--- [END PAGE 1] ---",
+      "correct_answer": "The reference material provides two examples for finding the largest number in an array/list. The correct Python implementation is:\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint (\"Largest number:\", largest)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's submitted Python code is a verbatim match to one of the provided reference documents (84d5131b-1793-488c-91a2-48852549497c.pdf). The code is syntactically correct and logically sound for finding the largest number in the given list."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "a47b4666270a6ecc1a2b5173d4c4586533c369ffc1c6409c9fefff2268f8ff10",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:05:57.070397",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The provided reference material does not contain this question or its answer.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The provided rubric and reference material do not contain this question (Q4). The evaluation materials are for questions regarding 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. As per the instructions, the student's answer must be evaluated exclusively against the provided reference material. Since this question is not part of the reference material, it cannot be graded and is marked as incorrect."
+    }
+  }
+}

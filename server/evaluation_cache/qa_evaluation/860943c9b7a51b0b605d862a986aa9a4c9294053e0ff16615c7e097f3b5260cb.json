@@ -1,0 +1,17 @@
+{
+  "content_hash": "860943c9b7a51b0b605d862a986aa9a4c9294053e0ff16615c7e097f3b5260cb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:07:00.598730",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The provided reference material does not contain an answer for this question. It covers topics related to database indexing and communication skills.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer addresses a question about the time complexity of linear search. However, the provided reference material and rubric do not contain this question or any related content. The rubric is for an assignment covering 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. According to the grading instructions, the student's answer must be evaluated exclusively against the provided reference material. Since the topic is a mismatch, the answer is considered incorrect in the context of this specific assignment."
+    }
+  }
+}

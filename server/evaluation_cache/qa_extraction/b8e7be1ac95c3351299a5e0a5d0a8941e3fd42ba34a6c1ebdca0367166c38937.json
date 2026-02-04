@@ -1,0 +1,20 @@
+{
+  "content_hash": "b8e7be1ac95c3351299a5e0a5d0a8941e3fd42ba34a6c1ebdca0367166c38937",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T17:28:32.247906",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "What is the difference between supervised and unsupervised learning? Give an example of each.",
+        "student_answer": "Supervised learning is a type of machine learning where the model learns from labeled data. The data consists of input features and corresponding output labels. The goal is for the model to learn a mapping function that can predict the output for new, unseen inputs. An example of supervised learning is image classification, where the model is trained on a dataset of images labeled with their corresponding categories (e.g., 'cat', 'dog').\n\nUnsupervised learning, on the other hand, deals with unlabeled data. The model tries to learn the underlying structure or distribution in the data without any explicit labels. The goal is to find patterns, similarities, or anomalies in the data. An example of unsupervised learning is clustering, such as using the K-means algorithm to group customers into different segments based on their purchasing behavior.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Explain the concept of overfitting in machine learning and describe two techniques to prevent it.",
+        "student_answer": "Overfitting occurs when a machine learning model learns the training data too well, including the noise and random fluctuations in the data. As a result, the model performs exceptionally well on the training data but fails to generalize to new, unseen data. It has high variance and low bias.\n\nTwo common techniques to prevent overfitting are:\n1.  **Regularization:** This technique adds a penalty term to the loss function. The penalty discourages the model from learning overly complex patterns by penalizing large coefficient values. Common types of regularization are L1 (Lasso) and L2 (Ridge) regularization.\n2.  **Cross-Validation:** This is a resampling technique used to evaluate machine learning models on a limited data sample. The data is split into multiple folds, and the model is trained and tested multiple times, with a different fold used as the test set each time. This helps in getting a more robust estimate of the model's performance on unseen data and can help in tuning hyperparameters to prevent overfitting.",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "a83b5f8b9ce335929ed31a4f9533a8effbbdce6d6949477a6429653d2193022e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:07.997218",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5. Meeting Etiquette Followed",
+      "student_answer": "Meeting started and concluded on time\nParticipants joined with microphones muted unless speaking\nActive listening was maintained without interruptions\nClear and concise updates were provided by team members\nRespectful communication and professional behavior were followed\nAction items and responsibilities were clearly acknowledged",
+      "correct_answer": "The question in the reference material for Q5 is 'What is the time complexity of linear search?'. The correct answer is 'O(n)'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question the student answered ('Q5. Meeting Etiquette Followed') does not match the question listed as Q5 in the official reference material ('What is the time complexity of linear search?'). The student's answer is for the wrong question and is therefore incorrect. The correct answer for Q5 in the reference key is 'O(n)'."
+    }
+  }
+}

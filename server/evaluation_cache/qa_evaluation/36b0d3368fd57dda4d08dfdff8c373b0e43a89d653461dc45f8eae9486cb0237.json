@@ -1,0 +1,17 @@
+{
+  "content_hash": "36b0d3368fd57dda4d08dfdff8c373b0e43a89d653461dc45f8eae9486cb0237",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:01.683908",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Summarize the key learnings from the video on Technical Communication.",
+      "student_answer": "Definition and Purpose: Technical communication is likened to the \"math of English,\" focusing on simplifying complex information and adapting it for specific audiences Key Responsibilities: Technical communicators handle diverse tasks, including editing, designing documents, creating presentations, writing proposals, and managing web content, all with the goal of relaying information effectively to the user Value and Impact: They act as the user's advocate, ensuring content meets audience needs and reducing company costs by creating user-friendly materials that minimize the need for support services",
+      "correct_answer": "A correct summary for the video on Technical Communication should include these key points: 1. Nature and Scope: It simplifies language ('the mathematics of English') and includes tasks like editing, writing, and document design. 2. Audience-Centered Communication: Its primary focus is on the audience's needs. 3. The Communicator as an Advocate: They represent the user's perspective. 4. Business and Financial Impact: It reduces operational costs by minimizing the need for customer support through clear documentation.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a complete and accurate summary of the key points provided in the reference material for the second video. It correctly identifies the definition, the audience-centric approach, the role as a user advocate, and the business impact."
+    }
+  }
+}

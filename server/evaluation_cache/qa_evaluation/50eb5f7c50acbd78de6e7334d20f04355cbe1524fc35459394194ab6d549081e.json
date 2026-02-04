@@ -1,0 +1,17 @@
+{
+  "content_hash": "50eb5f7c50acbd78de6e7334d20f04355cbe1524fc35459394194ab6d549081e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:40.494268",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n-1)",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked was not found in the assignment description, which was '[CATEGORY: CODING] find the largest number'. As per the grading instructions, if the question is not part of the assignment, a score of 0.0 must be awarded. Additionally, the student's answer O(n-1) is technically incorrect as Big O notation simplifies expressions by dropping constants, making the correct answer O(n)."
+    }
+  }
+}

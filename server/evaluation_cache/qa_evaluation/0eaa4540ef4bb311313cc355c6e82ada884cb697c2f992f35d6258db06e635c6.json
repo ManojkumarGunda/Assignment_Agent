@@ -1,0 +1,17 @@
+{
+  "content_hash": "0eaa4540ef4bb311313cc355c6e82ada884cb697c2f992f35d6258db06e635c6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-30T15:00:57.418681",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The correct answer is 30. This is calculated as (15/100) * 200.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The correct answer is 30. The student correctly calculated 15% of 200. Although the rubric specifies a coding assessment, the question is a direct mathematical problem, and the student's numerical answer is correct."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "b735f91de86fed0018d73a3a8775e662f254a4d2e21cc340b02b3c6d2c15d8df",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:40:00.432197",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs",
+      "student_answer": "a) Explanation for an Engineer\n\nOverview\n\nDatabase indexing is a performance optimization technique used to speed up data retrieval operations in a database.\n\nTechnical Explanation\n\nAn index is a data structure (commonly a B-Tree or Hash structure) that maintains a sorted reference to specific columns in a table. Instead of scanning every row during a query execution (full table scan), the database engine uses the index to quickly locate the required records.\n\nFor example, when a WHERE, JOIN, or ORDER BY clause is applied on indexed columns, the database can directly access matching rows using the index pointer, significantly reducing query execution time.\n\nKey Points\n\nImproves read performance\n\nConsumes additional storage space\n\nSlightly impacts write operations (INSERT, UPDATE, DELETE) due to index maintenance\n\nMust be designed based on query patterns\n\nEngineer\u2019s Focus\n\nIndexing should be applied strategically by analyzing query execution plans and avoiding over-indexing, which can degrade performance.",
+      "correct_answer": "An explanation for an Engineer should include:\nOverview: Database indexing is a performance optimization technique used to speed up data retrieval operations in a database.\nTechnical Explanation: An index is a data structure (e.g., B-Tree) that holds a sorted reference to columns. It avoids full table scans by allowing the database engine to quickly locate records, especially for WHERE, JOIN, or ORDER BY clauses.\nKey Points/Trade-offs: It improves read performance but consumes additional storage and slightly impacts write operations (INSERT, UPDATE, DELETE) due to index maintenance. It must be designed based on query patterns.\nEngineer\u2019s Focus: Apply indexing strategically by analyzing query execution plans and avoiding over-indexing.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is a verbatim match to the provided reference material. It correctly defines database indexing as a performance optimization technique, explains its purpose of speeding up data retrieval, and details the trade-offs, including increased storage space and a slight impact on write operations. The explanation is perfectly tailored for an engineer as per the rubric."
+    }
+  }
+}

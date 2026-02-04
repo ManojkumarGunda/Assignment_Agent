@@ -1,0 +1,17 @@
+{
+  "content_hash": "6af64e27b714097e0802ce64d5b4db2e4d1808274ba92561fdbd3f2ebad1a7bb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:08:17.962881",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the binary equivalent of 5?",
+      "student_answer": "Name :Manoj\n\n\n#include <stdio.h>\n\n#include <stdlib.h>\n\nstruct Node {\n\n    int data;\n\n    struct Node* next;\n\n};\n\nint hasCycle(struct Node* head) {\n\n    struct Node *slow = head, *fast = head;\n\n    while (fast != NULL && fast->next != NULL) {\n\n        slow = slow->next;\n\n        fast = fast->next->next;\n\n        if (slow == fast)\n\n            return 1; // Cycle detected\n\n    }\n\n    return 0; // No cycle\n\n}",
+      "correct_answer": "101",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a C code snippet for detecting a cycle in a linked list, which is completely irrelevant to the question asked. The correct answer for 'What is the binary equivalent of 5?' is '101'."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content_hash": "41c1a860d93d01229e76b689b15b1e23672c9621033ee609d00c955de4df7fcb",
+  "eval_type": "ppt_design",
+  "cached_at": "2026-01-30T11:11:20.813612",
+  "result": {
+    "success": true,
+    "response": {
+      "visual_clarity": {
+        "score": 65,
+        "feedback": "Several slides contain a very high number of text elements (up to 21), which likely leads to clutter and reduces readability. Key messages may be lost in the density of information."
+      },
+      "layout_balance": {
+        "score": 58,
+        "feedback": "The balance is inconsistent. Slides with a high shape count (e.g., Slides 5, 8, 9) are likely crowded, with poor use of white space, while others are simpler. This creates an uneven flow."
+      },
+      "color_consistency": {
+        "score": 88,
+        "feedback": "A consistent and professional color palette (blues, purples, and white) is used across the slides, creating a cohesive visual identity. This is a strong point of the design."
+      },
+      "typography": {
+        "score": 62,
+        "feedback": "With a large number of text boxes on many slides, it is probable that a clear typographic hierarchy is lacking, potentially leading to inconsistent font sizes and difficulty in distinguishing headings from body text."
+      },
+      "visual_appeal": {
+        "score": 70,
+        "feedback": "The professional color scheme provides a good foundation, but the overall appeal is diminished by information overload and cluttered layouts on the majority of the slides."
+      },
+      "design_strengths": [
+        "The presentation utilizes a consistent and professional color palette, which helps in creating a unified brand feel.",
+        "There is a good mix of text-based slides and slides that incorporate images to support the content."
+      ],
+      "design_improvements": [
+        "Significantly reduce the amount of text and the number of elements on dense slides. Consider breaking complex information across multiple slides to improve clarity.",
+        "Improve the use of white space and alignment to create more balanced and organized layouts, which will guide the viewer's eye more effectively.",
+        "Establish a stronger visual hierarchy with typography to make the content easier to scan and digest."
+      ],
+      "design_summary": "The design is built on a strong and consistent color scheme, giving it a professional look. However, its effectiveness is significantly hampered by cluttered layouts and information overload on many slides, which detracts from visual clarity and overall appeal."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "97bb768c2e3ca23634ec9a30e63b610eae560fa0056305398a2380c3a3835d75",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:18.122282",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Video 3:\n\nThe Illusion of Content :",
+      "student_answer": "Name:c++\n\n#include <iostream>\n\nusing namespace std;\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    for (int i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            cout << \"Element found at index \" << i;\n\n            return 0;\n\n        }\n\n    }\n\n    cout << \"Element not found\";\n\n    return 0;\n\n}",
+      "correct_answer": "The correct answer should summarize the key points of Video 3, which are: Demonstrates how to deliver a presentation that sounds brilliant and insightful despite having 'nothing' to say; showcases techniques for appearing smart like using hand gestures and irrelevant data; and emphasizes how non-verbal cues can manipulate an audience.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asks for information related to 'Video 3: The Illusion of Content'. The provided answer is a C++ program for a linear search, which is completely unrelated to the question. The answer does not address the topic of the video as described in the reference material. Therefore, no credit is awarded."
+    }
+  }
+}

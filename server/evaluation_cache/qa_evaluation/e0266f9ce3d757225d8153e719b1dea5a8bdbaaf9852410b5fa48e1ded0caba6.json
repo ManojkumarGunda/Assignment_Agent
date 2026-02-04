@@ -1,0 +1,17 @@
+{
+  "content_hash": "e0266f9ce3d757225d8153e719b1dea5a8bdbaaf9852410b5fa48e1ded0caba6",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:36.857364",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The question provided for grading ('What is 15% of 200?') does not match the question found in the reference material for Q4 ('What is the time complexity of linear search?'). The correct answer for the reference question is 'O(n)'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student answered a different question than the one specified for Q4 in the reference material. The question in the reference key is 'What is the time complexity of linear search?', and the correct answer is 'O(n)'. The student answered the question 'What is 15% of 200?', which is a mismatch."
+    }
+  }
+}

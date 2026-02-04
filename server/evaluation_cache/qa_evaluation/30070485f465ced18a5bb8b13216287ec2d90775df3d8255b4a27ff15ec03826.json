@@ -1,0 +1,17 @@
+{
+  "content_hash": "30070485f465ced18a5bb8b13216287ec2d90775df3d8255b4a27ff15ec03826",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:46.810698",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "New Delhi",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Based on the strict grading rules, the student's answer is graded as incorrect. The provided reference material, which must be used exclusively for grading, only contains questions and answers related to 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. The question being graded (Q5) is not found in the reference material. Therefore, the answer is considered a topic mismatch and irrelevant to the provided grading context, resulting in a score of 0."
+    }
+  }
+}

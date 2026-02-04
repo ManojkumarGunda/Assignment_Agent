@@ -1,0 +1,17 @@
+{
+  "content_hash": "15a2f4951c3a38de122dc02df80e4c7072a9bc40e8690bb45710f8a08ec81d5c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T16:44:58.460555",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q)",
+      "student_answer": "public class Main {\nName:- Ramesh Java\npublic state void Main (String[] args) {\nint[] arr = {10, 45, 3, 99, 234};\nint largest = arr[0]\nfor (int i=1; i<arr.length; i++) {\nif (arr[i] > largest) {\nlargest = arr[i]\n}\n}\nSystem.out.println(\"largest number:\" + largest)\n}\n}",
+      "correct_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The core logic for finding the largest number is conceptually correct and aligns with the reference material. However, the provided code contains multiple critical syntax errors that would prevent it from compiling (e.g., 'public state void Main' should be 'public static void main', and there are missing semicolons). Per the deterministic grading rules, code with syntax errors receives an automatic score of 0.0."
+    }
+  }
+}

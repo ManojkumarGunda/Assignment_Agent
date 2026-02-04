@@ -1,0 +1,17 @@
+{
+  "content_hash": "b715f078968a75fc928b6a80f696e6c133e4414a0de747d6817adca5abbd8167",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:11:04.643680",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "[CATEGORY: THEORY] find the largest number",
+      "student_answer": "--- [START PAGE 1] ---\nSUNSIRI\nPROJECTS PVT. LTD.\n\nDATE: / /\nName: Vamsi. [UNCLEAR_SYMBOL] C\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}\n\nSUN SIRI PROJECTS PVT. LTD.\n--- [END PAGE 1] ---",
+      "correct_answer": "A correct program to find the largest number in an array. For example, in C: #include <stdio.h> int main() { int arr[] = {10, 45, 3, 99, 23}; int n = sizeof(arr) / sizeof(arr[0]); int largest = arr[0]; for (int i = 1; i < n; i++) { if (arr[i] > largest) { largest = arr[i]; } } printf(\"Largest number: %d\", largest); return 0; }",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's code attempts to implement the logic for finding the largest number, but it contains multiple critical syntax and logical errors. The code would not compile due to incorrect keywords ('in' instead of 'int', 'size of' instead of 'sizeof'), a malformed for-loop, and other syntax issues. Most importantly, the final line attempts to print the 'Smallest number' using an undeclared variable 'smallest', which directly contradicts the problem's requirement to find the largest number. Due to these fundamental errors, the submission is incorrect."
+    }
+  }
+}

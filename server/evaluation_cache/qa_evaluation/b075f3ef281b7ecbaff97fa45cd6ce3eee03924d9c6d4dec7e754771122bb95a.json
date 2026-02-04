@@ -1,0 +1,17 @@
+{
+  "content_hash": "b075f3ef281b7ecbaff97fa45cd6ce3eee03924d9c6d4dec7e754771122bb95a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:17:06.768956",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The question for Q1 in the reference is 'Which keyword is used to define a function in Python?', and its answer is 'def'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer cannot be evaluated because the question 'What does SQL stand for?' is not found in the provided reference material. The reference key's Question 1 is a different question ('Which keyword is used to define a function in Python?')."
+    }
+  }
+}

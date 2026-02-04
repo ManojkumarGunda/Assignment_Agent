@@ -1,0 +1,17 @@
+{
+  "content_hash": "7faacba784eb31bc331de754483672c43bb233a3ce8acda97b28033dc4b3bfc0",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:11:45.243331",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "mangodb",
+      "correct_answer": "mangodb",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a verbatim match to the answer provided in the reference material."
+    }
+  }
+}

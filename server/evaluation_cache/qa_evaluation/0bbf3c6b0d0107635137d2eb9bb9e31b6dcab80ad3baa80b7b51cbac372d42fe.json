@@ -1,0 +1,17 @@
+{
+  "content_hash": "0bbf3c6b0d0107635137d2eb9bb9e31b6dcab80ad3baa80b7b51cbac372d42fe",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:52:17.307009",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3. Describe process scheduling in operating systems.",
+      "student_answer": "Process scheduling is the method by which an operating system decides which process should execute at a given time. The scheduler allocates CPU time among processes to ensure fairness and efficiency.\nScheduling algorithms include First Come First Serve, Shortest Job First, Priority Scheduling, and Round Robin. Each algorithm has strengths and weaknesses depending on workload.\nEffective scheduling improves system responsiveness and resource utilization. Modern operating systems use hybrid scheduling approaches to balance performance.",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The reference material is for a different subject (Image Processing).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The student's answer addresses the question about process scheduling in operating systems. However, the provided reference material is for a completely different assignment on 'Intensity Transformation' in image processing. As per the instructions, the evaluation must be based exclusively on the provided reference material. Since the reference key does not contain an answer for this question, the student's answer cannot be verified and receives no credit."
+    }
+  }
+}

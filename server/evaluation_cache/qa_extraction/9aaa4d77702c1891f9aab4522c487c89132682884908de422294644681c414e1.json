@@ -1,0 +1,50 @@
+{
+  "content_hash": "9aaa4d77702c1891f9aab4522c487c89132682884908de422294644681c414e1",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-01-31T10:40:54.014597",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "1) A' = {(x_1, 0.8), (x_2, 0.7), (x_3, 0.6), (x_4, 0.5), (x_5, 0.9)}",
+        "student_answer": "x_1 = 0.8 > 0.7\nx_2 = 0.7 > 0.7\nx_3 = 0.6 < 0.7\nx_4 = 0.3 < 0.7\nx_5 = 0.9 > 0.7\n\n{x_1, x_2, x_5}\n=\n\n[UNCLEAR_TEXT]\nItbias & dpish",
+        "is_answer_present": true
+      },
+      {
+        "question": "2) x=0, \u03bc(x) = 0\nx=2, \u03bc(x) = 0.7\nx=4, \u03bc(x) = 0.7\nx=6, \u03bc(x) = 0",
+        "student_answer": "= \\frac{(2.07) + (4.07)}{0.7 + 0.7} = \\frac{1.4 + 2.8}{1.4} = \\frac{4.2}{1.4} = 3.76\n\n-> Inputs : [1, 2, 5]\nweights : [4, 5, 6]\nweighted sum = (1.4) + (2.5) + (3.6)\n= 4 + 10 + 18 = 32\noutput = 32x3 = 96.\n\ndx? =\n{[UNCLEAR_SYMBOL]x?}: [UNCLEAR_TEXT]",
+        "is_answer_present": true
+      },
+      {
+        "question": "a)\ni/p size = 28x28, kenal size = 7x7 strid = 1\n(po, 2x), (eo, uh), (do, [UNCLEAR_SYMBOL])",
+        "student_answer": "o/p size : \\frac{i/p size - kenral size}{stride}\n= 28-7+1 = 22\n22x22\n~\n{2x, 5x}",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) Heigh & width",
+        "student_answer": "=\nMension = \\frac{Input dimension - Filter size + 2xPadding}{Stride +2}\noutput weight = (63-7+2x0)/2+1=29\n(row) . (ros)\nan.E = S.D / Y1 = 29x29x32\n~",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) i/p player = 6neurons\no/p layer = 2neurons",
+        "student_answer": "[3.S.1] : enquant (\n[0.P.N] : eldpixw\nmuz boitp sow\nweight b/w i/p & hidden layer\ndp = 5x5E\nRows = no. of neurons - neuron in i/p\n= 5x6\n= [2x5]; [5x6]\n=",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q) output size = (\\frac{n+2p-f}{3} + 1) x (\\frac{n+2p-f}{3} + 1)\n\nn=5 f=7\nP=1 s=1",
+        "student_answer": "= (\\frac{5+2(1)-7}{1} + 1) x (\\frac{5+2(1)-7}{1} + 1)\n\n= (\\frac{5+2-7}{1} + 1) x (\\frac{5+2(1)-7}{1} + 1)\n\n= 1 x 1\n= [UNCLEAR_SYMBOL]\n=",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q)\nS_1 S_2 S_3 S_4 o/p t_1 t_2\n(0,1,2) (0,1)\n1 0 1/2.5 0.5 0\n1 0 0 Eq. E = bio",
+        "student_answer": "r.E = (0.5, 0.54) vi (2, 2.50) 0 x,b(x) = pos\n0 0.544 1 1 rb(0)\n\nHebb rule :- W = \\sum_{t=1}^{2} t \\cdot s\n\nfor Patter 1: S1: [1,0,1,0] t=[1,0]\n\nw_1 = t_1 x s_1 = \\begin{bmatrix} 1.00 \\\\ 0.11 \\end{bmatrix} \\begin{matrix} 1.0 & 1.0 \\\\ 0.01 & 0.0 \\end{matrix} = \\begin{bmatrix} 1 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\n\nfor Pattern 2: S_2 = [1,0,0,1] t = [1,0]\n\nw_2 = t_2 x s_2 = \\begin{bmatrix} 1.1 \\\\ 0.1 \\end{bmatrix} \\begin{matrix} 1.0 & 1.1 \\\\ 0.0 & 0.11 \\end{matrix} = \\begin{bmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 0 & 0 & 0 \\end{bmatrix}\n\nfor Pattern 3: S_3 = [1,1,0,0] t_3 = [0,1]\n\nw_3 = t_3 x s_3 = \\begin{bmatrix} 0.1 \\\\ 1.1 \\end{bmatrix} \\begin{matrix} 0.1 & 0.0 & 0.0 \\\\ 1.1 & 1.0 & 1.0 \\end{matrix} = \\begin{bmatrix} 0 & 0 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\end{bmatrix}",
+        "is_answer_present": true
+      },
+      {
+        "question": "Scalar Cardinality\n(ridx) (80, 2x) (2.0, [UNCLEAR_SYMBOL]) \u2211_{x\u2208A} M(x) [UNCLEAR_TEXT] (0,0)} = A\n{(0,0), (0,0), (50, [UNCLEAR_SYMBOL]), (1, [UNCLEAR_SYMBOL]), (1, [UNCLEAR_SYMBOL])}",
+        "student_answer": "= 0+0.3 + 0.4+0.5+0.8 + 1+1+1+1+0.7+0.8\n0.2+0 {0.5(B)N} A3P} : [UNCLEAR_TEXT]\n= 7.3 0 = (sx) u \u03c3 = (x) u\nRelative Cardinality = \\frac{Scalar Cardinality}{No. of elements}\n= \\frac{7.3}{13} pl = (N) u} A3P} D. [UNCLEAR_TEXT]\n1 = (0x) u = (08) 13. (01) u = (s) u,\n= 0.5615 [UNCLEAR_TEXT]\n(20 = (x)N A318} : [UNCLEAR_TEXT]\n20 = (10) x [CROSSED_OUT: 20] (08) u\n& (u.x.N8)\n20 = (x)N A3P3 E.O = D. [UNCLEAR_TEXT]\n(u.x [UNCLEAR_TEXT] 28 x [UNCLEAR_TEXT])\n2 > - (0)x | A3P3 : No = x [UNCLEAR_TEXT] provide\nN ocr (1) u\n([UNCLEAR_TEXT] 2x [UNCLEAR_TEXT])\n21 > (0) [UNCLEAR_TEXT] | A3P3 : [UNCLEAR_TEXT]\n1 > (0) u > 0\n(s [UNCLEAR_TEXT] 2x, [UNCLEAR_TEXT])\n1 = (N) u : [UNCLEAR_TEXT]\n[UNCLEAR_TEXT] : (10)x = (1) u",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

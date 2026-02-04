@@ -1,0 +1,17 @@
+{
+  "content_hash": "a18a657a1c07618452c097f36f29a2be2750553256e4a4542a7cebe0a76148db",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:35:01.224227",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "The correct answer to the question is 101. However, the assignment rubric specifies the topic is '[CATEGORY: CODING] find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment description provided in the rubric is '[CATEGORY: CODING] find the largest number'. The student answered the question about binary conversion, which is not the topic specified in the rubric. As per the grading instructions, if the student's work addresses a topic not found in the assignment description, it must be awarded 0.0."
+    }
+  }
+}

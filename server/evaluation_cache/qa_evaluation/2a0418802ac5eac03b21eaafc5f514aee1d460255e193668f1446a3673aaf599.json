@@ -1,0 +1,17 @@
+{
+  "content_hash": "2a0418802ac5eac03b21eaafc5f514aee1d460255e193668f1446a3673aaf599",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:07:00.487400",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the capital of India?",
+      "student_answer": "New Delhi",
+      "correct_answer": "A correct summary should address the key points for each video as listed in the question:\n\n1.  **Business Communication Fundamentals:** Key takeaways include understanding communication fundamentals and models, how to structure communication to achieve specific results, and the importance of professional behavior and business etiquette.\n2.  **Technical Communication:** Key takeaways include the definition of technical communication as simplifying complex information, the critical role of audience analysis for ensuring clarity, and the responsibilities and business impact of technical communicators (e.g., reducing support costs).\n3.  **Sounding Smart Without Content:** Key takeaways include how speakers use body language, tone, and pacing, along with visuals, numbers, and props, to influence audience perception and create an impression of intelligence, even without substantive content.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is irrelevant to the question provided in the reference material. The reference material for Question 2 requires a summary of three videos on communication topics. The student provided an answer to a completely different question about the capital of India."
+    }
+  }
+}

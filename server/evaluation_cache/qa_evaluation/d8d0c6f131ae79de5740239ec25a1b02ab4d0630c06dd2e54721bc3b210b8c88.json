@@ -1,0 +1,17 @@
+{
+  "content_hash": "d8d0c6f131ae79de5740239ec25a1b02ab4d0630c06dd2e54721bc3b210b8c88",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:47:21.298585",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "The provided reference material does not contain this question. The question for Q4 in the reference material is 'What does SQL stand for?' and the correct answer is 'Structured Query Language'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question 'What is the time complexity of linear search?' was not found in the provided reference material. Therefore, no marks can be awarded. The question listed as Q4 in the reference material is 'What does SQL stand for?', with the correct answer being 'Structured Query Language'."
+    }
+  }
+}

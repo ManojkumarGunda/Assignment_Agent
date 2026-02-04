@@ -1,0 +1,17 @@
+{
+  "content_hash": "6bf483149857e58ec11e0b69ec17c90b345f1be6df9f333b283dae659ddc448c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:51:40.574287",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "mangodb",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The question provided for grading is labeled as Q1, but its content ('What is the binary equivalent of 5?') corresponds to Q7 in the reference material. According to the reference key, the expected question for Q1 is 'What does SQL stand for?', for which the correct answer is 'mangodb'. The student answered the wrong question."
+    }
+  }
+}

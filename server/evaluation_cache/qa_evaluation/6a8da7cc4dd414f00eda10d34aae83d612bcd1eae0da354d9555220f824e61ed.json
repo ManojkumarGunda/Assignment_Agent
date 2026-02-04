@@ -1,0 +1,17 @@
+{
+  "content_hash": "6a8da7cc4dd414f00eda10d34aae83d612bcd1eae0da354d9555220f824e61ed",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:09:20.136880",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "O(n)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. Student Question mismatch. The question provided was 'What is the time complexity of linear search?', but the grading was for Question 2. According to the reference material, Question 2 is 'What is the capital of India?' or 'Which language is used for web styling?'. The student answered the wrong question based on the question number."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "2f64d36648667c7554eda253763acaa99d0c04aa30c34d094f6b770057aae3a5",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T16:11:29.557792",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Correct. The student's answer is fully correct.\n\nCorrect Answer: 30"
+    }
+  }
+}

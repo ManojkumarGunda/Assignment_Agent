@@ -1,0 +1,17 @@
+{
+  "content_hash": "55dab32a8fd0dc0c849e33b91a16769299aa36a9df705a9de931f157cdd12f9d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:05:30.426268",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q3: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "The provided rubric does not contain the correct answer for this question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is for a question (Q3) that is not present in the provided rubric or reference material. The rubric only contains evaluation criteria for Q1 and Q2. According to the grading instructions, evaluation must be based exclusively on the provided reference material. Therefore, no marks can be awarded."
+    }
+  }
+}

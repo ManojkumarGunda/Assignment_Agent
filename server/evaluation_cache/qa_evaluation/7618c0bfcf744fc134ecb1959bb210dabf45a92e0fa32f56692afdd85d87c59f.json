@@ -1,0 +1,17 @@
+{
+  "content_hash": "7618c0bfcf744fc134ecb1959bb210dabf45a92e0fa32f56692afdd85d87c59f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:35:06.665437",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The assignment was to solve a coding problem to 'find the largest number'. The question asked was not part of the assignment.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked ('What does SQL stand for?') does not match the assignment description, which requires a coding solution to 'find the largest number'. According to the grading rules, if the question is not found in the assignment description, a score of 0.0 must be awarded. The required feedback is 'no question provided'."
+    }
+  }
+}

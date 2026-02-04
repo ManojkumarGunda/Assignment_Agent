@@ -1,0 +1,17 @@
+{
+  "content_hash": "752c3327a1ce745bdcb54fc005362436c890da519594962566edc03caa8f347e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:07.401627",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "O(n)",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is correct and is a verbatim match to the answer provided in the reference material."
+    }
+  }
+}

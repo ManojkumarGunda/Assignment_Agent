@@ -1,0 +1,17 @@
+{
+  "content_hash": "ffa053a3bb5115bd6a2f66a73b7abe43cbd3eb86d4460819e979fe3f84532634",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:56:14.726312",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the output of 5 + 2 * 3?",
+      "student_answer": "Answer: 11",
+      "correct_answer": "The question provided for grading does not match the question found in the reference material for Q2. The reference material's Q2 is 'What is the capital of India?' with the answer 'New Delhi'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided for grading ('What is the output of 5 + 2 * 3?') does not match the question specified for Q2 in the reference material ('What is the capital of India?'). This is a student question mismatch. Therefore, no credit can be awarded. The expected answer for Q2 according to the reference key is 'New Delhi'."
+    }
+  }
+}

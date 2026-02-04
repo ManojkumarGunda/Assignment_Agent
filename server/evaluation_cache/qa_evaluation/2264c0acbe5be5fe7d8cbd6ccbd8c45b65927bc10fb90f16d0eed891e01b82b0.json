@@ -1,0 +1,17 @@
+{
+  "content_hash": "2264c0acbe5be5fe7d8cbd6ccbd8c45b65927bc10fb90f16d0eed891e01b82b0",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T12:09:38.828597",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's code correctly implements an algorithm to find the largest number in an array. However, the evaluation must be performed strictly against the provided reference material. The reference material, which is the absolute standard for this evaluation, contains the logic to find the 'largest' number but then attempts to print the 'smallest' number. The student's code deviates from this specific (and flawed) logic by printing the 'largest' number. According to the grading rules, any deviation from the reference logic, even to correct an error, must result in a score of 0.0."
+    }
+  }
+}

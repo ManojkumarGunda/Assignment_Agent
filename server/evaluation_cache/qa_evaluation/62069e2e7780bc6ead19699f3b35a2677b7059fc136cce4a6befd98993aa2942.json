@@ -1,0 +1,17 @@
+{
+  "content_hash": "62069e2e7780bc6ead19699f3b35a2677b7059fc136cce4a6befd98993aa2942",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T16:05:55.774858",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 10.0,
+      "feedback": "Score: 10/10. Your answer is correct.\n\nCorrect Answer: 30\n\nExplanation: The calculation for 15% of 200 is (15/100) * 200, which equals 30."
+    }
+  }
+}

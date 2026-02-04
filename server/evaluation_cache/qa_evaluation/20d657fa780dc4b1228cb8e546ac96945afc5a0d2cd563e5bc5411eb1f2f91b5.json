@@ -1,0 +1,17 @@
+{
+  "content_hash": "20d657fa780dc4b1228cb8e546ac96945afc5a0d2cd563e5bc5411eb1f2f91b5",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-31T12:06:30.309311",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "-> Inputs : [1, 2, 5]\nweights : [4, 5, 6]",
+      "student_answer": "weighted sum = (1.4) + (2.5) + (3.6)\n= 4 + 10 + 18 = 32\noutput = 32 x 3 = 96.",
+      "correct_answer": "The weighted sum is calculated by multiplying each input by its corresponding weight and summing the results: (1 * 4) + (2 * 5) + (5 * 6) = 4 + 10 + 30 = 44.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The correct weighted sum is 44. Your calculation is incorrect for two reasons: 1) You used the input `3` for the third term instead of the correct input `5`. The term should be `(5 * 6) = 30`. 2) The final multiplication by 3 is an extra step that is not part of the weighted sum calculation."
+    }
+  }
+}

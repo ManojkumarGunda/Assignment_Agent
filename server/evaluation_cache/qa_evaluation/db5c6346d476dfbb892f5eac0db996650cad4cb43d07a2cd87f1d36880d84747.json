@@ -1,0 +1,17 @@
+{
+  "content_hash": "db5c6346d476dfbb892f5eac0db996650cad4cb43d07a2cd87f1d36880d84747",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:58:52.113255",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "The correct question for Q4 in the reference material is 'What is the time complexity of linear search?', and the correct answer is 'O(n)'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student answered the wrong question. The question provided for evaluation was Q4, but its content ('What does SQL stand for?') does not match Q4 from the reference material ('What is the time complexity of linear search?'). Therefore, the answer is incorrect for the assigned question number."
+    }
+  }
+}

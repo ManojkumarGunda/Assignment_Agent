@@ -1,0 +1,17 @@
+{
+  "content_hash": "fba77896941b65ca27449a5d75aed15a1799ee466b41913919d64df2aa8975a7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:16.728690",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "The provided rubric does not contain this question or its answer. The assignment consists of 'Task 1: Audience-Based Communication' and 'Task 2: Video Learning & Key Takeaways'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is mathematically correct for the question asked. However, this question is not part of the assignment as defined by the provided rubric and reference material. The rubric only contains questions related to 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. Therefore, the answer cannot be graded as correct within the context of the provided assignment."
+    }
+  }
+}

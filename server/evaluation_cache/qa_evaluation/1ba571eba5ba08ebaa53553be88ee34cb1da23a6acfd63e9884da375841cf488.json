@@ -1,0 +1,17 @@
+{
+  "content_hash": "1ba571eba5ba08ebaa53553be88ee34cb1da23a6acfd63e9884da375841cf488",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T12:05:10.590501",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "A correct C program to find the largest number in an array. For example: #include <stdio.h> int main() { int arr[] = {10, 45, 3, 99, 23}; int n = sizeof(arr) / sizeof(arr[0]); int largest = arr[0]; for (int i = 1; i < n; i++) { if (arr[i] > largest) { largest = arr[i]; } } printf(\"Largest number: %d\", largest); return 0; }",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The provided code attempts to find the largest number in an array as per the rubric, but it contains multiple critical syntax and logical errors that make it non-functional. Key errors include: 1) Incorrect syntax for calculating the array size ('in n = size of(arr)'). It should be 'int n = sizeof(arr)'. 2) The 'for' loop syntax is invalid ('for init (i=);'). 3) A semicolon is missing after 'largest = arr[i]'. 4) The final printf statement is logically incorrect; it tries to print the 'Smallest number' using an undeclared variable 'smallest', which contradicts the program's goal. Due to these fundamental errors, the submission is incorrect."
+    }
+  }
+}

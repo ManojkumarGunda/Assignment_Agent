@@ -1,0 +1,17 @@
+{
+  "content_hash": "653e89ab657ab11a5b716ca2325d93d681bc7903631f27456101bf0a126648d1",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:10:32.396235",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: Which protocol is used for secure web browsing?",
+      "student_answer": "HTTPS",
+      "correct_answer": "The question provided ('Q7: Which protocol is used for secure web browsing?') does not match the question for Q7 in the reference material. The reference material's Q7 is 'What is the binary equivalent of 5?', for which the correct answer is '101'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question provided ('Q7: Which protocol is used for secure web browsing?') does not match the question found for Q7 in the reference material ('What is the binary equivalent of 5?'). Therefore, no credit can be awarded."
+    }
+  }
+}

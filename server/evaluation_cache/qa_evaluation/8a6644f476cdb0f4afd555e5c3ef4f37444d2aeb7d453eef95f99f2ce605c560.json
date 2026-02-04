@@ -1,0 +1,17 @@
+{
+  "content_hash": "8a6644f476cdb0f4afd555e5c3ef4f37444d2aeb7d453eef95f99f2ce605c560",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:03.527475",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "The correct answer to the question is 101. However, the question is not aligned with the assignment rubric.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student provided the correct binary equivalent for the number 5. However, the assignment rubric specifies the topic as '[CATEGORY: CODING] find the largest number'. The question asked is unrelated to the assignment's required topic. As per the grading instructions, if the work is on a topic not found in the rubric, a score of 0.0 must be awarded."
+    }
+  }
+}

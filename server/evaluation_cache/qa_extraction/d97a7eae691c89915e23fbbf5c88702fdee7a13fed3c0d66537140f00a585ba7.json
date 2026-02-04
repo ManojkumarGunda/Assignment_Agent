@@ -1,0 +1,15 @@
+{
+  "content_hash": "d97a7eae691c89915e23fbbf5c88702fdee7a13fed3c0d66537140f00a585ba7",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T16:28:06.933356",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q)",
+        "student_answer": "public class Main {\n    Name:- Ramesh Java\n    public static void Main(String[] args) {\n        int[] arr = {10, 45, 3, 99, 234};\n        int largest = arr[0]\n        for (int i=1; i<arr.length; i++) {\n            if (arr[i] > largest) {\n                largest = arr[i]\n            }\n        }\n        System.out.println(\"largest number:\" + largest)",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

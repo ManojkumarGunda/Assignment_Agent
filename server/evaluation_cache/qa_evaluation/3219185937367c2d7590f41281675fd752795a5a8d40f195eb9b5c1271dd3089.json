@@ -1,0 +1,17 @@
+{
+  "content_hash": "3219185937367c2d7590f41281675fd752795a5a8d40f195eb9b5c1271dd3089",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:35:07.761791",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "The assignment required a coding solution to 'find the largest number' as per the rubric.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question provided ('What is 15% of 200?') does not match the assignment requirement specified in the rubric, which is '[CATEGORY: CODING] find the largest number'. The student answered a mathematics question instead of the required coding task. Therefore, no credit can be awarded."
+    }
+  }
+}

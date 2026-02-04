@@ -1,0 +1,45 @@
+{
+  "content_hash": "8873f8772c4f9974822a4001d42e8f6a180b514593293ba826b8d81b40812825",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T15:07:22.113576",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1: Which language is used for web styling?",
+        "student_answer": "Answer: CSS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2: What is the time complexity of linear search?",
+        "student_answer": "Answer: O(n)",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3: What does SQL stand for?",
+        "student_answer": "Answer: Structured Query Language",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4: What is the capital of India?",
+        "student_answer": "Answer: New Delhi",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5: Which protocol is used for secure web browsing?",
+        "student_answer": "Answer: HTTPS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6: Which data structure follows LIFO?",
+        "student_answer": "Answer: Stack",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7: What is the binary equivalent of 5?",
+        "student_answer": "Answer: 101",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "fcec7205783794ead42d82278639c4a139c01303a31ef82891455de88aa56927",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T16:11:43.679785",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "Structured Query Language",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct."
+    }
+  }
+}

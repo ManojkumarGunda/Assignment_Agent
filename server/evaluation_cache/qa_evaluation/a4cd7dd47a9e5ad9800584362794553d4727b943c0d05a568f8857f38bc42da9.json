@@ -1,0 +1,17 @@
+{
+  "content_hash": "a4cd7dd47a9e5ad9800584362794553d4727b943c0d05a568f8857f38bc42da9",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:21.187334",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The correct answer to the mathematical question is 30. However, the assignment rubric specified a coding task to 'find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment rubric specified a coding task: '[CATEGORY: CODING] find the largest number'. The question provided was a mathematics problem. While your answer '30' is the correct mathematical solution to '15% of 200', it does not address the assignment's required topic. Therefore, no credit can be awarded as the response is outside the scope of the assignment's requirements."
+    }
+  }
+}

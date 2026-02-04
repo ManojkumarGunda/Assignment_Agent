@@ -1,0 +1,17 @@
+{
+  "content_hash": "574f0661f6be748bc9405b959e6392c18354a98d427ec8e55b061fb19c9430fe",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:48.964141",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Video 3:\n\nThe Illusion of Content :",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "The key takeaways from Video 3 are:\n- The Illusion of Content: Demonstrates how to deliver a presentation that sounds brilliant and insightful, despite having 'nothing' to say.\n- Techniques for Appearing Smart: Showcases various methods, including using hand gestures and referencing irrelevant data and graphs.\n- Deceptive Delivery: Emphasizes how non-verbal cues, like removing glasses or changing tone, can manipulate an audience into believing a profound message is being conveyed, even when the content is completely empty.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is completely incorrect as it does not address the question asked. The question was about 'Video 3: The Illusion of Content', but the student submitted a C program for a linear search. The provided answer is entirely unrelated to the topic of the question. Therefore, no credit is awarded."
+    }
+  }
+}

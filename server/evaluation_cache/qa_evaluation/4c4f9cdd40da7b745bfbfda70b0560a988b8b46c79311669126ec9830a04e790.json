@@ -1,0 +1,17 @@
+{
+  "content_hash": "4c4f9cdd40da7b745bfbfda70b0560a988b8b46c79311669126ec9830a04e790",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:20:56.335454",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    int largest = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.25,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.25/1.0. Graded against Reference Key and Assignment Description. The student correctly identified the core algorithm for iterating through an array to find the largest number. However, the implementation has critical errors that make it non-functional. Points were deducted for multiple syntax errors that would prevent the code from compiling (e.g., 'in' instead of 'int', 'size of' instead of 'sizeof', invalid 'for' loop syntax, a missing semicolon). Furthermore, the final output statement is completely incorrect as it attempts to print an undeclared variable 'smallest' with the wrong label ('Smallest number') and an incorrect format specifier ('%.f' instead of '%d')."
+    }
+  }
+}

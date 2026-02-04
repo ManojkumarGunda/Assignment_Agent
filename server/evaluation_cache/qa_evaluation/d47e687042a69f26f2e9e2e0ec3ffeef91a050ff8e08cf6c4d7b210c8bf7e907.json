@@ -1,0 +1,17 @@
+{
+  "content_hash": "d47e687042a69f26f2e9e2e0ec3ffeef91a050ff8e08cf6c4d7b210c8bf7e907",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:41:09.509647",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4. Meeting Agenda (Key Topics)",
+      "student_answer": "Review of tasks completed during the week\nStatus of ongoing and pending work\nDiscussion of technical and process-related challenges\nPlanning priorities and assignments for the next week\nOpen discussion and clarifications",
+      "correct_answer": "def",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student answered a question about a 'Meeting Agenda'. However, the official reference material for Q4 asks, 'Which keyword is used to define a function in Python?'. The student has answered the wrong question. The correct answer for the question in the reference key is 'def'."
+    }
+  }
+}

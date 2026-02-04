@@ -1,0 +1,17 @@
+{
+  "content_hash": "4716d04027841dc8982592452b896f5ae99afc746964beedbfd95bf022eb867a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-31T12:06:53.155179",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "a) i/p size = 28x28, kenal size = 7x7 strid = 1",
+      "student_answer": "o/p size : \\frac{i/p size - kenral size}{stride}\n= 28-7+1 = 22\n22x22_z",
+      "correct_answer": "The formula for the output size is (Input Size - Kernel Size + 2 * Padding) / Stride + 1. Assuming zero padding, the calculation is (28 - 7) / 1 + 1 = 22. The output size is 22x22.",
+      "is_correct": false,
+      "partial_credit": 0.5,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Partially Correct. The final output size of 22x22 is correct, and the calculation `28-7+1 = 22` is also correct. However, the formula you wrote, `(i/p size - kenral size) / stride`, is incorrect as it is missing the `+1` term. The correct formula is `(Input Size - Kernel Size) / Stride + 1`. Due to the conceptual error in the formula provided, full marks cannot be awarded."
+    }
+  }
+}

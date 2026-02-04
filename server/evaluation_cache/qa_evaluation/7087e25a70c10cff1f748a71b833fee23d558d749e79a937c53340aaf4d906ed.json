@@ -1,0 +1,17 @@
+{
+  "content_hash": "7087e25a70c10cff1f748a71b833fee23d558d749e79a937c53340aaf4d906ed",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:07:31.285976",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The provided reference material does not contain an answer key for this question. It only covers Q1 (Audience-Based Communication) and Q2 (Video Learning & Key Takeaways).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer addresses Question 6. However, the provided reference material and rubric only contain information and answer keys for Question 1 and Question 2. As per the grading instructions, the student's answer must be evaluated exclusively against the provided reference material. Since there is no reference for Q6, the answer is considered irrelevant to the provided context and receives no credit."
+    }
+  }
+}

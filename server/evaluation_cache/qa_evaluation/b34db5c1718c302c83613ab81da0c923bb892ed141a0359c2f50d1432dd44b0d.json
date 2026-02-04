@@ -1,0 +1,17 @@
+{
+  "content_hash": "b34db5c1718c302c83613ab81da0c923bb892ed141a0359c2f50d1432dd44b0d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:07:14.446327",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "The provided rubric does not contain this question. The correct mathematical answer is 30.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is for a question that is not part of the provided assignment rubric. The rubric contains questions about 'Audience-Based Communication' and 'Video Learning & Key Takeaways', not a math question. According to the grading rules, if the student's answer addresses a different topic than what is described in the reference key, the score must be 0.0."
+    }
+  }
+}

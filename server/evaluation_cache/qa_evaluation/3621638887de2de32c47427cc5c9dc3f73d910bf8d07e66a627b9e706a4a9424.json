@@ -1,0 +1,17 @@
+{
+  "content_hash": "3621638887de2de32c47427cc5c9dc3f73d910bf8d07e66a627b9e706a4a9424",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:09:29.154187",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the output of 5 + 2 * 3?",
+      "student_answer": "11",
+      "correct_answer": "According to the reference material, Question 4 is 'What is the time complexity of linear search?', and the correct answer is 'O(n)'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. There is a mismatch between the question number and the question text. The student was evaluated on Question 4, but the question text provided ('What is the output of 5 + 2 * 3?') corresponds to Question 3 in the reference material. The correct Question 4, as per the reference key, is 'What is the time complexity of linear search?'. The student's answer does not address the correct question for this number."
+    }
+  }
+}

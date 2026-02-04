@@ -1,0 +1,17 @@
+{
+  "content_hash": "e948910d6efa9aeea7cbf63e8547e34ddcbf1886d8dbfe0aebba9bae02e97bac",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:20:08.596772",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: What is the output of 5 + 2 * 3?",
+      "student_answer": "11",
+      "correct_answer": "CSS",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question provided ('What is the output of 5 + 2 * 3?') does not match the expected Question 2 from the Reference Key ('Which language is used for web styling?'). The correct answer for the expected Q2 is 'CSS'."
+    }
+  }
+}

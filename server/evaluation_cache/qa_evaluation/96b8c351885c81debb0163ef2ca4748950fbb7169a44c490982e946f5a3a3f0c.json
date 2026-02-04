@@ -1,0 +1,17 @@
+{
+  "content_hash": "96b8c351885c81debb0163ef2ca4748950fbb7169a44c490982e946f5a3a3f0c",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:17.735317",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The correct answer should be a solution to the coding problem 'find the largest number' as specified in the rubric.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The assignment rubric specifies the task is '[CATEGORY: CODING] find the largest number'. The question answered and the student's response are completely unrelated to the required coding task. No credit can be awarded as the submission does not address the assignment's objective."
+    }
+  }
+}

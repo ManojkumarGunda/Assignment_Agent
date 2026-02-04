@@ -1,0 +1,17 @@
+{
+  "content_hash": "92a2bf2474dcaf5b1c16154984ff57332c1fa308b9dbaf62c6c73cf65cdf8169",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:32:21.703097",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What does SQL stand for?",
+      "student_answer": "Answer: Structured Query Language",
+      "correct_answer": "The correct answer is 'Structured Query Language'. However, this question is invalid as it does not align with the assignment rubric, which specifies the topic '[CATEGORY: CODING] find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. While the student's answer is factually correct for the question asked, the question itself does not align with the assignment rubric, which is '[CATEGORY: CODING] find the largest number'. As per the grading rules, no credit can be awarded for a question that is outside the scope of the assignment."
+    }
+  }
+}

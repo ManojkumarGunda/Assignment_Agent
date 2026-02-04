@@ -1,0 +1,17 @@
+{
+  "content_hash": "038e1974a16e0d44e037aa20deba631114f372a67865c2d003bc2fb21f5abd32",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T14:28:50.156556",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's submitted code is a nearly exact match to the code provided in the official reference material. Although the reference code itself contains multiple syntax and logical errors (e.g., `in n`, `size of`, `for init`, a misplaced period after `largest`, a missing semicolon, and printing an uninitialized variable `smallest` instead of the calculated `largest`), the student has replicated the provided source material as required. Per the grading instructions, a verbatim match to the reference key receives full marks."
+    }
+  }
+}

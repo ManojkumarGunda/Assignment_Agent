@@ -1,0 +1,17 @@
+{
+  "content_hash": "57f057a27b1ff0972a9be49d87bd573663ccd44098047868e644816cac8fefbb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:20:11.449502",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: What is the binary equivalent of 5?",
+      "student_answer": "Answer: 101",
+      "correct_answer": "def",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. There is a mismatch between the question provided and the question listed as Q1 in the reference material. The reference key's Q1 is 'Which keyword is used to define a function in Python?', for which the correct answer is 'def'. The student answered a different question."
+    }
+  }
+}

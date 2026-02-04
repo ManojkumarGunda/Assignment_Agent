@@ -1,0 +1,17 @@
+{
+  "content_hash": "1ece477971b1025d5c7b07458a262d6a0a0a203c4ee0574bcb68f359ed65299a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:22:54.314477",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "def",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The score is 0.0 because the question is outside the scope of the assignment as defined by the rubric. The rubric specifies the task is to 'find the largest number', but the question is about a Python keyword. According to the grading rules, if the student's work is on a topic not found in the reference material, it must receive a score of 0.0. While the answer 'def' is correct for the question asked, the question itself does not align with the assignment's requirements."
+    }
+  }
+}

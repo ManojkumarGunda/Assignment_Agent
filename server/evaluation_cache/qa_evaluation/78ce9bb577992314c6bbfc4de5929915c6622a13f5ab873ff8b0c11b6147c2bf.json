@@ -1,0 +1,17 @@
+{
+  "content_hash": "78ce9bb577992314c6bbfc4de5929915c6622a13f5ab873ff8b0c11b6147c2bf",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:52:49.934833",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q8. Write a program to count word frequency.",
+      "student_answer": "def word_count(text): words = text.split() freq = {} for w in words: freq[w] = freq.get(w, 0) + 1 return freq\nprint(word_count(\"this is a test this is\"))",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The reference material pertains to image intensity transformations, not a program for word frequency counting.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is a Python program for counting word frequency, which correctly addresses the question asked. However, the provided reference material is for a completely different question related to image intensity transformations. As grading must be performed exclusively against the provided reference material, and the student's answer does not match any content within it, no credit can be awarded."
+    }
+  }
+}

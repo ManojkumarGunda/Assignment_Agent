@@ -1,0 +1,17 @@
+{
+  "content_hash": "d91e4ca4dc872e621130125578aa3077a03e75b45c09b6dab9e99f4869014048",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:05:31.729566",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q2: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "According to the reference material, the question for Q2 is 'What is the capital of India?' and the correct answer is 'New Delhi'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "This response was graded against the provided Reference Key. There is a mismatch between the question the student answered (Q2: Which language is used for web styling?) and the question listed as Q2 in the Reference Key (Q2: What is the capital of India?). According to the grading rules, this mismatch results in a score of 0."
+    }
+  }
+}

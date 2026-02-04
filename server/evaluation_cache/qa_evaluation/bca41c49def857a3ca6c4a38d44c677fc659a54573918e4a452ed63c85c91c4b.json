@@ -1,0 +1,17 @@
+{
+  "content_hash": "bca41c49def857a3ca6c4a38d44c677fc659a54573918e4a452ed63c85c91c4b",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:33:21.730285",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q10. Video 2 Takeaways",
+      "student_answer": "1. Effective communication enhances collaboration and reduces misunderstandings.\n2. Active listening is essential for productive discussions.\n3. Structured agendas help meetings stay organized and goal-oriented.",
+      "correct_answer": "A correct answer for this question is not available in the provided reference material.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question (Q10) was not found in the provided reference material. According to the grading rules, if a question is not in the answer key, it is considered irrelevant and receives a score of 0."
+    }
+  }
+}

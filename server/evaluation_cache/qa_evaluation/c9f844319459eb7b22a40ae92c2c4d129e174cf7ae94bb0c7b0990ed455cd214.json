@@ -1,0 +1,17 @@
+{
+  "content_hash": "c9f844319459eb7b22a40ae92c2c4d129e174cf7ae94bb0c7b0990ed455cd214",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:17.223322",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: Which keyword is used to define a function in Python?",
+      "student_answer": "Answer: def",
+      "correct_answer": "The correct answer for Q4 in the reference material is 'O(n)' for the question 'What is the time complexity of linear search?'. The question provided to the student was incorrect.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. A critical mismatch was found between the question provided to the student and the question in the official reference material for the given question number (Q4). The student was asked, 'Which keyword is used to define a function in Python?' (which is Q1 in the reference material) but was being graded for Q4. The official question for Q4 is 'What is the time complexity of linear search?', with the correct answer being 'O(n)'. While the student correctly answered the question they were presented with, it was not the correct question for this number. Due to this administrative mismatch, no credit can be awarded according to the grading rules."
+    }
+  }
+}

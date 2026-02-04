@@ -1,0 +1,17 @@
+{
+  "content_hash": "7133c52110538904c5d9869a4b292c895f92ca4c0dc8341d18e5a763027998ab",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:41:16.813607",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "Structured Query Language",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key and Assignment Description. The student's answer is factually correct. The provided reference material and the assignment description (BIOLOGY) were not relevant to the question asked (SQL). As per the grading rules, when a question is not found in the reference material, it is evaluated using standard academic knowledge. The student's answer is correct according to this standard."
+    }
+  }
+}

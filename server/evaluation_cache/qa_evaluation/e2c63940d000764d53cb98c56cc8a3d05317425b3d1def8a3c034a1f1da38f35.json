@@ -1,0 +1,17 @@
+{
+  "content_hash": "e2c63940d000764d53cb98c56cc8a3d05317425b3d1def8a3c034a1f1da38f35",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:23:27.410312",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q1: Which language is used for web styling?",
+      "student_answer": "Answer: CSS",
+      "correct_answer": "CSS (Cascading Style Sheets)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer 'CSS' is factually correct for the question asked. However, the assignment rubric is '[CATEGORY: GENERAL] find the largest number'. The question provided is not found within the scope of the assignment's rubric. According to the strict grading rules, if the question is not present in the assignment description or reference materials, a score of 0.0 must be awarded."
+    }
+  }
+}

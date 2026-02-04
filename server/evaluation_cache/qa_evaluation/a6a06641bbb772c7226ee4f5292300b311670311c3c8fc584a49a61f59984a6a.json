@@ -1,0 +1,17 @@
+{
+  "content_hash": "a6a06641bbb772c7226ee4f5292300b311670311c3c8fc584a49a61f59984a6a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:33:09.409821",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: Which protocol is used for secure web browsing?",
+      "student_answer": "Answer: HTTPS",
+      "correct_answer": "The question does not match the assignment description. The assignment is '[CATEGORY: CODING] find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asked is not found in the assignment description. The assignment is '[CATEGORY: CODING] find the largest number', while the question is about web protocols. Therefore, no credit can be awarded."
+    }
+  }
+}

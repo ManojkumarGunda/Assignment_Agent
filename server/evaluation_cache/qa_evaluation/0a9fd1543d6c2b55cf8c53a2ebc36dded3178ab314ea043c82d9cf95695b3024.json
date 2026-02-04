@@ -1,0 +1,17 @@
+{
+  "content_hash": "0a9fd1543d6c2b55cf8c53a2ebc36dded3178ab314ea043c82d9cf95695b3024",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:52:27.725429",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4. Explain TCP/IP model layers.",
+      "student_answer": "The TCP/IP model is a conceptual framework used for network communication. It consists of four layers: Application, Transport, Internet, and Network Access.\nThe application layer supports user-level protocols like HTTP and FTP. The transport layer ensures reliable data delivery using TCP or UDP. The internet layer handles routing using IP. The network access layer manages hardware transmission.\nTCP/IP is the foundation of internet communication and enables interoperability between systems.",
+      "correct_answer": "The provided reference material does not contain an answer for this question. The material is for a different subject (Mathematics/Image Processing).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer cannot be evaluated. The question is about the TCP/IP model, but the provided reference material and rubric are for a Mathematics question on 'Intensity Transformation'. There is a complete mismatch between the question and the grading criteria, making it impossible to award marks."
+    }
+  }
+}

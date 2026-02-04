@@ -1,0 +1,17 @@
+{
+  "content_hash": "411e8ba3cfd95f6d7f3c69fc0c181df96cb3758f1ba798ce09caa2839f29e996",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:18.137694",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is the time complexity of linear search?",
+      "student_answer": "O(n)",
+      "correct_answer": "New Delhi",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question provided was 'What is the time complexity of linear search?', but Question 5 in the reference key is 'What is the capital of India?'. The student answered the wrong question. The correct answer for Question 5 is 'New Delhi'."
+    }
+  }
+}

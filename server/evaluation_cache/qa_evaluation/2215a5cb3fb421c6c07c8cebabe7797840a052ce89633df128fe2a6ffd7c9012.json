@@ -1,0 +1,17 @@
+{
+  "content_hash": "2215a5cb3fb421c6c07c8cebabe7797840a052ce89633df128fe2a6ffd7c9012",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:30:37.026099",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Header: #include <stdio.h>\n\nHeader: int main() {\n\nHeader: int arr[] = {10, 20, 30, 40, 50};\n\nHeader: int n = 5;\n\nHeader: int target = 30;\n\nHeader: for (int i = 0; i <= n; i++) {\n\nHeader: if (arr[i] == target) {\n\nHeader: printf(\"Found at index %d\", i);\n\nHeader: return 0;\n\nHeader: }\n\nHeader: }\n\nHeader: printf(\"Not found\");\n\nHeader: return 0;\n\nHeader: }",
+      "correct_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's submission was evaluated against the provided reference material. The reference code demonstrates how to find the largest number in an array. The student's code, however, implements a linear search to find a specific target value in an array. These are two fundamentally different algorithms. Because the submitted code does not solve the problem specified in the reference material, it does not meet the assignment's requirements and receives no credit. Additionally, the submitted C code contains a bug: the loop condition `for (int i = 0; i <= n; i++)` will cause an out-of-bounds array access on the last iteration."
+    }
+  }
+}

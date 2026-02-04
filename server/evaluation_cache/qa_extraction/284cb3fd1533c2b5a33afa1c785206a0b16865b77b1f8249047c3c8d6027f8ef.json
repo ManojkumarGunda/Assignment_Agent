@@ -1,0 +1,15 @@
+{
+  "content_hash": "284cb3fd1533c2b5a33afa1c785206a0b16865b77b1f8249047c3c8d6027f8ef",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T22:31:46.436939",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "check the logic for the linear search",
+        "student_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

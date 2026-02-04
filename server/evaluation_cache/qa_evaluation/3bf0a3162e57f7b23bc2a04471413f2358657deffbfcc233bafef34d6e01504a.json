@@ -1,0 +1,17 @@
+{
+  "content_hash": "3bf0a3162e57f7b23bc2a04471413f2358657deffbfcc233bafef34d6e01504a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T16:07:15.055130",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which protocol is used for secure web browsing?",
+      "student_answer": "API\u2019s",
+      "correct_answer": "The protocol used for secure web browsing is HTTPS (Hypertext Transfer Protocol Secure).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 10.0,
+      "feedback": "Score: 0/10. The correct answer is HTTPS (Hypertext Transfer Protocol Secure). Your answer, 'API\u2019s' (Application Programming Interfaces), is incorrect. APIs are sets of rules for building software applications, not protocols for securing web traffic."
+    }
+  }
+}

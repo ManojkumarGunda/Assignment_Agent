@@ -1,0 +1,17 @@
+{
+  "content_hash": "740acd8cd07d4868e4a0adb25b428763cb2698e5142fe5047f7d5d6c632f7efb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T22:32:11.716345",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "check the logic for the linear search",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "arr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The student's answer does not match the provided reference material. The student implemented a linear search, but the reference material provides the logic for finding the largest number in an array."
+    }
+  }
+}

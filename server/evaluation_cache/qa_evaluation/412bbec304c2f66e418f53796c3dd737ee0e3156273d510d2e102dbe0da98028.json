@@ -1,0 +1,17 @@
+{
+  "content_hash": "412bbec304c2f66e418f53796c3dd737ee0e3156273d510d2e102dbe0da98028",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T17:28:44.651272",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is the difference between supervised and unsupervised learning? Give an example of each.",
+      "student_answer": "--- [START PAGE 1] ---\nName:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)\n--- [END PAGE 1] ---",
+      "correct_answer": "Supervised learning uses labeled data to train a model, meaning the algorithm learns from input-output pairs. The goal is to predict the output for new, unseen data. An example is email spam detection. Unsupervised learning uses unlabeled data, and the algorithm tries to find patterns or structures within the data on its own. An example is customer segmentation.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The provided answer is completely irrelevant to the question. The question asks for a definition and examples of supervised and unsupervised learning. The student submitted a Python code snippet that finds the largest number in a list. This does not address any part of the question."
+    }
+  }
+}

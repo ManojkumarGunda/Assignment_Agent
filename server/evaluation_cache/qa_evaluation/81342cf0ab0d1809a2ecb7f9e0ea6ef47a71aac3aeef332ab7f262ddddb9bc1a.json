@@ -1,0 +1,17 @@
+{
+  "content_hash": "81342cf0ab0d1809a2ecb7f9e0ea6ef47a71aac3aeef332ab7f262ddddb9bc1a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:50:34.836790",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "d) For a CEO:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 20, 30, 40, 50};\n    int n = 5;\n    int target = 30;\n    int i;\n    for (i = 0; i < n; i++) {\n        if (arr[i] == target) {\n            printf(\"Element found at index %d\", i);\n            return 0;\n        }\n    }\n    printf(\"Element not found\");\n    return 0;\n}",
+      "correct_answer": "Database indexing improves system efficiency and scalability. Faster data access enhances customer experience, reduces operational issues, and supports business growth",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is a C program for a linear search. This is completely unrelated to the question, which asked for an explanation of database indexing tailored for a CEO. The answer provided does not address the question in any way."
+    }
+  }
+}

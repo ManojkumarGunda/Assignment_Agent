@@ -1,0 +1,17 @@
+{
+  "content_hash": "c2f790b901572652f1650297dd87e35face79eb60004ffd17cc82204847e0e5a",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T12:52:42.975783",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q9. Implement linear search in Python.",
+      "student_answer": "def linear_search(arr, target): for i in range(len(arr)): if arr[i] == target: return i return -1\nprint(linear_search([1,2,3,4], 3))",
+      "correct_answer": "A correct implementation of linear search in Python. For example: `def linear_search(arr, target): for i in range(len(arr)): if arr[i] == target: return i; return -1`",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The provided reference material was not relevant to this question. The student's answer was evaluated based on standard correctness for implementing a linear search algorithm in Python. The student's code is a correct and standard implementation of linear search. It correctly iterates through the list, compares each element with the target, and returns the index if found, or -1 otherwise."
+    }
+  }
+}

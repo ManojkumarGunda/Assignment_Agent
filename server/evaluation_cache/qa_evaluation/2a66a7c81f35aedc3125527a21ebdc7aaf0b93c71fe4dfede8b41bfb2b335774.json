@@ -1,0 +1,17 @@
+{
+  "content_hash": "2a66a7c81f35aedc3125527a21ebdc7aaf0b93c71fe4dfede8b41bfb2b335774",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:12:44.448103",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10, 45, 3, 99, 23};\n    int n = sizeof(arr) / sizeof(arr[0]);\n\n    int largest = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] > largest) {\n            largest = arr[i];\n        }\n    }\n    printf(\"Largest number: %d\", largest);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.5,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.5/1.0. Graded against Reference Key and Assignment Description. The core logic for finding the largest number is partially correct. You correctly initialized a 'largest' variable and used a loop to iterate through the array, comparing each element and updating the 'largest' variable when a greater value was found. However, the submission receives only partial credit due to two major issues. First, the code has numerous syntax errors (e.g., 'in' instead of 'int', 'size of' instead of 'sizeof', an incorrectly formatted 'for' loop) that prevent it from compiling. Second, there is a critical logical error in the final line: the code attempts to print the 'Smallest number' using an undeclared variable 'smallest', which contradicts the program's goal of finding the largest number."
+    }
+  }
+}

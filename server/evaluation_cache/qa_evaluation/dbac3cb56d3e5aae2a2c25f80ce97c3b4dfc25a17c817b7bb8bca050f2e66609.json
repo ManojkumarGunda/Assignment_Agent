@@ -1,0 +1,17 @@
+{
+  "content_hash": "dbac3cb56d3e5aae2a2c25f80ce97c3b4dfc25a17c817b7bb8bca050f2e66609",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:39:53.675771",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The question as stated ('Q6: What is the capital of India?') is not in the reference material. The question listed as Q6 in the reference is 'What is 15% of 200?', with the answer '30'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key. The question provided ('Q6: What is the capital of India?') does not exist in the provided Reference Key. The reference material contains a different question for Q6. As per the grading rules, if the question is not in the key, the score is 0.0."
+    }
+  }
+}

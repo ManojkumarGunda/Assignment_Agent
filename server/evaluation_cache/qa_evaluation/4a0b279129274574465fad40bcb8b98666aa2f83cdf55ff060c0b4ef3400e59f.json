@@ -1,0 +1,17 @@
+{
+  "content_hash": "4a0b279129274574465fad40bcb8b98666aa2f83cdf55ff060c0b4ef3400e59f",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-29T17:44:32.204124",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "mangodb",
+      "correct_answer": "Structured Query Language",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Incorrect. The correct answer is 'Structured Query Language'. The provided answer 'mangodb' is incorrect and unrelated to the question. MongoDB is a type of NoSQL database, not what the acronym SQL stands for."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "content_hash": "f1d219b7c9fefdfed17fe715c3f08ba1ced8600d52efbeeff11870aca1f1ee2d",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:15:45.847239",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "--- [START PAGE 1] ---\nSUNSIRI\nPROJECTS PVT. LTD.\n\nDATE: / /\nName: Vamsi. [UNCLEAR_SYMBOL] C\n\n#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}\n\nSUN SIRI PROJECTS PVT. LTD.\n--- [END PAGE 1] ---",
+      "correct_answer": "arr = [10, 20, 30, 40, 50]\n\ntarget = 30\n\nfor i in range(len(arr)):\n    if arr[i] == target:\n        print(\"Element found at index\", i)\n        break\nelse:\n    print(\"Element not found\")",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The submission received a score of 0.0 because it addresses a completely different problem than the one specified in the reference material. The reference material provides an example of a linear search algorithm to find a specific target value in an array. The submitted code, however, attempts to find the largest element in an array, which is a different task. This is a fundamental topic mismatch. Furthermore, the submitted C code contains multiple syntax and logical errors and would not compile or run correctly."
+    }
+  }
+}

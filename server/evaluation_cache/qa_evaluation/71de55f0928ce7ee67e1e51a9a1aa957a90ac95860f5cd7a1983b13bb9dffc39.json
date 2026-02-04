@@ -1,0 +1,17 @@
+{
+  "content_hash": "71de55f0928ce7ee67e1e51a9a1aa957a90ac95860f5cd7a1983b13bb9dffc39",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T15:39:34.987591",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The correct answer is 30. This can be calculated by multiplying 200 by 0.15 (which is the decimal equivalent of 15%). 200 * 0.15 = 30.",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against general academic standards. The student correctly calculated 15% of 200. The calculation is 0.15 * 200 = 30. The answer provided is correct, so full credit is awarded."
+    }
+  }
+}

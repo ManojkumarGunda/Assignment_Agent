@@ -1,0 +1,17 @@
+{
+  "content_hash": "2696e3059edb2f6ccba8cae89d0e37cba0feda33e425849382e47f2084facee3",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:34:11.858422",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: What is the capital of India?",
+      "student_answer": "Answer: kjndkjsfnkjdank",
+      "correct_answer": "The correct answer is New Delhi. However, the question asked is not relevant to the assignment rubric, which is about a coding task to 'find the largest number'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question 'What is the capital of India?' is not related to the assignment description, which specifies a coding task to 'find the largest number'. According to the grading rules, if the question is not found in the assignment description or rubric, the score must be 0.0. No points were awarded because the question is outside the scope of the assignment. Additionally, the provided answer 'kjndkjsfnkjdank' is incorrect and appears to be random characters."
+    }
+  }
+}

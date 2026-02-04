@@ -1,0 +1,45 @@
+{
+  "content_hash": "1e3832a88d73dfdb8aa277ff5a0b262938668c802beb654f1e39ec0af793bf27",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T15:07:34.545478",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1: Which keyword is used to define a function in Python?",
+        "student_answer": "Answer: def",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2: Which language is used for web styling?",
+        "student_answer": "Answer: CSS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3: What is the output of 5 + 2 * 3?",
+        "student_answer": "Answer: 11",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4: What is the time complexity of linear search?",
+        "student_answer": "Answer: O(n)",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5: What is the capital of India?",
+        "student_answer": "Answer: New Delhi",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6: Which protocol is used for secure web browsing?",
+        "student_answer": "Answer: HTTPS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7: What is the binary equivalent of 5?",
+        "student_answer": "Answer: 101",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

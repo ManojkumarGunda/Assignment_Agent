@@ -1,0 +1,17 @@
+{
+  "content_hash": "4463b726c388e0e64717aaa7e4e7461028797fa5fc19680df119e9180be3dfe7",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:19:48.080368",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which keyword is used to define a function in Python?",
+      "student_answer": "def",
+      "correct_answer": "The correct answer for Question 3, as per the reference material, is '11'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. Student Question mismatch. The question provided for evaluation ('Which keyword is used to define a function in Python?') does not match the expected Question 3 from the Reference Key ('What is the output of 5 + 2 * 3?'). The student's answer 'def' is the correct answer for Question 1, not Question 3."
+    }
+  }
+}

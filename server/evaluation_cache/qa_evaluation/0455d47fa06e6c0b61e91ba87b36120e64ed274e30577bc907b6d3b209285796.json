@@ -1,0 +1,17 @@
+{
+  "content_hash": "0455d47fa06e6c0b61e91ba87b36120e64ed274e30577bc907b6d3b209285796",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T13:10:04.378209",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Which keyword is used to define a function in Python?",
+      "student_answer": "def",
+      "correct_answer": "def",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct as it is a verbatim match to the answer provided in the reference material."
+    }
+  }
+}

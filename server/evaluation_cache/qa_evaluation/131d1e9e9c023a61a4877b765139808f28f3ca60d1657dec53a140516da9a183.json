@@ -1,0 +1,17 @@
+{
+  "content_hash": "131d1e9e9c023a61a4877b765139808f28f3ca60d1657dec53a140516da9a183",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:20:15.064756",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "The provided reference material contains a different question for Q5: 'What is the capital of India?', for which the correct answer is 'New Delhi'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided to the student ('What is 15% of 200?') does not match the question listed as Q5 in the official reference material ('What is the capital of India?'). According to the grading rules, this mismatch results in a score of 0."
+    }
+  }
+}

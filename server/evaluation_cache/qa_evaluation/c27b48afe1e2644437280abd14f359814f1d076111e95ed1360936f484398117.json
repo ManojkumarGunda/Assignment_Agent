@@ -1,0 +1,17 @@
+{
+  "content_hash": "c27b48afe1e2644437280abd14f359814f1d076111e95ed1360936f484398117",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:18:55.979138",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What is 15% of 200?",
+      "student_answer": "30",
+      "correct_answer": "The provided question does not match the question in the reference material. The reference material's Question 3 is 'What is the output of 5 + 2 * 3?', and the correct answer is '11'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided ('What is 15% of 200?') does not match Question 3 from the official reference material ('What is the output of 5 + 2 * 3?'). Therefore, the student's answer could not be evaluated against the provided answer key. The correct answer for Question 3 in the reference material is '11'."
+    }
+  }
+}

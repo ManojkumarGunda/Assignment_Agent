@@ -1,0 +1,45 @@
+{
+  "content_hash": "2ec26ad42ae01239c3ace1ed3776c4c059ec3c747f7bf3f45f72b27075840a38",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-03T16:27:26.112968",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1: Which protocol is used for secure web browsing?",
+        "student_answer": "Answer: HTTPS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2: Which language is used for web styling?",
+        "student_answer": "Answer: CSS",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3: What is the output of 5 + 2 * 3?",
+        "student_answer": "Answer: 11",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4: What is 15% of 200?",
+        "student_answer": "Answer: 30",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5: Which keyword is used to define a function in Python?",
+        "student_answer": "Answer: def",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6: Which data structure follows LIFO?",
+        "student_answer": "Answer: Stack",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7: What is the capital of India?",
+        "student_answer": "Answer: kjndkjsfnkjdank",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

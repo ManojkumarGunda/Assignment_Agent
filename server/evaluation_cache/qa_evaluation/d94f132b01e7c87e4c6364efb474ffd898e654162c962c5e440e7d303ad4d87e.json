@@ -1,0 +1,17 @@
+{
+  "content_hash": "d94f132b01e7c87e4c6364efb474ffd898e654162c962c5e440e7d303ad4d87e",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:51:49.030218",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q6: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The correct question for Q6 in the reference key is 'What is 15% of 200?', and the answer is '30'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The question provided to the student ('Q6: What is the capital of India?') does not match the question for Q6 in the official reference material ('Q6: What is 15% of 200?'). The student answered the question text provided, but this was the incorrect question for this number. The correct answer for Q6 according to the reference key is '30'."
+    }
+  }
+}

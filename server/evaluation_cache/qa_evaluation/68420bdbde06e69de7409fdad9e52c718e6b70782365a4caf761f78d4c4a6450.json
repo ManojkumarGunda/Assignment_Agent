@@ -1,0 +1,17 @@
+{
+  "content_hash": "68420bdbde06e69de7409fdad9e52c718e6b70782365a4caf761f78d4c4a6450",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:57:57.885282",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Explain the concept of Database Indexing by clearly tailoring your explanation for each of the following roles:\n\nEngineer \u2013 include definition, purpose, and trade-offs\n\nProduct Manager \u2013 focus on user experience, scalability, and product impact\n\nProduct Salesperson \u2013 explain customer value and business benefits\n\nCEO \u2013 explain strategic importance, scalability, and business impact\n\nEach explanation must be role-appropriate, distinct, and clearly differentiated.\n\na) For an Engineer:",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "Database indexing is a data structure technique used to improve the speed of data retrieval operations on a database table. An index works similarly to a lookup table, allowing the database engine to locate rows efficiently without performing a full table scan. Indexes are typically implemented using data structures such as B-trees or hash tables. While indexing improves read performance, it introduces overhead during write operations.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is incorrect. The question asks for an explanation of database indexing tailored for an engineer. The student provided a C program for a linear search, which is completely unrelated to the question and does not address any part of the required explanation."
+    }
+  }
+}

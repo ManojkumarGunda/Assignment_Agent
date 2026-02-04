@@ -1,0 +1,17 @@
+{
+  "content_hash": "ada2ab717e5032b8119bb29bd271adc60c6036a098ae9eca172c08f63ec257fa",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T17:45:29.252043",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "Name:suresh\n\n#include <stdio.h>\n\nint main() {\n\n    int arr[] = {10, 20, 30, 40, 50};\n\n    int n = 5;\n\n    int target = 30;\n\n    int i;\n\n    for (i = 0; i < n; i++) {\n\n        if (arr[i] == target) {\n\n            printf(\"Element found at index %d\", i);\n\n            return 0;\n\n        }\n\n    }\n\n    printf(\"Element not found\");\n\n    return 0;\n\n}",
+      "correct_answer": "The assignment description and question do not specify a particular coding problem to solve. The student was expected to solve a specific problem which was not provided in the context.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The provided rubric and question did not contain a specific coding assignment or problem statement. The student submitted a C program for linear search, but there was no instruction to do so. According to the grading rules, if the assignment description is missing the core requirement that matches the student's work, the score is 0. Therefore, no credit can be awarded."
+    }
+  }
+}

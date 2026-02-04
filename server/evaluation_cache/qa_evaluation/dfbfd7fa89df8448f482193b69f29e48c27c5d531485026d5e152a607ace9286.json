@@ -1,0 +1,17 @@
+{
+  "content_hash": "dfbfd7fa89df8448f482193b69f29e48c27c5d531485026d5e152a607ace9286",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T00:40:03.992037",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The provided reference material is a Python script for finding the largest number in an array and is part of a Biology assessment. It does not contain the answer to this geography question.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The question asks for the capital of India, which is a geography question. The provided rubric specifies a Biology assessment, and the reference material contains a Python script. The student's answer, while factually correct, is entirely outside the scope of the provided academic context and cannot be verified or graded against the given materials. Therefore, no credit can be awarded."
+    }
+  }
+}

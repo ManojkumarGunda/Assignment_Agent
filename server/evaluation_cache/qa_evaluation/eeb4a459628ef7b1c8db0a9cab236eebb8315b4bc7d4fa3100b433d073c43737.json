@@ -1,0 +1,17 @@
+{
+  "content_hash": "eeb4a459628ef7b1c8db0a9cab236eebb8315b4bc7d4fa3100b433d073c43737",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-04T16:17:05.369157",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Evaluate the submitted assignment/code strictly against the provided requirements/description.",
+      "student_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {10,45,3,99,23};\n    in n = size of(arr) / size of(arr[0]);\n\n    int largest = arr[0];\n    for init (i=); i<n; i++) {\n        if (arr[i] > largest.) {\n            largest = arr[i]\n        }\n    }\n    printf(\"Smallest number: %.f\", smallest);\n    return 0;\n}",
+      "correct_answer": "#include <stdio.h>\n\nint main() {\n    int arr[] = {5, 2, 9, 1, 6};\n    int n = 5;\n    int min = arr[0];\n    for (int i = 1; i < n; i++) {\n        if (arr[i] < min) {\n            min = arr[i];\n        }\n    }\n    printf(\"Smallest number: %d\", min);\n    return 0;\n}",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The submitted code does not meet the requirements of the assignment. The reference material provides a program to find the smallest number in an array. The student's code attempts to find the largest number, which is a different task. Furthermore, the code contains numerous syntax errors (e.g., 'in n', 'size of', 'for init', 'largest.') and logical errors (e.g., calculating 'largest' but trying to print an undeclared variable 'smallest') that would prevent it from compiling and running correctly."
+    }
+  }
+}

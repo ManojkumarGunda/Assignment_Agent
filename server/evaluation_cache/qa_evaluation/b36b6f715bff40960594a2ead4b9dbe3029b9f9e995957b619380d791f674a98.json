@@ -1,0 +1,17 @@
+{
+  "content_hash": "b36b6f715bff40960594a2ead4b9dbe3029b9f9e995957b619380d791f674a98",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-01-31T10:49:33.492295",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q) Heigh & width",
+      "student_answer": "~\nMension = \\frac{Input dimension - Filter size + 2xPadd}{Stride} +2\noutput weight = (63-7+2x0)/2+1=29\n29x29x32\n~",
+      "correct_answer": "The correct formula to calculate the output height or width is: Output = ((Input - Filter + 2 * Padding) / Stride) + 1. Given the values from the calculation (Input=63, Filter=7, Padding=0, Stride=2), the calculation is: ((63 - 7 + 2*0) / 2) + 1 = (56 / 2) + 1 = 28 + 1 = 29. The final output dimensions are 29x29x32.",
+      "is_correct": false,
+      "partial_credit": 0.5,
+      "max_marks": 1.0,
+      "feedback": "Assessment: Partially Correct. The correct formula is `Output = ((Input - Filter + 2 * Padding) / Stride) + 1`. You wrote the formula with `+2` at the end, which is incorrect. However, your numerical calculation correctly used `+1` and arrived at the correct dimension of 29. The final output shape of 29x29x32 is correct. Points were deducted for stating the incorrect formula."
+    }
+  }
+}

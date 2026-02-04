@@ -1,0 +1,17 @@
+{
+  "content_hash": "c25bbd344e560c03e3fa0fc0c74c5374827737ab1998b5ed6c95de4acc60feeb",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T15:06:21.162523",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q7: What is the capital of India?",
+      "student_answer": "Answer: New Delhi",
+      "correct_answer": "The question provided ('Q7: What is the capital of India?') does not match the question for Q7 in the reference key ('What is the binary equivalent of 5?'). The correct answer for the expected Q7 is '101'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Graded against Reference Key. The student's answer is graded as incorrect due to a question mismatch. The question provided was 'Q7: What is the capital of India?', but according to the reference key, Q7 should be 'What is the binary equivalent of 5?'. As per the strict grading rules, this mismatch results in a score of 0.0."
+    }
+  }
+}

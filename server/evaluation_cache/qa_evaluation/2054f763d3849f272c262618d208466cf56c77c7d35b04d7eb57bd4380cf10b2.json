@@ -1,0 +1,17 @@
+{
+  "content_hash": "2054f763d3849f272c262618d208466cf56c77c7d35b04d7eb57bd4380cf10b2",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T18:21:45.929691",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q4: What is the time complexity of linear search?",
+      "student_answer": "Answer: O(n)",
+      "correct_answer": "The time complexity of linear search is O(n).",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 0.0/1.0. Graded against Reference Key and Assignment Description. The provided assignment description/rubric is '[CATEGORY: GENERAL] find the largest number'. The question asked, 'What is the time complexity of linear search?', is not found within this rubric. As per the grading instructions, if the question is not present in the provided materials, a score of 0.0 must be awarded."
+    }
+  }
+}

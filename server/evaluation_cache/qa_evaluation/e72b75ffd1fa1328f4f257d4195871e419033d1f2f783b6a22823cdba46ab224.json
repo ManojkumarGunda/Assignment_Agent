@@ -1,0 +1,17 @@
+{
+  "content_hash": "e72b75ffd1fa1328f4f257d4195871e419033d1f2f783b6a22823cdba46ab224",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-02T14:53:37.584547",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "Q5: What is 15% of 200?",
+      "student_answer": "Answer: 30",
+      "correct_answer": "30",
+      "is_correct": true,
+      "partial_credit": 1.0,
+      "max_marks": 1.0,
+      "feedback": "Score: 1.0/1.0. Graded against Reference Key. The student's answer is correct as it perfectly matches the answer '30' provided in the reference material."
+    }
+  }
+}

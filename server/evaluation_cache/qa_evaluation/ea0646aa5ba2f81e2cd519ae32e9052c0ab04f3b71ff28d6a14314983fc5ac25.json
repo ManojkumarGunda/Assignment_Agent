@@ -1,0 +1,17 @@
+{
+  "content_hash": "ea0646aa5ba2f81e2cd519ae32e9052c0ab04f3b71ff28d6a14314983fc5ac25",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T11:06:23.605912",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "The provided reference material does not contain an answer key for this question. The correct answer based on general knowledge is 'Structured Query Language'.",
+      "is_correct": false,
+      "partial_credit": 0.0,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is factually correct. However, the provided reference material and rubric do not contain this question or its corresponding answer key. The rubric only covers questions on 'Audience-Based Communication' and 'Video Learning & Key Takeaways'. According to the grading instructions, if the student's answer addresses a different topic than what is described in the reference key, it must be marked as incorrect. Therefore, the answer is graded as 0 because it is irrelevant to the provided evaluation context."
+    }
+  }
+}

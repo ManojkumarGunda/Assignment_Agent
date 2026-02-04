@@ -1,0 +1,85 @@
+{
+  "content_hash": "92fd9f57081021ef6a828f081ac9e40dc150ea9b325dfdd91cb832f3069f3495",
+  "eval_type": "qa_extraction",
+  "cached_at": "2026-02-02T12:52:00.575864",
+  "result": {
+    "success": true,
+    "response": [
+      {
+        "question": "Q1. Explain different types of Software Architecture patterns.",
+        "student_answer": "Software architecture patterns provide reusable solutions to common problems in software system design. One widely used pattern is the layered architecture, where the system is divided into presentation, business, and data layers. This separation improves maintainability and scalability.\nAnother important pattern is the client-server architecture, where clients request services and servers respond. This model is commonly used in web applications and distributed systems. Microservices architecture is a modern approach where applications are broken into small, independent services.\nEvent-driven architecture is based on producing and consuming events. It is useful in real-time systems and asynchronous processing. Service-oriented architecture focuses on reusable services that communicate over networks.\nEach architecture pattern has advantages and trade-offs. Choosing the correct architecture improves performance, security, and system longevity.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q2. Explain the concept of normalization in DBMS.",
+        "student_answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller ones and defining relationships between them. The goal is to eliminate anomalies during insert, update, and delete operations. The first normal form ensures atomic values. Second normal form removes partial dependency. Third normal form eliminates transitive dependency. Higher normal forms further optimize data storage.\nNormalization improves consistency and reduces duplication. However, excessive normalization can affect performance. Therefore, a balance between normalization and denormalization is often required in real-world applications.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q3. Describe process scheduling in operating systems.",
+        "student_answer": "Process scheduling is the method by which an operating system decides which process should execute at a given time. The scheduler allocates CPU time among processes to ensure fairness and efficiency.\nScheduling algorithms include First Come First Serve, Shortest Job First, Priority Scheduling, and Round Robin. Each algorithm has strengths and weaknesses depending on workload.\nEffective scheduling improves system responsiveness and resource utilization. Modern operating systems use hybrid scheduling approaches to balance performance.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q4. Explain TCP/IP model layers.",
+        "student_answer": "The TCP/IP model is a conceptual framework used for network communication. It consists of four layers: Application, Transport, Internet, and Network Access.\nThe application layer supports user-level protocols like HTTP and FTP. The transport layer ensures reliable data delivery using TCP or UDP. The internet layer handles routing using IP. The network access layer manages hardware transmission.\nTCP/IP is the foundation of internet communication and enables interoperability between systems.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q5. Explain virtualization in cloud computing.",
+        "student_answer": "Virtualization allows multiple virtual machines to run on a single physical server. It maximizes hardware utilization and reduces operational costs.\nHypervisors manage virtual machines and allocate resources dynamically. Virtualization supports scalability, fault isolation, and disaster recovery.\nIt is a core technology behind cloud computing platforms and enables efficient resource management.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q6. Implement a queue using Python lists.",
+        "student_answer": "class Queue: def __init__(self): self.items = []\ndef enqueue(self, item): self.items.append(item)\ndef dequeue(self): if self.items: return self.items.pop(0) return None\ndef is_empty(self): return len(self.items) == 0\ndef size(self): return len(self.items)\nq = Queue() q.enqueue(1) q.enqueue(2) print(q.dequeue()) print(q.size())",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q7. Write a Python program for user registration validation.",
+        "student_answer": "def register_user(username, password): if len(password) < 6: return False if not username:\nreturn False return True\nprint(register_user(\"student\", \"pass123\"))",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q8. Write a program to count word frequency.",
+        "student_answer": "def word_count(text): words = text.split() freq = {} for w in words: freq[w] = freq.get(w, 0) +\n1 return freq\nprint(word_count(\"this is a test this is\"))",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q9. Implement linear search in Python.",
+        "student_answer": "def linear_search(arr, target): for i in range(len(arr)): if arr[i] == target: return i return -1\nprint(linear_search([1,2,3,4], 3))",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q10. Write a Python program to check palindrome.",
+        "student_answer": "def is_palindrome(s): return s == s[::-1]\nprint(is_palindrome(\"madam\"))",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q11. Explain Python lists.",
+        "student_answer": "Lists are ordered, mutable collections used to store multiple items in Python.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q12. Explain tuples in Python.",
+        "student_answer": "Tuples are ordered but immutable collections, useful for fixed data.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q13. Explain dictionaries.",
+        "student_answer": "Dictionaries store data in key-value pairs for fast lookup.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q14. Explain conditional statements.",
+        "student_answer": "Conditional statements execute code based on conditions using if, elif, and else.",
+        "is_answer_present": true
+      },
+      {
+        "question": "Q15. Explain exception handling.",
+        "student_answer": "Exception handling manages runtime errors using try, except, and finally blocks.",
+        "is_answer_present": true
+      }
+    ]
+  }
+}

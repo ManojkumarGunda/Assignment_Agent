@@ -1,0 +1,6 @@
+{
+  "content_hash": "23f3b82757f9e351cc788b4c8f67f43f24c8c94d146e29c14418436f34e2b156",
+  "eval_type": "ocr",
+  "cached_at": "2026-02-03T22:30:15.733164",
+  "result": "Name:- Manoj Py\n\narr = [10, 45, 3, 99, 23]\nlargest = arr[0]\nfor num in arr:\n    if num > largest:\n        largest = num\nprint(\"Largest number:\", largest)"
+}

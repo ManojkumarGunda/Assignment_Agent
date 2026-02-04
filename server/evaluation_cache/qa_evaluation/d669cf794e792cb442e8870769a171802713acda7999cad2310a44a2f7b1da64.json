@@ -1,0 +1,17 @@
+{
+  "content_hash": "d669cf794e792cb442e8870769a171802713acda7999cad2310a44a2f7b1da64",
+  "eval_type": "qa_evaluation",
+  "cached_at": "2026-02-03T10:55:46.527319",
+  "result": {
+    "success": true,
+    "response": {
+      "question": "What does SQL stand for?",
+      "student_answer": "Structured Query Language",
+      "correct_answer": "SQL stands for Structured Query Language.",
+      "is_correct": true,
+      "partial_credit": null,
+      "max_marks": 1.0,
+      "feedback": "The student's answer is correct. The evaluation is based on standard academic knowledge, as the provided question, 'What does SQL stand for?', was not found in the supplied rubric. The rubric's Question 1 is about explaining Database Indexing to different audiences."
+    }
+  }
+}
